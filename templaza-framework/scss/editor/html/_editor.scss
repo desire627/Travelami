@@ -1,0 +1,5 @@
+[data-type="core/html"] textarea {
+	// Make sure that the color is not white on white when a dark body background is used.
+	border-radius: 3px;
+	padding: 20px;
+}

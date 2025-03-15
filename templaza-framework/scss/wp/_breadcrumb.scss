@@ -1,0 +1,119 @@
+.templaza-basic-single-heading, .section_heading{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: $tz-basic-single-title-bg;
+  border-radius: $tz-basic-box-radius;
+  &.home-heading{
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+  }
+  em{
+    color:#fff;
+  }
+}
+.travelami-breadcrumb{
+  padding-bottom:20px;
+}
+.travelami-breadcrumb,.templaza-heading{
+  ul{
+    list-style: none;
+    margin:0;
+    >:nth-child(n+2):not(.uk-first-column)::before{
+      margin: 0 12px 0 12px;
+    }
+    li{
+      font-size:0.875rem;
+      a{
+        color:#fff;
+        &:hover{
+          color:$tz-basic-theme-color;
+        }
+      }
+      &.item-current{
+        span{
+          color:$tz-basic-theme-color;
+        }
+      }
+      &:before{
+        color:$tz-basic-meta-color !important;
+      }
+    }
+    >*{
+      display:contents;
+    }
+  }
+}
+.templaza-heading{
+  h1{
+    line-height: 1.2em;
+  }
+  h1,h2,h3{
+    margin-bottom: 0;
+    font-size:$tz-basic-title-page-size;
+    text-transform: $tz-basic-single-title-transform;
+    color:#fff;
+  }
+  .templaza-blog-item-info{
+    a,span{
+      color:#fff;
+      text-transform: $tz-basic-heading-transform;
+    }
+    span.author{
+      a{
+        color:#fff;
+      }
+    }
+  }
+}
+@media (max-width: 1599.9px) {
+  header.basic-header-section{
+    .travelami-logo{
+      padding:10px 0;
+    }
+  }
+}
+@media (max-width: 1199.9px) {
+  .templaza-heading {
+    h1, h2, h3 {
+      font-size: $tz-basic-title-single-tablet-size;
+    }
+  }
+  header.basic-header-section .travelami-logo{
+    max-width:none;
+  }
+  .templaza-basic-single-heading, .section_heading{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .templaza-basic-single-heading .entry-title{
+    margin-top:10px;
+  }
+}
+@media (max-width: 959.9px) {
+  .templaza-basic-single-heading, .section_heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:0;
+  }
+}
+@media (max-width: 639.9px) {
+  .templaza-heading {
+    h1, h2, h3 {
+      font-size: $tz-basic-title-single-mobile-size;
+    }
+  }
+  .travelami-breadcrumb,.templaza-heading {
+    ul {
+      > :nth-child(n+2):not(.uk-first-column)::before {
+        margin: 0 10px 0 12px;
+      }
+    }
+  }
+  .templaza-breadcrumb li.item-current span{
+    display:inline-block;
+    line-height:1.2em;
+  }
+  .travelami-breadcrumb {
+    padding-bottom: 10px;
+  }
+}

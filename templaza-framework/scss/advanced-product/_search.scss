@@ -1,0 +1,185 @@
+.templaza-sidebar{
+  .templaza-framework-gutenberg-adv-product-filters{
+
+  }
+  .advanced-product-search-form{
+    margin:0;
+    .uk-form-controls{
+      select, input[type="text"],input[type="number"]{
+        background-color: #fff;
+        margin-top:0;
+        height:$tz-basic-input-height;
+      }
+      input[type="number"]{
+        padding-right:0;
+      }
+      ul{
+        li{
+          color:$tz-basic-body-color;
+        }
+      }
+    }
+    button{
+      width:100%;
+      height:$tz-basic-input-height;
+      line-height: 1em;
+      margin-top: 0 !important;
+    }
+    .ap-search-button{
+      margin-bottom:10px;
+    }
+    label.search-label{
+      margin-bottom:30px;
+      //@include tz-sidebar-heading-1();
+      font-family: $tz-basic-heading-font;
+      font-weight:$tz-basic-sidebar-heading-weight;
+      text-transform: $tz-basic-sidebar-heading-transform;
+      font-size:$tz-basic-sidebar-heading-shop;
+      border:none;
+      padding-bottom:0;
+    }
+    .ap-search-item{
+      margin-bottom: 20px;
+      border-bottom:1px solid $tz-basic-border-color;
+      padding-bottom:30px;
+      padding-left:0;
+    }
+    &.ap-search-inline{
+      label.search-label{
+        &:before,&:after{
+          display:none;
+        }
+      }
+
+    }
+  }
+}
+.advanced-product-search-form{
+  .uk-form-controls{
+    ul{
+      li{
+        padding:3px 0;
+        input[type="checkbox"]{
+          height:16px;
+          width:16px;
+          margin-top:0;
+          border-radius: 3px;
+          &:checked{
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+          }
+        }
+        &:hover{
+          input[type="checkbox"]{
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23ffffff%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+          }
+          input[type="radio"]{
+            background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22%23fff%22%20cx%3D%228%22%20cy%3D%228%22%20r%3D%222%22%20%2F%3E%0A%3C%2Fsvg%3E);
+            background-color: $tz-basic-theme-color;
+          }
+        }
+      }
+      &.radio, &.checkbox{
+        label{
+          line-height:20px;
+        }
+        input[type="radio"]{
+          margin-right:10px;
+          height:16px !important;
+          border-radius: 3px;
+        }
+        li{
+          &:last-child{
+
+          }
+        }
+      }
+    }
+    .acf-input-append{
+      right:35px;
+    }
+  }
+  &.ap-search-inline{
+    .ap-search-item{
+      &.uk-margin{
+        margin:15px 0 !important;
+      }
+      .uk-form-controls{
+        label{
+          font-weight:normal;
+          font-size:$tz-basic-body-font-size;
+        }
+      }
+    }
+  }
+}
+.ap-search-max-height{
+  height:120px;
+  overflow: hidden;
+  @include transition($tz-basic-transition);
+  .ap-search-ep{
+    opacity:0;
+    visibility: hidden;
+    color:$tz-basic-theme-color;
+    margin-bottom: 10px;
+    &.active{
+      opacity:1;
+      visibility: visible;
+    }
+  }
+  .ap-search-close{
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+    visibility: hidden;
+  }
+}
+.uk-sticky{
+  &.uk-active{
+    .ap-search-max-height{
+      &.closed{
+        height:auto;
+        .ap-search-ep{
+          opacity:0;
+          visibility: hidden;
+        }
+        .advanced-product-search-form{
+          display:none;
+        }
+      }
+    }
+    &.closed{
+      div.templaza-sidebar .widget{
+        box-shadow:none;
+        background:transparent;
+      }
+    }
+    .ap-search-close{
+      &.active{
+        opacity:1;
+        visibility: visible;
+      }
+      &.ap-search-full{
+        height:50px;
+        width:50px;
+        box-shadow:$tz-basic-box-shadow;
+        color:$tz-basic-theme-color;
+        background:$tz-basic-sidebar-widget-bg;
+      }
+    }
+  }
+}
+.sidebar-fixed{
+  .templaza-sidebar{
+    .advanced-product-search-form{
+      label.search-label{
+        margin-bottom:15px;
+      }
+      .ap-search-item{
+        margin-bottom:10px;
+      }
+    }
+  }
+}

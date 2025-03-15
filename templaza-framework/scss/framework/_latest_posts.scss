@@ -1,0 +1,89 @@
+.module-latest-posts{
+  a{
+    padding:0 !important;
+  }
+  .module-latest-info{
+    text-transform: capitalize;
+    .module-title{
+      text-transform: capitalize;
+      font-size:1.3em;
+      line-height: 1.2em;
+    }
+    .templaza-blog-item-info{
+      font-weight:normal;
+      a{
+        color:#fff;
+        padding:0;
+      }
+    }
+    .ap-field-label{
+      font-weight:normal;
+      color:$tz-basic-body-color;
+    }
+    .ap-price{
+      color:$tz-basic-theme-color;
+    }
+
+  }
+  .uk-slider .uk-slidenav{
+    background:none;
+    color:inherit;
+    width:auto;
+    height:auto;
+    &:hover{
+      background:none;
+      color:#fff;
+    }
+  }
+}
+.templaza-nav{
+  .module-latest-posts{
+    .module-latest-info{
+      .module-title{
+        font-size:16px;
+        text-transform: $tz-basic-heading-transform;
+        color:$tz-basic-heading-color;
+        line-height:1.3em;
+      }
+      .templaza-blog-item-info{
+        color:$tz-basic-meta-color;
+        a{
+          color:$tz-basic-body-color;
+          &:hover{
+            color:$tz-basic-theme-color;
+          }
+        }
+      }
+    }
+    .uk-card-media-top{
+      > div{
+        @include border-radius($tz-basic-box-radius);
+      }
+    }
+    .uk-slider .uk-slidenav{
+      background:rgba(0,0,0,0.75);
+      color:#fff !important;
+      width:40px;
+      height:40px;
+      @include border-radius(50%);
+      &:hover{
+        background:rgba(0,0,0,0.95);
+        color:#fff !important;
+        border:none !important;
+      }
+    }
+    .uk-dotnav li{
+      margin:0 5px !important;
+      >*{
+        border: 1px solid transparent !important;
+        width:20px;
+        height:20px;
+      }
+      &.uk-active, &:hover{
+        >a{
+          border: 1px solid $tz-basic-theme-color !important;
+        }
+      }
+    }
+  }
+}

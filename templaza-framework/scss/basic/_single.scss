@@ -1,0 +1,536 @@
+.templaza-basic-wrap{
+  .templaza-single-feature{
+    margin-bottom: 30px;
+    padding:$tz-basic-single-content_padding;
+    &.travelami-no-thumb{
+      margin-bottom: 0;
+    }
+  }
+  .templaza-single-content{
+    padding:$tz-basic-single-content_padding;
+    margin-bottom: 40px;
+    background-color: $tz-basic-single-content_bg;
+    @include border-radius($tz-basic-blog-list-radius);
+  }
+  .templaza-blog-item-media {
+    img{
+      transform: scale(1);
+    }
+    &:hover{
+      img{
+        transform: scale(1.2);
+      }
+    }
+  }
+  .templaza-single {
+    .templaza-blog-item-media{
+      display:inline-block;
+      margin:0;
+    }
+    iframe{
+      border-radius:20px;
+      overflow: hidden;
+    }
+  }
+}
+.no-results{
+  .searchform{
+    display:flex;
+    .search-query{
+      width:60%;
+      margin-right:5px;
+    }
+    .searchsubmit{
+      border-color:$tz-basic-button-bg;
+    }
+  }
+}
+.single{
+  .navigation{
+    .nav-links{
+      .nav-previous{
+        float:left;
+        width:50%;
+      }
+      .nav-next{
+        float:right;
+        width:50%;
+        text-align: right;
+      }
+      a{
+        border:none;
+        padding:0;
+        max-width: 100%;
+        color:inherit;
+        &:hover{
+          background:none;
+          color:$tz-basic-a-color-hover;
+        }
+
+      }
+      &:after{
+        clear: both;
+        content: "";
+        display: block;
+      }
+    }
+  }
+  .post-page-numbers{
+    margin-right:5px;
+  }
+  hr{
+    border-bottom:1px solid $tz-basic_border-color2;
+    border-top:none;
+    &.end-content{
+      margin-top: 35px;
+    }
+  }
+  .travelami-no-thumb{
+    &:empty{
+      display:none;
+    }
+    span.date{
+      margin-top:0;
+    }
+  }
+  .post_format-post-format-audio{
+    span.date{
+      margin-top:65px;
+    }
+  }
+}
+.templaza-single-post{
+  img{
+    border-radius:20px;
+  }
+  .wp-block-image{
+    border-radius:20px;
+    overflow: hidden;
+    img{
+      border-radius:20px;
+    }
+  }
+
+  .wp-block-media-text .wp-block-media-text__media{
+    border-radius:$tz-basic-box-radius;
+    overflow: hidden;
+  }
+  .wp-block-media-text, .wp-block-group{
+   &.has-background{
+     border-radius:$tz-basic-box-radius;
+     overflow: hidden;
+   }
+  }
+}
+.templaza-content{
+  .searchform{
+    border-radius:10px;
+    overflow: hidden;
+  }
+}
+.templaza-blog-item-media{
+  img{
+    border-radius:20px;
+  }
+}
+
+p.pass_label{
+  margin-bottom: 5px;
+}
+.post-password-form{
+  display:flex;
+  flex-wrap:nowrap;
+  input{
+    &.post-password-form__input{
+      margin-right: 0;
+      margin-top:0;
+      border-radius:10px 0 0 10px;
+    }
+    &.post-password-form__submit{
+      border-radius:0 10px 10px 0;
+    }
+  }
+}
+.entry-title, .post-title{
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  .sticky{
+    position: absolute;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 2px 10px 3px;
+    background: $tz-basic-button-bg;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 25px;
+    color:$tz-basic-button-color;
+    margin-left: 10px;
+  }
+}
+div.templaza-archive .templaza-blog-item-wrap div.mejs-inner  div{
+  margin-top: 0;
+}
+.templaza-blog-share {
+  a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:none;
+    padding:0 0 0 25px;
+    color:$tz-basic-meta-color;
+    width:auto;
+    height:40px;
+    &:hover{
+      color:$tz-basic-theme-color;
+      i,span{
+        color:$tz-basic-theme-color;
+      }
+    }
+    i{
+      margin:0;
+      padding:0;
+    }
+    &:not(:last-child){
+      padding-right:0;
+    }
+    &:last-child{
+      padding-right:0;
+      margin-right: 0;
+    }
+    &:first-child{
+      padding-right:0;
+    }
+  }
+}
+.templaza-single-tags{
+  strong{
+    padding-right:15px;
+    color:$tz-basic-heading-color;
+    font-weight:500;
+  }
+  a{
+    text-transform: capitalize;
+    &:hover{
+      color:$tz-basic-theme-color;
+    }
+    &:before{
+      display:none !important;
+    }
+  }
+}
+.templaza-block-author-social{
+  a{
+    color:$tz-basic-meta-color;
+  }
+}
+
+.templaza-related-posts{
+  &.templaza-archive{
+    .templaza-archive-item{
+      padding:0;
+      margin:0 0 20px 0 !important;
+      @include border-radius($tz-basic-box-radius);
+    }
+    .templaza-blog-item-content{
+      padding:0 !important;
+    }
+  }
+  .templaza-blog-item{
+    .templaza-blog-item-wrap{
+      .templaza-blog-item-img{
+        margin-bottom: 0;
+      }
+    }
+  }
+  .templaza-blog-item-content{
+    padding:0;
+    h4{
+      margin-top:0;
+      margin-bottom:0;
+      font-size:18px;
+    }
+  }
+  .templaza-post-meta{
+    margin-bottom: 10px;
+    span{
+      font-size:$tz-basic-meta-font-size;
+      color:$tz-basic-meta-color;
+      text-transform: capitalize;
+      &:not(:last-child){
+        padding-right:0;
+        &:after{
+
+        }
+      }
+      i{
+        color:$tz-basic-theme-color;
+      }
+      a{
+        color:$tz-basic-body-color;
+        &:hover{
+          color:$tz-basic-theme-color;
+        }
+      }
+      &.tag{
+        &:not(:last-child){
+          margin-right:8px;
+        }
+      }
+      &.meta-separator{
+        margin:0 5px;
+        &:first-child{
+          margin-left:0;
+        }
+      }
+    }
+  }
+  .tz-image-cover{
+    height:200px;
+  }
+}
+.templaza-single-meta{
+  margin-top: 10px;
+}
+.templaza-single-content{
+  background:$tz-basic-single-content_bg;
+  @include box-shadow($tz-basic-box-shadow);
+  .templaza-blog-item-quote{
+    padding:0;
+    &:before{
+      content:"\f10e";
+      z-index: 2;
+    }
+    .wp-block-quote{
+      margin-top: 0;
+      margin-bottom: 0;
+      cite a{
+        font-size:0.9rem;
+        color:$tz-basic-body-color;
+      }
+    }
+    .wp-block-pullquote{
+      border: none;
+      background:$tz-basic-quote-bg !important;
+      margin: 0;
+      cite{
+        font-family: $tz-basic-body-font;
+        margin-top: 20px;
+        color:$tz-basic-body-color;
+        a{
+          font-size:0.875rem;
+        }
+      }
+      blockquote{
+        margin: 0;
+        padding:0;
+      }
+    }
+  }
+  .templaza-blog-item-link{
+    background:$tz-basic-quote-bg;
+    color:$tz-basic-quote-color;
+    a{
+      color:$tz-basic-theme-color;
+      font-family: $tz-basic-heading-font;
+      &:hover{
+        color:$tz-basic-theme-color;
+      }
+    }
+  }
+  .templaza-archive-gallery, .templaza-blog-item-quote,
+  .templaza-blog-item-link, .templaza-blog-item-video{
+    margin-bottom:40px;
+  }
+  span.date{
+    background:$tz-basic-meta-bg;
+    color:$tz-basic-heading-color;
+    padding:13px 15px;
+    line-height: 1em;
+    font-size:$tz-basic-meta-font-size ;
+  }
+}
+.templaza-blog-item-link,.templaza-blog-item-quote{
+  padding: $tz-basic-blog-type-quote;
+  position:relative;
+  background:$tz-basic-quote-bg;
+  .link-content{
+    line-height: $tz-basic-pullquote-line-height;
+  }
+  a{
+    font-family: $tz-basic-quote-font;
+    font-size: $tz-basic-quote-font-size;
+    font-style: $tz-basic-pullquote-font-style;
+    font-weight: $tz-basic-pullquote-font-weight;
+  }
+  &:before{
+    color: $tz-basic-heading-color;
+    content: "\f0c1";
+    position: absolute;
+    right: 40px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    top:0;
+    width:80px;
+    height:80px;
+    @include border-radius(50%);
+    background: $tz-basic-button-bg;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    margin-top: -40px;
+  }
+}
+div.templaza-single{
+  .templaza-blog-item-info{
+    margin-bottom: 15px;
+  }
+  .templaza-single-content{
+    margin-bottom:30px;
+  }
+}
+.templaza-single-service{
+  .single-box{
+    .title{
+      a{
+        background:$tz-basic-border-color;
+      }
+    }
+  }
+  .templaza-service-left{
+    padding-right:40px;
+    .single-box{
+      .title{
+        &:first-child{
+          margin-top:0;
+        }
+        a{
+          position:relative;
+          overflow: hidden;
+          @include tz-ripple-effect();
+        }
+      }
+      > .widget{
+        padding:30px;
+        background:$tz-basic-border-color;
+        .wpforms-form{
+          padding-bottom: 10px;
+          .wpforms-title{
+            font-size:$tz-basic-sidebar-heading-h3;
+            text-transform: $tz-basic-sidebar-heading-transform;
+            font-family: $tz-basic-heading-font;
+            line-height:$tz-basic-heading-line-height;
+          }
+          .wpforms-head-container{
+            padding-bottom:10px;
+          }
+          .wpforms-field{
+            padding:0 0 20px 0;
+            label{
+              margin-bottom:8px;
+            }
+            input, select, textarea{
+              background-color:#fff;
+            }
+          }
+          .wpforms-submit-container{
+            margin-top:0;
+          }
+        }
+      }
+    }
+  }
+}
+/* Shortcode */
+.su-accordion{
+  margin-top:30px;
+}
+.su-custom-gallery{
+  display:flex;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  .su-custom-gallery-slide{
+    margin:8px 0;
+    padding-left:15px;
+    img{
+      width:100%;
+    }
+  }
+}
+.su-custom-gallery-title-always{
+  .su-custom-gallery-slide{
+    a{
+      span{
+        transform:none;
+      }
+    }
+  }
+}
+.su-custom-gallery-slide{
+  width:33.3%;
+  a{
+    @include border-radius($tz-basic-box-radius);
+    overflow: hidden;
+    position: relative;
+    img{
+      border:none;
+      padding:0;
+      border-radius: 0;
+    }
+    span{
+      left: 0;
+      bottom: 0;
+      right: 0;
+      display: block;
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #fff;
+      background: rgba(34, 34, 34, 0.8);
+      transform:translate(0,100%);
+      transition: all 0.3s ease-out;
+    }
+  }
+  &:hover{
+    a{
+      img{
+        border:none;
+        background:transparent;
+      }
+      span{
+        transform:translate(0,0);
+        transition: all 0.3s ease-out;
+      }
+    }
+  }
+}
+@media(max-width: 1366px) {
+  .templaza-single-service{
+    .templaza-service-left{
+      padding-right:0;
+    }
+  }
+}
+@media(max-width: 1199.99px) {
+  body .templaza-single-service{
+    .single-box{
+      padding:0;
+    }
+  }
+}
+@media(max-width: 959.99px) {
+  .templaza-single-service{
+    .templaza-service-left{
+      .single-box{
+        > .widget{
+          padding:25px 20px;
+          .wpforms-form{
+            .wpforms-submit-container{
+              padding-top:0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

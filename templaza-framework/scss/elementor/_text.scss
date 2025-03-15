@@ -1,0 +1,28 @@
+.templaza-widget-uitext{
+  .ui-text-title{
+    span{
+      font-size:0.55em;
+    }
+  }
+}
+.ui-text-title{
+  margin-bottom: 30px;
+}
+.elementor-widget-text-editor{
+  p{
+    &:last-child{
+      margin:0;
+    }
+  }
+}
+.elementor-widget-container{
+   p{
+    margin-top:0;
+    &:first-child{
+      margin-top:0;
+    }
+    &:nth-child(1){
+      margin-top:0;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.gallery{
+	display:flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right:-20px;
+	.gallery-item{
+		margin:0 !important;
+		padding:10px;
+		img{
+			border:none !important;
+		}
+	}
+}
+.wp-block-gallery {
+	margin:$tz-basic-gallery-wrap-margin;
+	ul.blocks-gallery-grid {
+		margin: $tz-basic-gallery-wrap-grid;
+	}
+	figcaption {
+		margin: 0;
+		a {
+			color: $tz-basic-cover-color;
+		}
+	}
+	&.is-style-templaza-gallery-style1{
+		.wp-block-image, figure{
+			@include border-radius(10px);
+			overflow: hidden;
+		}
+	}
+	&.is-style-templaza-gallery-round{
+		.wp-block-image, figure{
+			@include border-radius(10px);
+			overflow: hidden;
+		}
+	}
+	.blocks-gallery-item{
+		border-radius:$tz-basic-box-radius;
+		overflow: hidden;
+	}
+	&.columns-6, &.columns-7, &.columns-8{
+		.blocks-gallery-item{
+			border-radius:10px;
+		}
+	}
+}
+.gallery-caption, .wp-caption, figcaption {
+	margin-bottom: 0;
+	line-height: 1.7;
+}
+.blocks-gallery-grid,
+.wp-block-gallery{
+	.blocks-gallery-image,
+	.wp-block-image,
+	.blocks-gallery-item{
+		margin:$tz-basic-gallery-item-margin;
+	}
+	&:not(.has-nested-images){
+		margin:0.5em 1em 0.5em 0;
+	}
+}

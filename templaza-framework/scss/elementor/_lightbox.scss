@@ -1,0 +1,20 @@
+.elementor-slideshow__title{
+  font-weight:normal;
+}
+.uk-modal{
+  z-index: 9999;
+}
+.uk-lightbox button.uk-close, .uk-modal button.uk-close{
+  top:0;
+  right:5px;
+  color:#fff;
+}
+.uk-modal-dialog{
+  background:$tz-basic-blog-list-bg;
+  @include border-radius($tz-basic-blog-list-radius);
+  form{
+    input, textarea{
+      background:transparent !important;
+    }
+  }
+}

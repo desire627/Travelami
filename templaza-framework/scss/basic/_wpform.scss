@@ -1,0 +1,78 @@
+body{
+  div.wpforms-container-full{
+    margin-top:0;
+    margin-bottom:0;
+    .wpforms-form input[type="date"],
+    .wpforms-form input[type="datetime"],
+    .wpforms-form input[type="datetime-local"],
+    .wpforms-form input[type="email"],
+    .wpforms-form input[type="month"],
+    .wpforms-form input[type="number"],
+    .wpforms-form input[type="password"],
+    .wpforms-form input[type="range"],
+    .wpforms-form input[type="search"],
+    .wpforms-form input[type="tel"],
+    .wpforms-form input[type="text"],
+    .wpforms-form input[type="time"],
+    .wpforms-form input[type="url"],
+    .wpforms-form input[type="week"],
+    .wpforms-form select,
+    .wpforms-form textarea{
+      color:$tz-basic-body-color;
+      font-weight:$tz-basic-body-font-weight;
+      font-family: inherit;
+      font-size: 0.9em;
+      margin-right:0;
+      height:$tz-basic-input-height;
+      line-height:$tz-basic-input-line-height;
+      background-color: $tz-basic-input-bg;
+      @include border-radius($tz-basic-button-radius);
+      @include box-shadow(none);
+      &:focus,
+      &:focus:invalid{
+        @include box-shadow(none);
+      }
+    }
+    .wpforms-form textarea{
+      line-height:1.5em;
+    }
+    .wpforms-form input[type="submit"],
+    .wpforms-form button[type="submit"],
+    .wpforms-form .wpforms-page-button{
+      @include tz-basic-button-style();
+      border:none;
+      &:hover{
+        border-width:$tz-basic-button-border-width;
+      }
+    }
+    .wpforms-form input[type="number"]{
+      padding-right:0;
+    }
+    input[type=checkbox]:before, input[type=radio]:before{
+      @include box-shadow(none);
+    }
+    input[type=checkbox]:checked:before, input[type=radio]:checked:before,
+    input[type=checkbox]:focus:before, input[type=radio]:focus:before{
+      @include box-shadow(none);
+      border-color:$tz-basic-theme-color;
+    }
+    input[type=checkbox]:checked:after,
+    input[type=checkbox]:focus:after{
+      border-color:$tz-basic-theme-color;
+    }
+  }
+  .wpforms-form{
+    input[type=checkbox],
+    input[type=radio]{
+      overflow: visible;
+    }
+    .wpforms-field-number{
+      input[type=number]::-webkit-inner-spin-button {
+        opacity: 1;
+      }
+      input[type="number"]{
+        padding-right:0;
+      }
+    }
+  }
+}

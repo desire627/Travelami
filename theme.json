@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "settings": {
+    "spacing": {
+      "blockGap": true
+    },
+    "custom": {
+      "lineHeight": {
+        "body": 1.7
+      }
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "1em"
+    }
+  }
+}

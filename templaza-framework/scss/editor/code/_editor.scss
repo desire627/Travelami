@@ -1,0 +1,31 @@
+.is-root-container > .wp-block{
+	&.wp-block-code{
+		padding: 15px;
+	}
+}
+.wp-block-code {
+	code {
+		white-space: pre !important;
+		overflow-x: auto;
+		padding:0;
+		background:none;
+		border:none;
+	}
+	border-color: $tz-basic-border-color;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 15px;
+	color: currentColor;
+}
+div :not(pre) > code{
+	border-color: $tz-basic-border-color;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px 15px;
+	color: currentColor;
+	display:inline-block;
+	white-space: inherit;
+	margin:0.5em 0;
+}

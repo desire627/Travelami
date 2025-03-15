@@ -1,0 +1,29 @@
+.widget_shopping_cart_content{
+  .woocommerce-mini-cart__buttons{
+    .templaza-btn {
+      padding:0;
+      height:$tz-basic-button-height;
+      line-height:$tz-basic-button-height;
+      border:none;
+      &.templaza-btn-outline{
+        color:$tz-basic-button-bg-hover !important;
+        border-color:$tz-basic-button-bg-hover !important;
+        &:hover{
+          color:$tz-basic-button-bg !important;
+          border-color:$tz-basic-button-bg !important;
+        }
+      }
+    }
+  }
+  .woocommerce-mini-cart-item__name {
+    a{
+      font-family: $tz-basic-heading-font;
+      font-weight:$tz-basic-heading-font-weight;
+    }
+  }
+  .product-qty-number {
+    .quantity{
+      @include border-radius($tz-basic-small-button-radius);
+    }
+  }
+}

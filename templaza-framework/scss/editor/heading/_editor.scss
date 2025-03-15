@@ -1,0 +1,80 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	clear: both;
+	font-family: $tz-basic-heading-font;
+	font-weight: $tz-basic-heading-font-weight;
+	color:$tz-basic-heading-color;
+	strong {
+		font-weight: $tz-basic-heading-font-weight-strong;
+	}
+	a{
+		color:$tz-basic-heading-color;
+		&:hover {
+			color:$tz-basic-heading-color-hover;
+		}
+	}
+}
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	strong{
+		font-weight:$tz-basic-heading-h3-weight;
+	}
+}
+
+h1,
+.h1 {
+	font-size: $tz-basic-heading-h1-size;
+	line-height: $tz-basic-heading-h1-line-height;
+	font-weight: $tz-basic-heading-h1-weight;
+}
+
+h2,
+.h2 {
+	font-size: $tz-basic-heading-h2-size;
+	line-height: $tz-basic-heading-h2-line-height;
+	font-weight: $tz-basic-heading-h2-weight;
+}
+
+h3,
+.h3 {
+	font-size: $tz-basic-heading-h3-size;
+	line-height: $tz-basic-heading-h3-line-height;
+	font-weight: $tz-basic-heading-h3-weight;
+}
+
+h4,
+.h4 {
+	font-size: $tz-basic-heading-h4-size;
+	line-height: $tz-basic-heading-h4-line-height;
+	font-weight: $tz-basic-heading-h4-weight;
+}
+
+h5,
+.h5 {
+	font-size: $tz-basic-heading-h5-size;
+	line-height: $tz-basic-heading-h5-line-height;
+	font-weight: $tz-basic-heading-h5-weight;
+}
+
+h6,
+.h6 {
+	font-size: $tz-basic-heading-h6-size;
+	line-height: $tz-basic-heading-h6-line-height;
+	font-weight: $tz-basic-heading-h6-weight;
+}

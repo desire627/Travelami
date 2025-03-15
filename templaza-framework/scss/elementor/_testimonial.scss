@@ -1,0 +1,29 @@
+.elementor-widget-testimonial{
+  .elementor-testimonial-content{
+    padding-left:30px;
+    border-left:2px solid $tz-basic-theme-color;
+    margin-bottom: 30px;
+  }
+  .elementor-testimonial-meta{
+    padding-left:32px;
+    &.elementor-has-image{
+      .elementor-testimonial-details{
+        padding-left:5px;
+      }
+    }
+  }
+
+}
+.templaza-widget-templaza-testimonial{
+  .ui-testimonial-avatar{
+    img{
+      @include transition(0.7s);
+    }
+    &:hover{
+      img{
+        transform: scale(1.2);
+        @include transition(0.7s);
+      }
+    }
+  }
+}

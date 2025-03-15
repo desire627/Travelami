@@ -1,0 +1,18 @@
+.templaza-widget-uiadvanced-products-filter{
+  .advanced-product-search-form{
+    label.search-label{
+      font-family:$tz-basic-heading-font;
+      font-weight:$tz-basic-heading-h3-weight;
+      color:$tz-basic-heading-color;
+      margin-bottom:10px;
+      display:block;
+      font-size:$tz-basic-sidebar-heading-shop;
+    }
+    select{
+
+    }
+    button{
+      width:100%;
+    }
+  }
+}

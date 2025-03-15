@@ -1,0 +1,92 @@
+table,
+.wp-block-table {
+	border-collapse: collapse;
+	thead,
+	tfoot {
+		text-align: center;
+	}
+
+	th {
+		font-family: $tz-basic-heading-font;
+	}
+
+	td,
+	th {
+		padding: $tz-basic-table-padding;
+		border:1px solid;
+		border-color:$tz-basic-table-border-color;
+	}
+
+	&.is-style-regular .has-background,
+	&.is-style-stripes .has-background,
+	&.is-style-stripes .has-background thead tr,
+	&.is-style-stripes .has-background tfoot tr,
+	&.is-style-stripes .has-background tbody tr {
+		color: $tz-basic-table-hasbg-text-color;
+	}
+
+	&.is-style-stripes {
+		border-color: transparent;
+
+		th,
+		td {
+			border-width: 0;
+		}
+
+		tbody tr:nth-child(odd) {
+			background-color: $tz-basic-table-stripes-bg-old;
+		}
+
+		.has-background tbody tr:nth-child(odd) {
+			background-color: $tz-basic-table-stripes-bg-old;
+		}
+	}
+}
+
+table.wp-calendar-table {
+
+	margin-top: 10px;
+	td,
+	th {
+		background: transparent;
+		border: 0;
+		text-align: center;
+		line-height: 2;
+		vertical-align: middle;
+	}
+
+	th {
+		font-weight: bold;
+	}
+
+	thead,
+	tbody {
+		color: currentColor;
+		border: 1px solid;
+	}
+
+	caption {
+		font-weight: bold;
+		text-align: left;
+		margin-bottom: $tz-basic-figcaption-margin-top;
+		color: currentColor;
+	}
+}
+
+.wp-calendar-nav {
+	text-align: left;
+	margin-top: 10px;
+
+	svg {
+		height: 1em;
+		vertical-align: middle;
+
+		path {
+			fill: currentColor;
+		}
+	}
+
+	.wp-calendar-nav-next {
+		float: right;
+	}
+}

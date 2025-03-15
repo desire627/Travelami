@@ -1,0 +1,129 @@
+.templaza-archive-no-result{
+  .searchform{
+    border:1px solid $tz-basic-border-color;
+    border-radius:10px;
+    overflow: hidden;
+    input{
+      border:none;
+    }
+  }
+}
+.templaza-404-tagline {
+  line-height: 1em;
+  font-weight: 300;
+  color: $tz-basic-a-color;
+}
+.templaza-error-page{
+  padding: 0 25%;
+  background:$tz-basic-body-background;
+  border-radius:20px;
+  margin-bottom:60px;
+  overflow: hidden;
+  &:before{
+    content:"";
+    top:0;
+    left:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.3);
+  }
+  h1{
+    color:$tz-basic-theme-color2;
+    margin:0;
+    span{
+      color:#fff;
+    }
+  }
+  h3{
+    color:#fff;
+    font-size:30px;
+    margin-top:0;
+    margin-bottom: 40px;
+  }
+  .page-404{
+    width:100%;
+  }
+  .searchform{
+    input[type="text"]{
+      height:60px;
+      line-height: 60px;
+      font-size:$tz-basic-body-font-size;
+      @include border-radius($tz-basic-input-border-radius);
+      border:none;
+      padding:0 20px;
+      background:$tz-basic-sidebar-widget-bg;
+    }
+    button{
+      width:60px;
+      height: 60px;
+      @include border-radius(0 10px 10px 0);
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background:$tz-basic-button-bg;
+      color:$tz-basic-button-color;
+      &:hover{
+        background:$tz-basic-button-bg-hover;
+        color:$tz-basic-button-color;
+      }
+    }
+  }
+  .templaza-btn{
+    padding:18px 40px 19px 40px;
+    display:inline-flex;
+    border:none;
+    height:60px;
+    &:hover{
+      background:$tz-basic-button-bg-hover;
+      color:$tz-basic-button-color;
+    }
+  }
+}
+@media(max-width: 1199.99px) {
+  .templaza-error-page{
+    padding:0 15%;
+    .searchform {
+      input[type="text"],button{
+        height:60px;
+        line-height: 60px;
+      }
+      button{
+        width:60px;
+      }
+    }
+    .templaza-btn{
+      height:50px;
+    }
+  }
+}
+
+@media(max-width: 959.99px) {
+  .templaza-error-page{
+    padding:0 5%;
+    .searchform {
+      input[type="text"],button{
+        height:60px;
+      }
+    }
+  }
+}
+@media(max-width: 639.99px) {
+  .templaza-error-page{
+    padding:0 5%;
+    .searchform {
+      input[type="text"],button{
+        height:50px;
+        line-height: 50px;
+      }
+      button{
+        width:50px;
+      }
+    }
+    .templaza-btn{
+      padding:13px 30px 14px 30px;
+    }
+
+  }
+}

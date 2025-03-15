@@ -1,0 +1,172 @@
+input[type="checkbox"] {
+  height: auto;
+}
+select:not([multiple]):not([size]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 50%;
+  height: $tz-basic-input-large-height;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 30px 0 15px;
+  color: $tz-basic_body-color;
+  border: 1px solid $tz-basic-border-color;
+  transition: .2s ease-in-out;
+  transition-property: color,background-color,border;
+  text-transform: none;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: $tz-basic-button-radius;
+  font-size:0.9em;
+  font-family: $tz-basic-body-font;
+  background-color: $tz-basic-input-bg;
+  &:focus{
+    background-color: $tz-basic-input-bg-focus;
+    box-shadow: none;
+    border-color:$tz-basic-border-color;
+    outline: none;
+  }
+}
+form{
+  select:not([multiple]):not([size]) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
+    height: $tz-basic-input-large-height;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    padding: 0 30px 0 15px;
+    color: $tz-basic_body-color;
+    border: 1px solid $tz-basic-border-color;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+    text-transform: none;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: $tz-basic-button-radius;
+    font-size:0.9em;
+    font-family: $tz-basic-body-font;
+    background-color: $tz-basic-input-bg;
+    &:focus{
+      background-color: $tz-basic-input-bg-focus;
+      box-shadow: none;
+      border-color:$tz-basic-border-color;
+      outline: none;
+    }
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  input[type="number"],
+  input[type="search"]{
+    margin-top:15px;
+    border-color:$tz-basic-border-color;
+    color:$tz-basic-body-color;
+    font-weight:$tz-basic-body-font-weight;
+    font-family: inherit;
+    font-size: 0.9em;
+    margin-right:0;
+    height:$tz-basic-input-large-height;
+    line-height:$tz-basic-input-large-height;
+    background-color: $tz-basic-input-bg;
+    border-radius: $tz-basic-button-radius;
+    transition: all 0.2s ease-in-out;
+    &:focus{
+      background-color: $tz-basic-body-background;
+      box-shadow: none;
+      border-color:$tz-basic-border-color;
+      outline: none;
+    }
+  }
+  input[type="submit"], button{
+    font-size:$tz-basic-button-font-size;
+    line-height: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    @include border-radius($tz-basic-button-radius);
+    text-transform:$tz-basic-button-transform;
+    font-weight:$tz-basic-button-font-weight;
+    height:$tz-basic-input-large-height;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+    font-family:$tz-basic-button-font-family;
+    color:$tz-basic-button-color;
+    &:hover{
+      color:$tz-basic-button-color-hover;
+    }
+  }
+  textarea{
+    font-size: 0.9em;
+    background: $tz-basic-input-bg;
+    border-radius: $tz-basic-button-radius;
+  }
+  &.post-password-form{
+    .post-password-form__input{
+      width:auto;
+      min-width: 50%;
+      margin-right: 0;
+    }
+  }
+  select{
+    line-height: 1.2em;
+  }
+  input[type="radio"],
+  input[type="checkbox"]{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    overflow: hidden;
+    margin-top: -4px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 1px solid $tz-basic-border-color2;
+    transition: $tz-basic-transition;
+    transition-property: background-color,border;
+    padding:0;
+    cursor: pointer;
+    &:checked{
+      background-color: $tz-basic-theme-color;
+      border-color: transparent;
+    }
+  }
+  input[type="radio"]{
+    @include border-radius(50%);
+    &:checked{
+        background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22%23fff%22%20cx%3D%228%22%20cy%3D%228%22%20r%3D%222%22%20%2F%3E%0A%3C%2Fsvg%3E);
+    }
+  }
+  input[type="checkbox"]{
+    &:checked{
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23fff%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A");
+    }
+  }
+  input[type="number"]{
+    width:100%;
+    @include border-radius($tz-basic-button-radius !important);
+  }
+  .acf-input-append,.acf-input-prepend{
+    height:$tz-basic-input-large-height;
+    line-height:$tz-basic-input-large-height;
+    @include border-radius($tz-basic-button-radius !important);
+    padding:0 10px;
+  }
+}
+.select2-container{
+  .select2-dropdown,
+  .select2-search--dropdown .select2-search__field{
+    background:$tz-basic-sidebar-widget-bg;
+  }
+}

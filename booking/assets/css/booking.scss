@@ -1,0 +1,70 @@
+.ui-datepicker{
+  z-index:999 !important;
+}
+.form-price{
+  .tz_price{
+    padding-left:10px;
+  }
+}
+.input-number-decrement,
+.input-number-increment{
+  position:absolute;
+  right:0;
+  height:50%;
+  bottom:0;
+  cursor:pointer;
+  width: 25px;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+}
+.input-number-increment{
+  bottom:auto;
+  top:0;
+  align-items: end;
+}
+.input-number-ticket{
+  width:30%;
+}
+.tz-product-book-form{
+  .book-name{
+    input{
+      margin-top:0;
+    }
+  }
+  .form-price{
+    margin-top:10px;
+  }
+  .tz-product-total-price{
+    margin-top:10px;
+    font-weight:600;
+  }
+  button{
+    margin-top:30px;
+    width:100%;
+  }
+}
+.tz-product-cart{
+  table{
+    text-align:center;
+  }
+}
+.tz-product-checkout{
+  .form-group{
+    margin-top:20px;
+    input, select:not([multiple]):not([size]),
+    textarea{
+      margin-top:8px;
+    }
+  }
+  .tz_payment{
+    .form-group{
+      input{
+        margin-top:0;
+      }
+    }
+  }
+  button{
+    width:100%;
+  }
+}

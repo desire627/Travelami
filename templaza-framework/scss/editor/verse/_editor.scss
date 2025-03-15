@@ -1,0 +1,24 @@
+.is-root-container > .wp-block{
+	&.wp-block-verse{
+		padding: $tz-basic-preformatted-padding;
+	}
+}
+pre.wp-block-verse {
+	border-radius:20px;
+	overflow: hidden;
+	font-family: $tz-basic-body-font;
+	font-size: $tz-basic-meta-font-size;
+	color:$tz-basic-body-color;
+	line-height: $tz-basic-body-line-height;
+	font-weight:$tz-basic-body-font-weight;
+	padding:$tz-basic-preformatted-padding;
+	border:$tz-basic-preformatted-border;
+}
+.wp-block-social-links .wp-social-link a{
+	display:block;
+}
+
+.wp-block-embed__wrapper{
+	border-radius:20px;
+	overflow: hidden;
+}

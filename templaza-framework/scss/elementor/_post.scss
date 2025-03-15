@@ -1,0 +1,75 @@
+.templaza-widget-uiposts{
+  .ui-post-pagination{
+    .page-numbers{
+      @include tz-pagination-style();
+    }
+  }
+  .uk-slider{
+    .uk-card-media-left + .ui-post-info-wrap{
+      position:absolute;
+      width:48%;
+      background:#fff;
+      right:0;
+      top:55px;
+      bottom:55px;
+      left:auto;
+      @include box-shadow($tz-basic-theme-shadow);
+      .ui-post-introtext{
+        .cause-donate-btn{
+          a.templaza-btn{
+            display:inline-block;
+            padding:18px 35px;
+          }
+        }
+      }
+    }
+  }
+  .ui-post-meta-top{
+    a{
+      &:hover{
+        color:$tz-basic-theme-color;
+      }
+    }
+  }
+}
+.templaza-widget-uicard{
+  .uk-card-default{
+    @include transition($tz-basic-transition);
+  }
+}
+.ui-post-info-wrap{
+  .uk-button-text{
+    color:$tz-basic-button-color;
+    &:hover{
+      color:$tz-basic-theme-color;
+      text-decoration: none;
+    }
+    &:before{
+      display:none;
+    }
+    &:after{
+      content: "\f061";
+      display: inline;
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+      font-size: 12px;
+      padding-left: 8px;
+    }
+  }
+}
+.elementor{
+  .ui-posts{
+    img{
+      max-width:none;
+    }
+    &.our_team, &.service{
+      .uk-article-meta{
+        >span{
+          display:flex;
+          justify-items: center;
+          align-items: center;
+        }
+      }
+     }
+  }
+}

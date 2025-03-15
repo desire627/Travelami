@@ -1,0 +1,8 @@
+.single-product div.product .woocommerce-Reviews ol.commentlist li{
+  border:none;
+  padding:0 0 40px;
+  margin:0;
+  img.avatar{
+    @include border-radius(0);
+  }
+}

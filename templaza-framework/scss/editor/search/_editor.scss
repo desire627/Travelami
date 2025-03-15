@@ -1,0 +1,213 @@
+.widget_search{
+
+}
+.wp-block-search__button-outside{
+	&.wp-block-search__text-button{
+		.wp-block-search__inside-wrapper{
+			border-radius:10px;
+			overflow: hidden;
+			border: 1px solid $tz-basic-border-color;
+		}
+	}
+}
+.wp-block-search__inside-wrapper{
+	display:flex;
+	border-radius: 10px;
+	border: 1px solid #DEDEDE;
+}
+.wp-block-search {
+	.wp-block-search__label {
+		font-size: $tz-basic-form-font-size;
+		font-weight: $tz-basic-form-label-weight;
+		margin-bottom: 10px;
+		display:block;
+	}
+
+	&.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+	.wp-block-search__input {
+		border-radius: 0;
+		border:none;
+		font-family: inherit;
+		line-height: $tz-basic-input-line-height;
+		height:$tz-basic-input-height;
+		max-width: inherit;
+		padding: $tz-basic-input-search-padding;
+		margin-right:0;
+		margin-top: 0;
+		font-weight: $tz-basic-form-input-weight;
+
+		.has-background & {
+			border-color: transparent;
+		}
+		.wp-block-search__button.has-icon{
+			background:none !important;
+			align-items: center;
+			@include transition($tz-basic-transition);
+			color:$tz-basic-body-color;
+			&:hover{
+				color:$tz-basic-button-bg;
+				border-color:transparent;
+				background:none;
+				fill:$tz-basic-button-color-hover;
+				svg{
+					fill:$tz-basic-button-bg;
+					@include transition($tz-basic-transition);
+				}
+			}
+		}
+
+	}
+
+
+	.wp-block-search__button {
+		@include tz-basic-button-style();
+		box-shadow: none;
+		margin-left: 0;
+		padding:$tz-basic-input-button-padding;
+		height:$tz-basic-input-height;
+		line-height: 1;
+		border-radius: 0;
+		&:not(:hover):not(:active) {
+			// Text colors
+			&:not(.has-text-color) {
+				color: $tz-basic-button-search-color;
+				// Nested
+				.has-background & {
+					color: $tz-basic-button-color;
+					&.has-background {
+						color: $tz-basic-button-color;
+					}
+				}
+			}
+
+			// Background-colors
+			&:not(.has-background) {
+				background-color: $tz-basic-button-bg;
+
+				// Nested
+				.has-background & {
+					background-color: $tz-basic-button-bg;
+				}
+			}
+		}
+		&.has-icon {
+			display: inherit;
+			align-items: center;
+			justify-content: center;
+			border-radius:$tz-basic-input-border-radius;
+			padding:0 15px;
+			svg {
+				width: 35px;
+				height: 35px;
+				@include transform(rotateY(180deg));
+			}
+
+		}
+
+		&:hover,
+		&:active {
+			color: $tz-basic-button-color-hover;
+			.has-background & {
+				background-color: $tz-basic-button-bg-hover !important;
+				color: $tz-basic-button-color-hover !important;
+			}
+
+			.has-text-color & {
+				color: $tz-basic-button-search-color-hover !important;
+			}
+			svg {
+				fill:$tz-basic-button-search-color-hover;
+			}
+		}
+
+		// Remove :focus styles in the editor
+		&:focus {
+			outline-offset: inherit;
+			outline: inherit;
+		}
+	}
+
+	&.wp-block-search__button-inside {
+
+		.wp-block-search__inside-wrapper {
+			padding:$tz-basic-input-inside-padding;
+			background:none;
+			border-color:$tz-basic-border-color;
+			height:auto;
+			border-radius:$tz-basic-input-border-radius;
+			.wp-block-search__input {
+				padding: 15px;
+				background:none;
+			}
+			button.has-icon{
+				padding:0 10px;
+			}
+		}
+
+		.wp-block-search__input {
+			border: none;
+		}
+
+		&.wp-block-search__text-button,
+		&.wp-block-search__icon-button {
+			.wp-block-search__button {
+				color:$tz-basic-button-search-color;
+				// Search button always needs black contrast against white form background
+				&:hover {
+					color: $tz-basic-button-color-hover;
+				}
+			}
+		}
+
+		&.wp-block-search__text-button .wp-block-search__button {
+			// Match the text button size with the icon button.
+			padding: $tz-basic-input-button-padding;
+		}
+		.wp-block-search__button{
+			&.has-icon{
+				&:not(:hover):not(:active) {
+					&:not(.has-text-color) {
+						color: $tz-basic-heading-color;
+					}
+				}
+
+			}
+		}
+	}
+	&.aligncenter{
+		> *{
+			text-align: center;
+		}
+		.wp-block-search__button-only {
+			.wp-block-search__inside-wrapper {
+				justify-content: center;
+			}
+		}
+	}
+}
+
+.wp-block[data-align="center"] > * {
+	text-align: center;
+}
+
+.wp-block[data-align="center"] {
+
+	.wp-block-search__button-only {
+
+		.wp-block-search__inside-wrapper {
+			justify-content: center;
+		}
+	}
+}
+.searchform{
+	input{
+		&.searchsubmit{
+			font-size:$tz-basic-button-font-size;
+		}
+		&.search-query{
+			&:focus{
+				border-color:$tz-basic-button-bg;
+			}
+		}
+	}
+}

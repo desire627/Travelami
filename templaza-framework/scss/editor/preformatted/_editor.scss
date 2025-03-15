@@ -1,0 +1,21 @@
+.is-root-container > .wp-block{
+	&.wp-block-preformatted{
+		padding: $tz-basic-preformatted-padding;
+	}
+}
+
+pre.wp-block-preformatted {
+	overflow-x: auto;
+	border-radius:20px;
+	white-space: pre !important;
+	font-family: $tz-basic-body-font;
+	font-size: $tz-basic-meta-font-size;
+	color:$tz-basic-body-color;
+	line-height: $tz-basic-body-line-height;
+	font-weight:$tz-basic-body-font-weight;
+	padding:$tz-basic-preformatted-padding;
+	border:$tz-basic-preformatted-border;
+	&.has-background{
+		padding:$tz-basic-spacing-vertical;
+	}
+}

@@ -1,0 +1,12 @@
+.sc_heading{
+  .line{
+    width:50px;
+    height:2px;
+  }
+  .sub-heading{
+    @include tz-heading-ripple-effect();
+    .sub-heading-content{
+      margin-left:25px;
+    }
+  }
+}

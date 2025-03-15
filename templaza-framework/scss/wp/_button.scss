@@ -1,0 +1,40 @@
+.templaza-btn,
+.wp-element-button, .wp-block-button__link, .uk-button-default{
+  @include tz-basic-button-style();
+  text-align: center;
+  line-height: 1.1em;
+  justify-content: center;
+  align-items: center;
+  font-family: $tz-basic-button-font-family;
+  &:hover{
+    color:$tz-basic-button-color-hover;
+    border-color:transparent;
+  }
+}
+.uk-lightbox, .uk-modal{
+  button{
+    &.uk-close{
+      padding:5px;
+      height:auto;
+      line-height: unset;
+      background:none;
+    }
+  }
+}
+.templaza-btn-outline{
+   @include button-default;
+   background:none !important;
+   border:1px solid $tz-basic-button-bg-hover !important;
+    color:$tz-basic-button-bg-hover;
+   @include border-radius($tz-basic-button-radius);
+   &:hover{
+     background: none !important;
+     color:$tz-basic-button-bg !important;
+     border-color:$tz-basic-button-bg !important;
+   }
+}
+@media (max-width: 639.9px) {
+  .templaza-btn{
+    height:$tz-basic-button-height-mobile;
+  }
+}

@@ -1,0 +1,292 @@
+
+$tz-basic-spacing-horizontal:25px;
+$tz-basic-spacing-vertical:20px;
+
+$tz-basic-theme-color: #c6783e;
+$tz-basic-theme-color2:#c6783e;
+$tz-basic-theme-color3:#c6783e;
+$tz-basic-theme-shadow: none;
+
+$tz-basic-body-font:'Jost', Arial, Helvetica, sans-serif;
+$tz-basic-body-font-size:16px;
+$tz-basic-body-color:#555555;
+$tz-basic-body-font-weight:400;
+$tz-basic-body-line-height:1.7;
+$tz-basic-body-background: #ffffff;
+$tz-basic-border-color:#DEDEDE;
+$tz-basic_border-color2:#e7e7e7;
+
+$tz-basic-transition:all 0.5s ease-in-out;
+$tz-basic-bg-transition:background 0.3s linear;
+
+$tz-basic-a-color:inherit;
+$tz-basic-a-color-hover:#000000;
+
+$tz-basic-paginate:$tz-basic-body-color;
+$tz-basic-paginate-current:#ffffff;
+$tz-basic-paginate-bg:#ffffff;
+$tz-basic-paginate-bg-current:$tz-basic-theme-color;
+
+$tz-basic-meta-color:#AAAAAA;
+$tz-basic-meta-color-hover:#666;
+$tz-basic-meta-font-size:0.875rem;
+$tz-basic-meta-line-height:1.5;
+$tz-basic-meta-bg:#f5f5f5;
+
+$tz-basic-form-font-size:$tz-basic-body-font-size;
+$tz-basic-form-label-weight:600;
+$tz-basic-form-input-weight:400;
+$tz-basic-input-padding:0 15px;
+$tz-basic-input-button-padding:0 30px;
+$tz-basic-input-inside-padding:0;
+$tz-basic-input-height:50px;
+$tz-basic-input-line-height:50px;
+$tz-basic-input-border:1px solid $tz-basic-border-color;
+$tz-basic-input-border-focus:1px solid $tz-basic-theme-color;
+$tz-basic-input-border-radius:10px;
+$tz-basic-input-bg:transparent;
+$tz-basic-input-bg-focus:transparent;
+$tz-basic-input-large-height:60px;
+
+$tz-basic-button-bg:#c6783e;
+$tz-basic-button-bg-hover:#222222;
+$tz-basic-button-color:#ffffff;
+$tz-basic-button-color-hover:#ffffff;
+$tz-basic-button-outline-color:#c6783e;
+$tz-basic-button-padding:19px 40px;
+$tz-basic-button-transform:uppercase;
+$tz-basic-button-border-width:2px;
+$tz-basic-button-radius:10px;
+$tz-basic-button-font-family:'Marcellus', Arial, Helvetica, sans-serif;
+$tz-basic-button-font-size:14px;
+$tz-basic-button-font-size-large:14px;
+$tz-basic-button-font-weight:400;
+$tz-basic-button-line-height:1.5;
+$tz-basic-button-disable-bg: rgba(255, 255, 255, 0.5);
+$tz-basic-button-disable-border-color:rgba(255, 255, 255, 0.5);
+$tz-basic-button-disable-color:#39414d;
+$tz-basic-button-height:60px;
+$tz-basic-button-height-laptop:50px;
+$tz-basic-button-height-tablet:50px;
+$tz-basic-button-height-mobile:45px;
+
+$tz-basic-quote-font:"Playfair Display", Sans-serif;
+$tz-basic-quote-font-size:1.3rem;
+$tz-basic-quote-icon:$tz-basic-theme-color;
+$tz-basic-quote-font-style:normal;
+$tz-basic-quote-font-weight:400;
+$tz-basic-quote-bg:#F2E8E1;
+$tz-basic-quote-font-cite:0.9rem;
+$tz-basic-quote-color:#222;
+$tz-basic-quote-border-color: #333;
+$tz-basic-quote-line-height:1.5em;
+$tz-basic-quote-author:$tz-basic-body-color;
+$tz-basic-quote-content-margin:20px;
+$tz-basic-quote-padding:50px 40px 45px 90px;
+$tz-basic-quote-large-margin:50px 0;
+$tz-basic-quote-large-padding:0;
+$tz-basic-quote-font-size-large:2rem;
+$tz-basic-quote-font-size-cite-large:1.2rem;
+$tz-basic-quote-font-style-large:normal;
+$tz-basic-quote-line-height-large:1.5em;
+$tz-basic-quote-padding-large: 45px 50px 50px 100px;
+
+
+$tz-basic-pullquote-font-style:normal;
+$tz-basic-pullquote-font-cite:0.9rem;
+$tz-basic-pullquote-font-weight:400;
+$tz-basic-pullquote-line-height:1.5em;
+$tz-basic-pullquote-color:$tz-basic-body-color;
+$tz-basic-pullquote-padding:0;
+$tz-basic-pullquote-padding-mobile:30px;
+$tz-basic-pullquote-border-width:2px;
+$tz-basic-pullquote-wide-margin: auto;
+$tz-basic-blog-type-quote: 40px;
+
+$tz-basic-list-margin: 0.7em 0;
+
+$tz-basic-menu-font:'Jost', Arial, Helvetica, sans-serif;
+$tz-basic-menu-bg:transparent;
+$tz-basic-menu-weight:600;
+$tz-basic-menu-padding:15px;
+$tz-basic-menu-size:14px;
+$tz-basic-menu-color:#222;
+$tz-basic-menu-color-hover:$tz-basic-theme-color;
+$tz-basic-menu-dropdown-bg:#ffffff ;
+$tz-basic-menu-dropdown-bg-hover:#ffffff ;
+$tz-basic-menu-dropdown-color:$tz-basic-body-color;
+$tz-basic-menu-dropdown-color-hover:$tz-basic-theme-color;
+$tz-basic-submenu-padding:20px 0;
+$tz-basic-submenu-item-padding:0 30px;
+$tz-basic-submenu-item-link-padding:6px 0;
+$tz-basic-submenu-shadow:0 2px 3px 2px rgba(0, 0, 0, 0.1);
+
+$tz-basic-logo-max-width:170px;
+
+$tz-basic-heading-font:"Marcellus", Sans-serif;
+$tz-basic-heading-font-weight:400;
+$tz-basic-heading-font-weight-strong:700;
+$tz-basic-heading-color:#222222;
+$tz-basic-heading-color-hover:$tz-basic-theme-color;
+$tz-basic-heading-line-height:1.1em;
+$tz-basic-heading-transform: capitalize;
+
+$tz-basic-heading-h1-size: 2.625rem;
+$tz-basic-heading-h2-size: 2.1642rem;
+$tz-basic-heading-h3-size: 1.7843rem;
+$tz-basic-heading-h4-size: 1.4711rem;
+$tz-basic-heading-h5-size: 1.2129rem;
+$tz-basic-heading-h6-size: 1.1545rem;
+
+$tz-basic-heading-h1-weight: 400;
+$tz-basic-heading-h2-weight: 400;
+$tz-basic-heading-h3-weight: 400;
+$tz-basic-heading-h4-weight: 400;
+$tz-basic-heading-h5-weight: 400;
+$tz-basic-heading-h6-weight: 400;
+
+$tz-basic-heading-h1-line-height: 1.2em;
+$tz-basic-heading-h2-line-height: 1.2em;
+$tz-basic-heading-h3-line-height: 1.2em;
+$tz-basic-heading-h4-line-height: 1.2em;
+$tz-basic-heading-h5-line-height: 1.2em;
+$tz-basic-heading-h6-line-height: 1.2em;
+
+$tz-basic-title-single-size: 36px;
+$tz-basic-title-single-tablet-size: 32px;
+$tz-basic-title-single-mobile-size: 30px;
+$tz-basic-title-single-weight: 400;
+$tz-basic-title-single-line-height: 1.1em;
+$tz-basic-single-content_bg: #ffffff;
+$tz-basic-single-content_padding:0;
+$tz-basic-single-content_padding-s: 25px 0;
+$tz-basic-title-single-transform:capitalize;
+$tz-basic-box-radius:20px;
+
+$tz-basic-title-blog-list-size:30px;
+$tz-basic-title-blog-list-size-m:24px;
+$tz-basic-title-blog-list-size-s:22px;
+$tz-basic-title-blog-list-weight:400;
+$tz-basic-blog-list-padding:30px 0 0;
+$tz-basic-blog-list-padding-m:25px 0 0;
+$tz-basic-blog-list-radius:0;
+$tz-basic-blog-list-bg:#ffffff;
+$tz-basic-blog-list-margin:60px;
+$tz-basic-blog-list-margin-m:40px;
+$tz-basic-blog-img-margin:0;
+$tz-basic-blog-img-margin-m:0;
+
+$tz-basic-title-page-size: 44px;
+$tz-basic-title-page-weight: 400;
+$tz-basic-single-title-color: #fff;
+$tz-basic-single-title-bg: #222;
+$tz-basic-single-title-transform: uppercase;
+
+$tz-basic-blog-heading-size:60px;
+
+/* Block variables*/
+$tz-basic-latest-post-margin:0.8em 0;
+$tz-basic-latest-post-grid-margin-bottom:0.4em;
+
+$tz-basic-cover-color:#fff;
+$tz-basic-cover-bg:#2c2c2c;
+$tz-basic-cover-min-height:400px;
+$tz-basic-cover-line-height:1.2;
+$tz-basic-cover-link-color:#fff;
+
+$tz-basic-figcaption-size:0.75rem;
+$tz-basic-figcaption-margin-top:0.5em;
+$tz-basic-figcaption-margin-bottom:2em;
+
+$tz-basic-latest-font:$tz-basic-heading-font;
+$tz-basic-latest-posts-size:18px;
+$tz-basic-latest-posts-line-height:1.2em;
+$tz-basic-latest-posts-margin:20px;
+$tz-basic-latest-posts-weight:400;
+$tz-basic-latest-posts-divi-border: 1px solid $tz-basic-border-color;
+$tz-basic-latest-posts-divi-item: 1px solid rgba(0,0,0,0.15);
+
+$tz-basic-latest-comment-size:18px;
+$tz-basic-latest-comment-line-height:1.2em;
+$tz-basic-latest-comment-margin:20px;
+$tz-basic-latest-comment-weight:400;
+$tz-basic-latest-img-radius:10px;
+
+$tz-basic-category-size:1rem;
+$tz-basic-category-list-current-color:$tz-basic-theme-color;
+
+$tz-basic-separator-height:1px;
+$tz-basic-separator-color:$tz-basic-border-color;
+$tz-basic-separator-margin-top:40px;
+$tz-basic-separator-margin-bottom:40px;
+
+$tz-basic-table-border-color:rgba(0,0,0,0.15);
+$tz-basic-table-padding:5px 10px;
+$tz-basic-table-hasbg-text-color:$tz-basic-heading-color;
+$tz-basic-table-stripes-bg-old:#f0f0f0;
+
+$tz-basic-tagcloud-border-radius:5px;
+$tz-basic-tagcloud-bg:#ffffff;
+$tz-basic-tagcloud-font-size:16px !important;
+$tz-basic-tagcloud-border:1px solid $tz-basic-border-color;
+$tz-basic-tagcloud-color:$tz-basic-body-color;
+$tz-basic-tagcloud-margin:0 10px 10px 0;
+$tz-basic-tagcloud-padding:10px 30px;
+
+$tz-basic-preformatted-padding:15px;
+$tz-basic-preformatted-border:1px solid rgba(0,0,0,0.15);
+
+$tz-basic-small-button-radius:5px;
+$tz-basic-widget-bg: none;
+$tz-basic-box-shadow: none;
+
+$tz-basic-sidebar-heading-margin-bottom:30px;
+$tz-basic-sidebar-heading-padding-bottom:0;
+$tz-basic-sidebar-widget-padding:0;
+$tz-basic-sidebar-widget-margin:60px;
+$tz-basic-sidebar-widget-border:none;
+$tz-basic-sidebar-widget-bg:#fff;
+$tz-basic-sidebar-search-bg:#ffffff;
+$tz-basic-sidebar-heading-transform:capitalize;
+$tz-basic-sidebar-heading-weight:400;
+$tz-basic-sidebar-heading-h2:28px;
+$tz-basic-sidebar-heading-h3:24px;
+$tz-basic-sidebar-heading-shop:20px;
+$tz-basic-sidebar-search:50px;
+$tz-basic-sidebar-background:transparent;
+$tz-basic-sidebar-padding:0;
+$tz-basic-input-search-border: 1px solid $tz-basic-border-color;
+$tz-basic-input-search-padding: 15px 20px;
+$tz-basic-button-search-color:$tz-basic-button-color;
+$tz-basic-button-search-color-hover:$tz-basic-theme-color;
+
+$tz-basic-sidebar-heading2-margin-bottom:30px;
+$tz-basic-sidebar-heading2-padding-bottom:10px;
+
+$tz-basic-sidebar-heading3-margin-bottom:30px;
+$tz-basic-sidebar-heading3-padding-bottom:15px;
+$tz-basic-sidebar-heading3-before-width:30px;
+$tz-basic-sidebar-heading3-after-width:20px;
+
+$tz-basic-gallery-wrap-margin:35px 0;
+$tz-basic-gallery-wrap-grid:0;
+$tz-basic-gallery-item-margin:20px 20px 20px 0;
+
+$tz-basic-box-title-size:30px;
+$tz-basic-box-title-weight:400;
+$tz-basic-box-title-transform:capitalize;
+$tz-basic-box-title-margin:0 0 40px 0;
+
+$tz-basic-footer-color:#aaaaaa;
+$tz-basic-social-height:50px;
+$tz-basic-social-width:50px;
+
+$tz-basic-shop-box-padding:0;
+$tz-basic-shop-button-height:50px;
+$tz-basic-shop-button-size:14px;
+$tz-basic-shop-button-color:#222;
+$tz-basic-shop-button-color-hover:#222;
+$tz-basic-shop-button-bg:#f5f5f5;
+$tz-basic-shop-button-bg-hover:#f5f5f5;
+
+$tztheme-ap-archive-shadow:$tz-basic-box-shadow;

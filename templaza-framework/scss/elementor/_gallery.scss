@@ -1,0 +1,36 @@
+.templaza-widget-uigallery{
+  .ui-gallery-filter{
+    ul.uk-subnav{
+      margin:0;
+      li{
+        a.uk-button-text{
+          padding:10px 30px;
+          background:#fff;
+          color:#666666;
+          font-family: $tz-basic-button-font-family;
+          font-size:$tz-basic-button-font-size;
+          font-weight:$tz-basic-button-font-weight;
+          &:before{
+            display:none;
+          }
+          &:hover{
+            background:$tz-basic-theme-color;
+            color:$tz-basic-button-bg-hover;
+            @include transition($tz-basic-transition);
+          }
+        }
+        &:first-child{
+          padding-left: 0;
+        }
+        &:not(:first-child){
+          padding-left:10px;
+        }
+      }
+    }
+  }
+  .ui-gallery-pagination{
+    .page-numbers{
+      @include tz-pagination-style();
+    }
+  }
+}

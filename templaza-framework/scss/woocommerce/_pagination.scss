@@ -1,0 +1,8 @@
+.woocommerce-pagination{
+  ul.page-numbers{
+    margin-bottom: 0;
+    a,span{
+      @include tz-pagination-style();
+    }
+  }
+}

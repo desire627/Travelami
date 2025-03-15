@@ -1,0 +1,31 @@
+.wp-block-file {
+	display:flex;
+	align-items: center;
+	.wp-block-file__textlink {
+		text-decoration: underline;
+		text-decoration-style: solid;
+		text-decoration-thickness: 1px;
+
+		&:hover {
+			text-decoration: underline;
+			text-decoration-style: dotted;
+		}
+	}
+	.wp-block-file__button {
+		// Extend button style
+		@include tz-basic-button-style();
+		display: inline-block;
+		@include tz-ripple-effect();
+		@include transition($tz-basic-transition);
+		padding:19px 40px;
+
+		// Remove :focus styles in the editor
+		&:focus {
+			outline-offset: inherit;
+			outline: inherit;
+		}
+		&:hover{
+			color:$tz-basic-button-color-hover;
+		}
+	}
+}

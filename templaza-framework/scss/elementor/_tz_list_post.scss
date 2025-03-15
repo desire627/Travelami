@@ -1,0 +1,15 @@
+.templaza-list-post-grid{
+  .item-post-grid{
+      .templaza-grid-media{
+        a{
+          height: 500px;
+          display:block;
+          img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+  }
+}

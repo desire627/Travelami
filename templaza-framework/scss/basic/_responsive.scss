@@ -1,0 +1,137 @@
+@media screen and (max-width: 1199.9px) {
+
+}
+@media screen and (max-width: 959.9px) {
+  .templaza-mobile-btn{
+    display:block;
+    cursor: pointer;
+    left:28px;
+    .close{
+      display:none;
+    }
+    &.active{
+      .open{
+        display:none;
+      }
+      .close{
+        display:block;
+      }
+    }
+  }
+  header .uk-navbar-nav > li:first-child > a{
+    padding:5px 10px;
+  }
+  .templaza-basic-navbar{
+    &.active{
+      ul{
+        &.uk-navbar-nav{
+          display:block;
+        }
+      }
+    }
+    ul{
+      &.uk-navbar-nav{
+        display:none;
+        position: absolute;
+        left:auto;
+        right:0;
+        top:100%;
+        width:100%;
+        background:$tz-basic-menu-dropdown-bg;
+        box-shadow: $tz-basic-submenu-shadow ;
+        padding:20px;
+        z-index: 10;
+        overflow: scroll;
+      }
+      li{
+        width:100%;
+        margin: 0;
+        &.menu-item-has-children {
+          > a {
+            &::after {
+              content: "";
+              width: 1.5em;
+              height: 1.5em;
+              float: right;
+              background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+            }
+            &[aria-expanded=true]::after {
+              background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
+            }
+          }
+        }
+        a{
+          min-height: 40px;
+          justify-content: space-between;
+          padding:5px 10px;
+        }
+        .uk-navbar-dropdown{
+          width: 100%;
+          //display: block !important;
+          position: relative;
+          box-shadow: none;
+          margin-top:0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background:none;
+          padding-left: 0;
+          padding-right: 10px;
+          opacity: 1 !important;
+          li{
+            &.menu-item{
+              padding: 0 0 0 30px;
+            }
+            a{
+              min-height:30px;
+              color:$tz-basic-menu-color;
+              font-size: 1em;
+              padding:5px 0;
+              border:none;
+              &:hover{
+                background:none;
+                color:$tz-basic-menu-color-hover;
+              }
+            }
+          }
+          .uk-navbar-dropdown{
+            //display: block !important;
+            position: relative;
+            left:0 !important;
+            top:0 !important;
+          }
+        }
+      }
+    }
+  }
+  .header-content, .mb-logo{
+    height:100px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .header-content, .mb-logo{
+    height:80px;
+  }
+
+}
+@media screen and (max-width: 639.9px) {
+  .templaza-logo .templaza-logo-mobile{
+    display:inline;
+  }
+  .templaza-mobile-btn{
+    left:20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .entry-title, .post-title {
+    .sticky {
+      left:5px;
+      margin-top:-25px;
+      font-size:12px;
+      padding:1px 12px;
+
+    }
+  }
+}

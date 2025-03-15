@@ -1,0 +1,276 @@
+.templaza-footer {
+  color:$tz-basic-footer-color;
+   h2.widgettitle, .templaza-heading h2{
+     margin-bottom:33px;
+   }
+  .widget_nav_menu {
+    a {
+      color:inherit;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  p{
+    margin-bottom: 12px;
+  }
+  * + p{
+    margin-top:12px;
+  }
+  .tnp-subscription-minimal{
+    form{
+      display: flex;
+    }
+    input{
+      &.tnp-email,&.tnp-submit{
+        margin:0;
+        height: $tz-basic-input-large-height;
+        line-height: $tz-basic-input-large-height;
+        padding:0 20px;
+        border:none;
+        @include border-radius(5px);
+      }
+      &.tnp-email{
+        width:80%;
+        font-family: inherit;
+        background:#404040;
+        color:#898989;
+        font-family: inherit;
+        margin-right: 10px;
+      }
+      &.tnp-submit{
+        width:20%;
+        border:none;
+        background: $tz-basic-button-bg-hover;
+        color:$tz-basic-button-color-hover !important;
+        font-size: 16px;
+        font-weight: $tz-basic-button-font-weight;
+        text-transform: $tz-basic-button-transform;
+        font-family:$tz-basic-button-font-family;
+        &:hover{
+          background: $tz-basic-button-bg !important;
+          color:$tz-basic-button-color !important;
+        }
+      }
+
+    }
+
+  }
+  .templaza-social{
+    li{
+      a{
+        background:$tz-basic-body-background;
+        height: $tz-basic-social-height;
+        width:$tz-basic-social-width;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        &:hover{
+          background:$tz-basic-button-bg;
+          color:$tz-basic-button-color;
+        }
+      }
+    }
+  }
+  .widgettitle{
+    margin-bottom: 15px;
+  }
+  strong, em{
+
+  }
+  .wpforms-container-full{
+    margin:0;
+    .wpforms-form{
+      display:flex;
+      border-bottom:1px solid $tz-basic-border-color;
+      .wpforms-field{
+        padding:0;
+        input{
+          height:$tz-basic-input-large-height;
+          line-height: $tz-basic-input-large-height;
+          @include border-radius(0);
+          padding:0;
+          background:transparent;
+          border:none;
+          color:$tz-basic-footer-color;
+
+          &::placeholder {
+            color: $tz-basic-footer-color;
+            opacity: 1; /* Firefox */
+          }
+          &:focus{
+            color:$tz-basic-footer-color;
+            border:none;
+            @include box-shadow(none);
+          }
+        }
+        &.wpforms-field-email{
+          margin-right:0;
+          padding:0;
+        }
+      }
+      .wpforms-field-container{
+        flex:1;
+      }
+      .wpforms-submit-container{
+        width:auto;
+        padding:0;
+        margin:0;
+        button{
+          border:none;
+          font-size:$tz-basic-button-font-size-large;
+          @include border-radius(0);
+          padding:0 0 0 40px;
+          height:$tz-basic-input-large-height;
+          line-height: $tz-basic-input-large-height;
+          background:transparent !important;
+          box-shadow: none;
+          &:hover{
+            background:transparent !important;
+          }
+          &:before,&:after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .templaza-heading{
+    h3{
+      margin-bottom:30px;
+      font-size:30px;
+      position: relative;
+    }
+  }
+}
+.templaza-social.uk-text-left{
+  li{
+    margin-left: 10px;
+  }
+}
+.uk-text-right{
+  .templaza-navigation{
+    &.uk-inline{
+      &:last-child{
+        a{
+          padding-right:0 !important;
+        }
+      }
+    }
+  }
+}
+.templaza-navigation{
+  &.inline{
+    display:flex;
+    &.uk-text-right\@m{
+      justify-content: right;
+    }
+  }
+  li{
+    margin:0;
+    &:first-child{
+      a{
+        padding-top:0;
+      }
+    }
+    &.uk-inline{
+      margin-top:0;
+      margin-bottom:0;
+      a{
+        padding-top:0;
+        padding-bottom:0;
+      }
+
+    }
+    a{
+      font-family: $tz-basic-menu-font;
+    }
+  }
+  &.uk-text-right{
+    li{
+      &.uk-inline{
+        &:last-child{
+          a{
+            padding-right:0 !important;
+          }
+        }
+      }
+    }
+  }
+  &.uk-text-left{
+    li{
+      &.uk-inline{
+        &:first-child{
+          a{
+            padding-left:0 !important;
+          }
+        }
+      }
+    }
+  }
+}
+.footer-bottom{
+  background:#222;
+  padding:40px 0;
+  color:#999;
+  font-size:16px;
+  a{
+    color:$tz-basic-theme-color2;
+    &:hover{
+      color:$tz-basic-theme-color2;
+    }
+  }
+}
+.templaza-copyright{
+  a{
+    color:$tz-basic-theme-color;
+  }
+}
+.footer-type2{
+  .templaza-social{
+    li{
+      margin:0 5px;
+    }
+  }
+}
+.templaza-footer{
+  .mini{
+    .wpforms-container-full .wpforms-form{
+      .wpforms-field{
+        &.wpforms-field-email{
+          margin-right:0;
+        }
+        input{
+          height:50px;
+          line-height: 50px;
+          padding:0 15px;
+        }
+      }
+      .wpforms-submit-container{
+        button{
+          font-size:0;
+          height:50px;
+          line-height: 50px;
+          padding:0 25px;
+          &:before{
+            content: "\f00c";
+            font-family: "Font Awesome 5 Free";
+            display: inline-block;
+            font-style: normal;
+            line-height: 50px;
+            font-weight: 900;
+            color: $tz-basic-button-color;
+            font-size:16px;
+          }
+        }
+      }
+    }
+  }
+}
+#templaza-backtotop{
+  &:hover{
+    transform:scale(1.05);
+    @include transition($tz-basic-transition);
+  }
+}

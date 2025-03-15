@@ -1,0 +1,545 @@
+.home{
+  .travelami-breadcrumb{
+    padding:0;
+  }
+}
+p{
+  line-height: $tz-basic-body-line-height;
+}
+.templaza-contact{
+  font-size:0.875rem;
+  font-weight: inherit;
+}
+.templaza-logo-text{
+  text-align: center;
+  .site-tagline{
+    font-size:12px;
+  }
+}
+.header-block-item, .top-header{
+  ul li{
+    font-size:0.875rem;
+  }
+  i{
+    padding-right:10px;
+  }
+  .has-text-align-right{
+    a{
+      padding-right:0;
+    }
+  }
+  .wp-block-columns{
+    margin-bottom:0 !important;
+    p:not(:last-child){
+      margin-bottom:5px;
+    }
+  }
+  p{
+    margin:0;
+  }
+  .wp-block-columns{
+    margin-bottom: 0;
+  }
+  span{
+    &:not(:last-child){
+      border-right:1px solid #4d4d4d;
+      margin-right:20px;
+    }
+    &:last-child{
+      a{
+        padding-right:0;
+      }
+    }
+  }
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    li{
+      display:inline-block;
+      margin:0;
+      position:relative;
+      &:not(:first-child){
+        padding-left:20px;
+        margin-left:20px;
+        &:before{
+          width:1px;
+          content:"";
+          background:rgba(34,34,34,0.2);
+          display: inline-block;
+          position:absolute;
+          left:0;
+          top:2px;
+          bottom:3px;
+        }
+      }
+      a{
+        padding-right:0;
+      }
+    }
+    &.templaza-navigation{
+      display:flex;
+      align-items: center;
+      li{
+        display:inline-block;
+        &:not(:first-child){
+          &:before{
+            display:none;
+          }
+          padding-left:30px;
+        }
+      }
+    }
+    &.templaza-social{
+      li{
+        border-right:1px solid rgba(255,255,255,0.2);
+        padding:0;
+        &:not(:first-child){
+          padding:0;
+          &:before{
+            display:none;
+          }
+        }
+        &:first-child{
+          border-left:1px solid rgba(255,255,255,0.2);
+        }
+        a{
+          padding:0 15px;
+          height:40px;
+          justify-content: center;
+          align-items: center;
+          display:flex;
+          i{
+            min-width:15px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+header{
+  &.basic-header-section{
+    .tz-header-default{
+
+    }
+    .travelami-logo{
+      padding:10px 0;
+    }
+    .top-logo{
+      background-color:$tz-basic-theme-color;
+    }
+    .templaza-mobile-btn{
+      color:#000;
+    }
+    .header-icon{
+      i{
+        color:#000;
+      }
+    }
+  }
+  .templaza-logo{
+    max-width:300px;
+  }
+  ul,ol{
+    padding-left: 0;
+  }
+  div.templaza-sidebar {
+    .widget{
+      margin:0;
+      padding:0;
+    }
+  }
+  .templaza-divi-logo-wrap{
+    .templaza-logo-image{
+      max-width:$tz-basic-logo-max-width;
+    }
+  }
+  .templaza-divi-menu-wrap{
+    background:$tz-basic-menu-bg;
+    .navbar-nav{
+      &.uk-flex-left{
+        >.menu-item{
+          &:first-child{
+            >a{
+              padding-left:0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .header-icon{
+    padding:20px 12px;
+    display:flex;
+    i{
+      font-size:18px;
+      display:block;
+    }
+    &:last-child{
+      padding-right:0;
+    }
+  }
+  ul{
+    li{
+      &.lang-item{
+        a{
+          color:$tz-basic-menu-color !important;
+          padding:0 5px;
+        }
+      }
+      &:before{
+        display:none !important;
+      }
+      &:last-child{
+        a{
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  .header-block-item{
+    .advanced-product-search-form{
+      display:flex;
+      .uk-margin{
+        margin:0!important;
+        label{
+          display:none;
+        }
+        select{
+          width:280px;
+          background-color:#fff;
+        }
+      }
+      button,input,select{
+        border-radius:5px;
+        margin:0 5px !important;
+      }
+      button{
+        color:$tz-basic-button-color !important;
+        font-family: $tz-basic-button-font-family !important;
+        padding:23px 35px 23px 35px;
+        background:$tz-basic-button-bg;
+        @include transition($tz-basic-transition);
+        &:hover{
+          background:$tz-basic-button-bg;
+          color:$tz-basic-button-color-hover !important;
+          @include transition($tz-basic-transition);
+        }
+      }
+    }
+  }
+  .templaza-center-menu-wrap{
+    .header-search{
+      padding-left:0;
+      .searchform{
+        right:auto;
+        left:0;
+
+      }
+    }
+  }
+  &.templaza-horizontal-right-header{
+    .header-icon-wrap{
+      margin-left: 50px;
+    }
+  }
+  .templaza-header-info{
+    i{
+      color:$tz-basic-theme-color;
+    }
+    .templaza-btn{
+      color:$tz-basic-button-color;
+      i{
+        color:$tz-basic-button-color;
+      }
+      &:hover{
+        i{
+          color:$tz-basic-button-color-hover;
+        }
+      }
+    }
+  }
+  &.templaza-horizontal-justify-header{
+    .header-icon{
+      padding:20px 25px;
+      border-left:1px solid $tz-basic-border-color;
+    }
+  }
+}
+
+.top-header{
+  z-index: 1020;
+  a{
+    color:inherit;
+    &:hover{
+      color:inherit;
+    }
+  }
+  p{
+    >a{
+      &:last-child{
+        padding-right:0;
+      }
+    }
+  }
+  i{
+    color:$tz-basic-theme-color;
+  }
+  .tz-navbar-login {
+    .uk-navbar-nav {
+      gap:0;
+      > li {
+        &:before{
+          display:none;
+        }
+      }
+    }
+  }
+}
+.header-search{
+  .searchform{
+    max-width:none;
+    top:100%;
+    right:-15px;
+    position:absolute;
+    box-shadow:$tz-basic-submenu-shadow;
+    opacity: 0;
+    transform: scaleX(0);
+    pointer-events: none;
+    background:#fff;
+    .search-query{
+      width:300px;
+      max-width:none;
+    }
+    .submit{
+      color:$tz-basic-menu-color;
+      padding:0;
+      background:none;
+      &:hover{
+        background:none;
+      }
+    }
+    &.active{
+      opacity: 1;
+      transform: scaleX(1);
+      pointer-events: initial;
+    }
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}
+.tz-slider-button{
+  i{
+    &.fa, &.far, &.fas{
+      margin-left:5px;
+      font-family: "Font Awesome 5 Free" !important;
+    }
+    &:before{
+      font-family: inherit !important;
+      font-weight:900 !important;
+    }
+  }
+}
+section.header-absolute{
+  .templaza-header .header-block-2-horizontal{
+    border-left:1px solid rgba(255,255,255,0.3);
+    border-right:1px solid rgba(255,255,255,0.3);
+  }
+}
+.templaza-divi-logo-wrap{
+  .block-sidebar{
+    .widget_block{
+      width:55%;
+    }
+  }
+  p{
+    line-height:1.2;
+  }
+}
+.tz-navbar-login {
+  .uk-navbar-nav {
+    > li {
+      a{
+        padding: 0 10px;
+      }
+    }
+  }
+}
+@media(max-width: 1400px) {
+  .templaza-divi-logo-wrap{
+    .block-sidebar{
+      .widget_block{
+        width:80%;
+      }
+    }
+  }
+}
+.templaza-header-section{
+  .nav{
+    *[class*="tz_custom_"] {
+      align-items: inherit !important;
+      &:after {
+        display:none !important;
+      }
+    }
+  }
+  .templaza-column{
+    *[class*="tz_custom_"]{
+      align-items:center;
+      &:after{
+        content:"";
+        margin-left: 17px;
+        margin-right:15px;
+        background:#666;
+        width:1px;
+        height:15px;
+        top:2px;
+        display:inline-block;
+        position:relative;
+      }
+      &:first-child{
+        &:after {
+          //margin-left: 0;
+        }
+      }
+      &:last-child{
+        &:after{
+          display:none;
+        }
+      }
+    }
+  }
+
+  .templaza-text{
+    ul{
+      list-style: none;
+      padding:0;
+      margin:0;
+      li{
+        display:inline;
+        position:relative;
+        &:after{
+          content:"";
+          margin-left: 17px;
+          margin-right:15px;
+          background:#666;
+          width:1px;
+          height:15px;
+          top:2px;
+          display:inline-block;
+          position:relative;
+        }
+        &:first-child{
+          margin-left: 0;
+        }
+        &:last-child{
+          &:after{
+            display:none;
+          }
+        }
+      }
+    }
+  }
+  .templaza-header{
+    .header-block-2-horizontal{
+      border-left:1px solid $tz-basic-border-color;
+      border-right:1px solid $tz-basic-border-color;
+    }
+    label{
+      font-weight:600;
+    }
+  }
+  .tz-navbar-login{
+    .uk-navbar-nav{
+      gap:0;
+    }
+  }
+  &.header-absolute{
+    z-index: 1010;
+  }
+}
+#templaza-sticky-header {
+  .header-cart{
+    a{
+      .counter{
+        color:#fff !important;
+      }
+    }
+  }
+}
+@media(max-width: 1199.99px) {
+  .templaza-divi-logo-wrap{
+    .uk-grid-small{
+      margin-left:10px !important;
+    }
+    .templaza-logo{
+      margin-right: 20px;
+    }
+  }
+  header{
+    &.templaza-horizontal-justify-header{
+      .header-icon{
+        padding:15px 20px;
+      }
+    }
+  }
+}
+@media(max-width: 959.99px) {
+  header{
+    &.templaza-header{
+      &.templaza-stacked-divided-header{
+        padding:0;
+      }
+    }
+    &.templaza-horizontal-justify-header{
+      .header-icon{
+        border:none;
+        padding-right:0;
+      }
+    }
+  }
+
+  .templaza-divi-logo-wrap{
+    .templaza-logo{
+      margin-right: 0;
+    }
+  }
+}
+@media(max-width: 639.99px) {
+  .templaza-contact{
+    line-height:1.5em;
+    span{
+      display:block;
+    }
+  }
+  header{
+    &.templaza-horizontal-justify-header{
+      .header-icon{
+        padding:15px 0 15px 12px;
+      }
+    }
+  }
+  .burger-menu-button{
+    .box, .button{
+      width:25px;
+      height:26px;
+    }
+    .inner{
+      width:25px;
+      height:2px;
+      &:before,
+      &:after{
+        width:25px;
+        height:2px;
+      }
+      &:before{
+        top:-8px;
+      }
+      &:after{
+        bottom:-8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.templaza-ap-single{
+  &.ap-single-style2{
+    .ap-single-side-box{
+      @include box-shadow(none);
+      &.ap-single-office-price{
+        padding:0;
+        margin-bottom:0;
+      }
+    }
+    .comments-area h3.comment-reply-title{
+      margin-bottom:10px;
+      font-size:18px;
+      &:after{
+        display: block;
+      }
+    }
+    .ap-related-product{
+      .box-title{
+        font-size:$tztheme-shop-detail-related-size;
+      }
+    }
+    .ap-detail-price{
+      background:$tz-basic-button-bg;
+      color:$tz-basic-button-color;
+      padding:15px 30px;
+      .ap-price{
+        color:$tz-basic-button-color;
+      }
+    }
+    .ap-single-top-fields{
+      padding-bottom:25px;
+    }
+    .ap-wrap-content{
+      .ap-single-left{
+        width:60%;
+      }
+      .ap-single-right{
+        width:40%;
+        padding-left:70px;
+      }
+    }
+    .uk-tab{
+      margin-left: -30px;
+      > *{
+        padding-left:30px;
+      }
+      li a{
+        font-size:18px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1199.9px) {
+  .templaza-ap-single.ap-single-style2{
+    .ap-wrap-content{
+      .ap-single-left,
+      .ap-single-right{
+        width:100%;
+      }
+      .ap-single-right{
+        padding-left:0;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 959.9px) {
+  .templaza-ap-single.ap-single-style2{
+    .uk-tab{
+      margin-left: -20px;
+      > *{
+        padding-left:20px;
+      }
+      li{
+        a{
+          font-size:16px;
+        }
+      }
+    }
+  }
+}

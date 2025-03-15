@@ -1,0 +1,9 @@
+.header-cart a .counter{
+  line-height:1em;
+}
+.woocommerce-error{
+  background: $tztheme-shop-detail-box-bg;
+  @include box-shadow($tz-basic-box-shadow);
+  margin-bottom:$tz-basic-blog-list-margin;
+  padding:0;
+}

@@ -1,0 +1,73 @@
+.templaza-sticky-add-to-cart.product_variable_button .templaza-sticky-add-to-cart__content-button{
+  font-size:$tz-basic-button-font-size;
+  @include border-radius($tz-basic-input-border-radius);
+  padding:15px 25px;
+  &:after{
+    display:none;
+  }
+}
+.templaza-sticky-atc__product-image{
+  max-width: 80px;
+  border-radius:10px;
+  overflow: hidden;
+}
+.templaza-sticky-add-to-cart__content-button{
+  @include border-radius($tz-basic-input-border-radius);
+  font-size:$tz-basic-button-font-size;
+  font-weight:$tz-basic-button-font-weight;
+}
+.templaza-sticky-add-to-cart__content-title{
+  font-family: $tz-basic-heading-font;
+  font-weight:$tztheme-shop-detail-title-weight;
+  text-transform: $tz-basic-heading-transform;
+  font-size: 18px;
+  .woocommerce-Price-amount{
+    color:$tz-basic-theme-color;
+  }
+}
+.templaza-sticky-add-to-cart__content-price{
+  color:$tz-basic-theme-color;
+}
+.templaza-sticky-add-to-cart{
+  padding:10px 0;
+  form.cart{
+    .single_add_to_cart_button{
+      &:after{
+        display:none;
+      }
+      &:before{
+        margin-right: 10px;
+        display:none;
+        line-height: 1;
+        width: 16px;
+        content: "\f07a";
+        font-weight: 900;
+        font-size: 0.9em;
+        font-family: "Font Awesome 5 Free";
+      }
+      &.loading{
+        &:after{
+          display:none;
+        }
+        &:before{
+          height: 16px;
+          display: inline-block;
+          border-radius: 50%;
+          border: 2px solid;
+          border-top-color: transparent;
+          -webkit-animation: templaza-spin infinite 1s linear;
+          animation: templaza-spin infinite 1s linear;
+          transition: opacity .2s linear .2s;
+          content: "";
+          margin-top: -1px;
+        }
+      }
+    }
+  }
+  .quantity{
+    @include border-radius($tz-basic-button-radius);
+  }
+  .in-stock{
+    margin:1px 0;
+  }
+}

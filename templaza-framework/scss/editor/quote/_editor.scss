@@ -1,0 +1,222 @@
+.block-editor-block-list__block{
+	&.wp-block-quote{
+		margin:0;
+	}
+}
+.is-root-container{
+	blockquote{
+		&.wp-block{
+			padding: $tz-basic-quote-padding;
+			margin: 40px 0;
+			background: $tz-basic-quote-bg;
+			&.has-text-align-right{
+				padding-right:90px;
+			}
+		}
+	}
+}
+blockquote{
+	font-style: $tz-basic-quote-font-style;
+	position: relative;
+	padding: $tz-basic-quote-padding;
+	background: $tz-basic-quote-bg;
+	border:none;
+	margin: 40px 0;
+	color:$tz-basic-quote-color;
+	border-radius:$tz-basic-box-radius;
+	p{
+		font-family: $tz-basic-quote-font;
+		font-size: $tz-basic-quote-font-size;
+		font-style: $tz-basic-quote-font-style;
+		font-weight: $tz-basic-quote-font-weight;
+		line-height: $tz-basic-quote-line-height;
+		margin-bottom: $tz-basic-quote-content-margin;
+		color:currentColor;
+		cite{
+			font-size:14px;
+		}
+	}
+	cite{
+		font-family: $tz-basic-body-font;
+	}
+	em, a{
+		color:currentColor;
+	}
+	&:before{
+		color: $tz-basic-quote-icon;
+		content: "\f10d";
+		display: block;
+		position: absolute;
+		left: 40px;
+		font-size: 1.5rem;
+		font-weight: 900;
+		line-height: 1;
+		font-family: "Font Awesome 5 Free";
+	}
+	&.wp-block-quote{
+		&:before{
+			color: $tz-basic-quote-icon;
+			content: "\f10d";
+			display: block;
+			position: absolute;
+			left: 40px;
+			font-size: 1.5rem;
+			font-weight: 900;
+			line-height: 1;
+			font-family: "Font Awesome 5 Free";
+		}
+	}
+
+}
+.wp-block-quote {
+	position: relative;
+	margin: 40px 0;
+	border:none;
+	padding: $tz-basic-quote-padding;
+	background: $tz-basic-quote-bg;
+	&:before{
+		color: $tz-basic-theme-color;
+		content: "\f10d";
+		display: block;
+		position: absolute;
+		left: 40px;
+		font-size: 1.5rem;
+		font-weight: 900;
+		line-height: 1;
+		font-family: "Font Awesome 5 Free";
+		margin-top:-5px;
+	}
+	p {
+		font-family: $tz-basic-quote-font;
+		font-size: $tz-basic-quote-font-size;
+		font-style: $tz-basic-quote-font-style;
+		font-weight: $tz-basic-quote-font-weight;
+		line-height: $tz-basic-quote-line-height;
+		margin-bottom: $tz-basic-quote-content-margin;
+		color:$tz-basic-quote-color;
+		em,a{
+			color:currentColor;
+		}
+		&:last-of-type{
+			margin-bottom: calc(0.5 * #{$tz-basic-quote-content-margin});
+		}
+	}
+	cite{
+		color:$tz-basic-quote-author;
+		font-family: $tz-basic-body-font;
+		font-size:$tz-basic-quote-font-cite;
+		em{
+			color:$tz-basic-quote-author;
+		}
+	}
+	&.is-style-default{
+		p{
+			margin-bottom: $tz-basic-quote-content-margin;
+		}
+	}
+	blockquote{
+		font-style: $tz-basic-quote-font-style;
+		&:before {
+			content: "\201C";
+			font-size: $tz-basic-quote-font-size;
+			line-height: $tz-basic-quote-line-height;
+			left: 40px;
+			position:absolute;
+		}
+	}
+
+	strong {
+		font-weight: bold;
+	}
+
+	.wp-block-quote__citation {
+		font-size: $tz-basic-quote-font-cite;
+		.has-background &,
+		[class*="background-color"] &,
+		[style*="background-color"] &,
+		.wp-block-cover[style*="background-image"] & {
+			color: currentColor;
+		}
+	}
+
+	&.has-text-align-right {
+		border:none;
+		border-left: 0;
+		// Hide the left aligned quote.
+		padding-right:90px;
+		&:before {
+			content:"\f10e";
+			left:auto;
+			right:40px;
+		}
+	}
+
+	&.has-text-align-center {
+		&:before {
+			display: none;
+		}
+	}
+
+	&.is-large,
+	&.is-style-large {
+		margin:$tz-basic-quote-large-margin !important;
+		padding: $tz-basic-quote-padding-large !important;
+
+		/* Resetting margins to match _block-container.scss */
+
+		p {
+			font-size: $tz-basic-quote-font-size-large;
+			font-style: $tz-basic-quote-font-style-large;
+			line-height: $tz-basic-quote-line-height-large;
+			margin-bottom:$tz-basic-quote-content-margin;
+		}
+		cite{
+			display:block;
+			font-size:$tz-basic-quote-font-size-cite-large;
+			color:$tz-basic-quote-author;
+		}
+
+		&:before {
+
+		}
+
+		&.has-text-align-right {
+
+			// Hide the left aligned quote.
+			&:before {
+
+			}
+
+			// Align the quote left of the text.
+
+		}
+		&:not(.is-style-plain){
+			p{
+				font-style: $tz-basic-quote-font-style-large;
+			}
+		}
+
+	}
+
+}
+@media screen and (max-width: 768px) {
+	blockquote::before,
+	blockquote.wp-block-quote::before{
+		left:20px;
+	}
+	.wp-block-quote, blockquote{
+		padding-left:60px;
+		&.is-large,
+		&.is-style-large{
+			margin:40px 0 !important;
+			padding-left:60px !important;
+			p{
+				font-size:1.6rem;
+			}
+		}
+		p{
+			font-size:1.3rem;
+		}
+	}
+	
+}

@@ -1,0 +1,34 @@
+.header-account{
+  .account-links{
+    box-shadow: $tz-basic-submenu-shadow;
+    ul{
+      padding:$tz-basic-submenu-padding;
+      li{
+        padding:$tz-basic-submenu-item-padding;
+        a{
+          padding:$tz-basic-submenu-item-link-padding;
+          display:block;
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+}
+.woocommerce .wishlist-title h2{
+  font-weight:bold;
+}
+.woocommerce-account .u-columns .u-column1:not(.woocommerce-Address){
+  background:#fff;
+  border-radius:$tz-basic-blog-list-radius;
+}
+.woocommerce-MyAccount-navigation{
+  ul{
+    li{
+      &.is-active{
+        a{
+          color:$tz-basic-theme-color;
+        }
+      }
+    }
+  }
+}

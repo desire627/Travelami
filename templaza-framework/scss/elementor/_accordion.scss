@@ -1,0 +1,19 @@
+.uk-accordion-title{
+  &:before{
+    content: "\f067";
+    position: relative; // Override the absolute position.
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 2em;
+    font-family: "Font Awesome 5 Free";
+    background:none;
+  }
+}
+.uk-open{
+  .uk-accordion-title {
+    &:before {
+      content: "\f068";
+      background:none;
+    }
+  }
+}

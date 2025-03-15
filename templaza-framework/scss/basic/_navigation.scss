@@ -1,0 +1,73 @@
+.post-navigation {
+  .post-title {
+    font-weight: bold;
+    margin: 2px 30px;
+  }
+  .meta-nav {
+    margin: 0;
+  }
+  .nav-previous {
+    .meta-nav .uk-icon {
+      margin-right: 10px;
+    }
+  }
+  .nav-next {
+    .meta-nav .uk-icon {
+      margin-left: 10px;
+    }
+  }
+}
+.page-links, .post-nav-links {
+  font-size: 0.875em;
+  .label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 8px;
+  }
+  .post-page-numbers {
+    color: $tz-basic-paginate;
+    padding:3px 8px;
+    border-radius:3px;
+    &.current {
+      color: $tz-basic-paginate-current;
+      background:$tz-basic-button-bg;
+    }
+    &:hover {
+      color: $tz-basic-paginate-current;
+      background:$tz-basic-button-bg;
+    }
+  }
+}
+.templaza-post-navigation {
+  .previous-post{
+    i{
+      font-size:12px;
+      color:$tz-basic-meta-color;
+      padding-right: 5px;
+    }
+    span{
+      font-size:12px;
+      text-transform: uppercase;
+      color:$tz-basic-meta-color;
+    }
+    &:hover{
+      i,span{
+        color:$tz-basic-theme-color;
+      }
+    }
+    &.next-post{
+      i{
+        padding-right:0;
+        padding-left:5px;
+      }
+    }
+  }
+  h4{
+    a{
+      display:block;
+      font-size:18px;
+      line-height:$tz-basic-heading-h4-line-height ;
+      color:$tz-basic-heading-color;
+    }
+  }
+}

@@ -1,0 +1,189 @@
+.wp-block-latest-posts {
+	padding: 0;
+
+	// Vertical margins logic
+	&:not(.is-grid) > li {
+		margin-top: $tz-basic-latest-posts-margin;
+		margin-bottom: $tz-basic-latest-posts-margin;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&:after{
+			content:"";
+			clear:both;
+			display:block;
+		}
+	}
+
+	&.is-grid {
+		word-wrap: break-word;
+		word-break: break-word;
+
+		> li {
+			margin-bottom: $tz-basic-spacing-vertical;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	> li > * {
+		margin-top: calc(0.333 * #{$tz-basic-spacing-vertical});
+		margin-bottom: calc(0.333 * #{$tz-basic-spacing-vertical});
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	// Post title
+	> li > a {
+		display: inline-block;
+		font-size: $tz-basic-latest-posts-size;
+		font-weight: $tz-basic-latest-posts-weight;
+		line-height: $tz-basic-latest-posts-line-height;
+		margin-bottom: calc(0.333 * #{$tz-basic-spacing-vertical});
+		color:$tz-basic-heading-color;
+		font-family: $tz-basic-latest-font;
+		&:hover{
+			color:$tz-basic-theme-color;
+		}
+	}
+	.wp-block-latest-posts__featured-image{
+		&.alignleft{
+			margin-right:20px;
+			margin-bottom:0;
+			~ .wp-block-latest-posts__post-author, ~ a,
+			~ .wp-block-latest-posts__post-date{
+				display:block;
+			}
+			&:after{
+				content:"";
+				clear:both;
+				height:0;
+			}
+		}
+		img{
+
+		}
+		a{
+			border-radius:$tz-basic-latest-img-radius;
+			@include transition($tz-basic-transition);
+			@include tz-ripple-effect();
+			overflow: hidden;
+
+			img{
+				transition: 5s linear;
+				@include transform(scale(1.02));
+			}
+			&:hover{
+				transform:scale(1);
+				img{
+					@include transform(scale(1.2));
+					transition: 10s linear;
+				}
+			}
+		}
+
+	}
+
+	// Post author
+	.wp-block-latest-posts__post-author {
+		color: $tz-basic-meta-color;
+		font-size: $tz-basic-meta-font-size;
+		line-height:$tz-basic-meta-line-height;
+	}
+
+	// Post date
+	.wp-block-latest-posts__post-date {
+		color: $tz-basic-meta-color;
+		font-size: $tz-basic-meta-font-size;
+		line-height:$tz-basic-meta-line-height;
+
+		[class*="inner-container"] &,
+		.has-background & {
+			color: $tz-basic-meta-color;
+		}
+	}
+
+	// Post content
+	.wp-block-latest-posts__post-excerpt,
+	.wp-block-latest-posts__post-full-content {
+		margin-top: calc(0.666 * #{$tz-basic-spacing-vertical});
+	}
+
+	// Block Styles
+	&.is-style-templaza-latest-posts-dividers {
+		border-top: $tz-basic-latest-posts-divi-border;
+		border-bottom: $tz-basic-latest-posts-divi-border;
+
+		&:not(.is-grid) > li,
+		> li {
+			padding-bottom: $tz-basic-spacing-vertical;
+			border-bottom: $tz-basic-latest-posts-divi-item;
+			margin-top: $tz-basic-spacing-vertical;
+			margin-bottom: $tz-basic-spacing-vertical;
+
+			&:last-child {
+				padding-bottom: 0;
+				border-bottom: none;
+			}
+		}
+
+		&.is-grid {
+			// Border moves up 1px to overlap the li borders in the last row.
+			border-bottom: $tz-basic-latest-posts-divi-item;
+
+			li {
+				margin: 0;
+				padding-top: $tz-basic-spacing-vertical;
+				padding-right: $tz-basic-spacing-horizontal;
+
+				&:last-child {
+					padding-bottom: $tz-basic-spacing-vertical;
+				}
+			}
+
+			// This is using a non-standard media query because it is directly overriding the gutenberg-provided widths.
+			// https://github.com/WordPress/gutenberg/blob/master/packages/block-library/src/latest-posts/style.scss#L28-L34
+			@media screen and (min-width: 600px) {
+				@for $i from 2 through 6 {
+					&.columns-#{ $i } li {
+						width: calc((100% / #{ $i }));
+					}
+				}
+			}
+		}
+	}
+
+	&.is-style-templaza-latest-posts-borders {
+
+		li {
+			border: $tz-basic-latest-posts-divi-item;
+			padding: $tz-basic-spacing-vertical $tz-basic-spacing-horizontal;
+
+			&:last-child {
+				padding-bottom: $tz-basic-spacing-vertical;
+				margin-bottom: $tz-basic-spacing-vertical;
+			}
+		}
+
+		&:not(.is-grid) li {
+			margin-top: $tz-basic-spacing-horizontal;
+			margin-bottom: $tz-basic-spacing-horizontal;
+		}
+	}
+	&.alignleft{
+		float:none;
+	}
+}

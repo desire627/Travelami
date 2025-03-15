@@ -1,0 +1,11 @@
+.elementor-icon{
+  svg{
+    @include transition($tztheme-transition-all);
+  }
+  &:hover{
+    svg{
+      @include transform(scale(1.2));
+      @include transition($tztheme-transition-all);
+    }
+  }
+}

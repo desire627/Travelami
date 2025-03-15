@@ -1,0 +1,310 @@
+div.templaza-ap-single{
+  &.ap-single-style3 {
+    .ap-group-content{
+      .ap-field-icon{
+        border:1px solid #aaaaaa;
+        @include border-radius($tz-basic-button-radius);
+        padding:14px;
+        i{
+          display:block;
+        }
+      }
+      .field-value{
+        .ap-field-label{
+          text-transform: uppercase;
+          font-size:12px;
+          line-height:1.2em;
+          margin-bottom:10px;
+        }
+        .ap-field-value{
+          color:$tz-basic-heading-color;
+          line-height:1.2em;
+          a{
+            color:$tz-basic-heading-color;
+          }
+        }
+      }
+      &:has(.uk-width-1-2){
+        .ap-content-full{
+          margin-top:60px;
+          border-top: 1px solid $tz-basic_border-color2;
+          padding: 60px 0 0 0;
+          margin-left:30px;
+        }
+      }
+
+    }
+    .ap-media{
+      @include border-radius($tz-basic-box-radius);
+      &:after{
+        content:"";
+        position:absolute;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.3);
+      }
+    }
+    #ap-wrap-content{
+      margin-top:-117px;
+    }
+    .ap-single-nav{
+      background:$tz-basic-button-bg-hover;
+      li{
+        a{
+          color:$tz-basic-button-color-hover;
+          font-size:$tz-basic-button-font-size;
+          text-transform: $tz-basic-button-transform;
+          font-weight:$tz-basic-button-font-weight;
+        }
+      }
+    }
+    .widget-title{
+      font-size: $tz-basic-box-title-size;
+      margin-bottom:35px;
+      text-transform: $tz-basic-box-title-transform;
+      font-weight:$tz-basic-box-title-weight;
+    }
+    .ap-custom-fields-style3{
+      border-bottom:1px dotted $tz-basic_border-color2;
+    }
+    .ap-group{
+      border-bottom-color:$tz-basic_border-color2;
+      margin-bottom:60px;
+    }
+    .ap-single-price-box{
+      background:#fff;
+    }
+    .ap-single-author-box{
+      border:1px solid $tz-basic_border-color;
+    }
+    .ap-content-group-scroll{
+      border:none;
+      margin-bottom: 70px;
+      .uk-nav{
+        li{
+          a{
+            @include border-radius(10px 10px 0 0);
+            background:#F2E8E1;
+            margin-right:5px;
+            font-weight: $tz-basic-heading-font-weight;
+            @include transition(all 0.3s ease);
+            &:after{
+              opacity:0;
+            }
+          }
+          &.uk-active, &:hover{
+            a{
+              background:#fff;
+            }
+          }
+        }
+      }
+      &.uk-sticky{
+        &.uk-active{
+          .uk-nav {
+            li {
+              a{
+                @include transition($tz-basic-transition);
+                background:transparent;
+                padding:20px;
+                &:after{
+                  opacity:0;
+                  left:40%;
+                  right:40%;
+                  display:block;
+                  width:auto;
+                }
+              }
+              &.uk-active, &:hover{
+                a{
+                  color:$tz-basic-theme-color;
+                  background:transparent;
+                  &:after{
+                    opacity:1;
+                    left:0;
+                    right:0;
+                    background:$tz-basic-theme-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .ap-single-side-box {
+      @include border-radius($tz-basic-box-radius);
+      overflow: hidden;
+      @include box-shadow(0 5px 30px 0 rgba(0,0,0,0.15));
+      &.ap-single-price-box {
+        padding:0 !important;
+        margin-top:-12px;
+        label{
+          &.single-price-label{
+            text-transform: capitalize;
+            color:$tz-basic-button-color;
+            margin-right:10px;
+          }
+        }
+        .ap-single-price-inner{
+          background:$tz-basic-button-bg;
+          color:$tz-basic-button-color;
+          padding:20px 40px;
+          font-family: $tz-basic-heading-font;
+          .price{
+            color:$tz-basic-button-color;
+            span{
+              font-size:$tz-basic-body-font-size;
+            }
+          }
+        }
+      }
+      div.wpforms-container .wpforms-submit-container{
+        margin-top:20px;
+      }
+    }
+    .ap-content-gallery{
+      margin-top:10px;
+      margin-bottom:10px;
+      .ap-gallery-item{
+        @include border-radius($tz-basic-box-radius);
+        height:200px;
+        span{
+          color:#fff;
+          padding:10px 20px;
+          font-size:14px;
+        }
+      }
+    }
+    .ap-single-booking-form{
+      padding:40px;
+    }
+     div.wpforms-container-full .wpforms-form button,
+     div.wpforms-container-full .wpforms-form button[type="submit"]{
+       width:100%;
+       height:$tz-basic-input-large-height;
+     }
+  }
+}
+.ap-single-style3-banner{
+  text-align:center;
+}
+su-accordion{
+  p:empty{
+    margin:0;
+  }
+}
+.su-accordion .su-spoiler-style-default {
+  >.su-spoiler-title{
+    font-weight:$tz-basic-heading-font-weight;
+    font-size:18px;
+    background:#F2E8E1;
+    color:$tz-basic-heading-color;
+    @include border-radius($tz-basic-button-radius);
+    position:relative;
+    padding:20px;
+    > .su-spoiler-icon{
+      position:absolute;
+      right:20px;
+      left:auto;
+      border-radius: 50%;
+      background: #999;
+      top: 50%;
+      margin-top: -10px;
+      font-size: 12px;
+      color:#fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &.su-spoiler-icon-plus.su-spoiler-closed {
+    .su-spoiler-icon{
+      &:before{
+        content: '';
+        height: 2px;
+        display: block;
+        width: 8px;
+        background: #fff;
+      }
+      &:after{
+        content: '';
+        height: 8px;
+        display: block;
+        width: 2px;
+        background: #fff;
+        position:absolute;
+      }
+    }
+  }
+  &.su-spoiler-icon-plus {
+    .su-spoiler-icon{
+      &:before{
+        content: '';
+        height: 2px;
+        display: block;
+        width: 8px;
+        background: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199.9px) {
+  div.templaza-ap-single.ap-single-style3{
+    .ap-content-group-scroll {
+      .uk-nav {
+        li {
+          a{
+            padding:15px 10px;
+          }
+        }
+      }
+    }
+    .ap-single-booking-form{
+      padding:30px;
+    }
+    .ap-single-side-box.ap-single-price-box {
+      .ap-single-price-inner{
+        padding-left:30px;
+        padding-right:30px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 959.9px) {
+  div.templaza-ap-single.ap-single-style2{
+    .uk-tab{
+      margin-left: -20px;
+      > *{
+        padding-left:20px;
+      }
+      li{
+        a{
+          font-size:16px;
+        }
+      }
+    }
+  }
+  div.templaza-ap-single.ap-single-style3{
+    .ap-content-group-scroll.uk-sticky.uk-active {
+      .uk-nav {
+        li {
+          a{
+            padding:15px 10px;
+          }
+        }
+      }
+    }
+  }
+  .templaza-ap-single .ap-content-group-scroll .ap-scroll-item{
+    font-size:16px;
+  }
+}
+@media screen and (max-width: 639.9px) {
+  div.templaza-ap-single.ap-single-style3 {
+    .ap-media{
+      border-radius:0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.templaza-loading{
+  color: $tztheme-global-color;
+  .endpost-text{
+    display:none;
+  }
+  &.endpost{
+    .endpost-text{
+      display:block;
+    }
+    .loading, .uk-margin-right{
+      display:none;
+    }
+
+  }
+}

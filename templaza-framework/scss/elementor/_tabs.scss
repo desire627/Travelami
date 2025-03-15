@@ -1,0 +1,58 @@
+.elementor-widget-tabs{
+  .elementor-tabs{
+    .elementor-tabs-wrapper{
+      border-bottom:1px solid $tz-basic-border-color;
+      overflow: visible;
+    }
+    .elementor-tab-title{
+      position: relative;
+      padding: 20px 0;
+      text-align: center;
+      &.elementor-tab-desktop-title{
+        display:inline-block;
+      }
+      &:not(:last-child){
+        margin-right:40px;
+      }
+      &:after{
+        content:" ";
+        height:3px;
+        bottom:-2px;
+        left:0;
+        width:100%;
+        background-color:transparent;
+        position:absolute;
+        @include transition($tz-basic-transition);
+      }
+      &.elementor-active, &:hover{
+        &:after{
+          height:3px;
+          bottom:-2px;
+          left:0;
+          width:100%;
+          background-color:$tz-basic-theme-color;
+          @include transition($tz-basic-transition);
+        }
+      }
+    }
+    .elementor-tab-content{
+      padding:35px 0 0;
+      > ul, >ol{
+        padding-left:1.5em;
+        list-style: none;
+        li{
+          &:first-child{
+            margin-top: 0;
+          }
+          &:before{
+            content: "\2022";
+            display:inline-block;
+            font-weight: bold;
+            width: 1.5em;
+            color:$tz-basic-theme-color2;
+          }
+        }
+      }
+    }
+  }
+}

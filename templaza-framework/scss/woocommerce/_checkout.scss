@@ -1,0 +1,110 @@
+.woocommerce-checkout{
+  .woocommerce-checkout-review-order-table{
+    background:#fff;
+    border:none;
+    padding:0;
+  }
+  .checkout-form-cols{
+    background:$tz-basic-sidebar-widget-bg;
+    padding:$tz-basic-shop-box-padding;
+  }
+  .col2-set{
+    background:$tz-basic-sidebar-widget-bg;
+    padding:0;
+    @include box-shadow($tz-basic-box-shadow);
+  }
+  form.checkout{
+    h3{
+      font-size:$tz-basic-sidebar-heading-h3;
+      font-weight:$tz-basic-sidebar-heading-weight;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea,
+    select{
+      background: $tz-basic-input-bg;
+      border:1px solid $tz-basic_border-color;
+      font-size: 0.9em;
+      &:focus{
+        background-color: $tz-basic-body-background;
+        box-shadow: none;
+        border-color:$tz-basic-border-color;
+        outline: none;
+      }
+    }
+    .form-row {
+      label{
+        color:$tz-basic-heading-color;
+        margin:0;
+      }
+      input[type="tel"],textarea{
+        margin-top: 15px;
+      }
+      &#billing_address_1_field{
+        margin-bottom:0;
+      }
+    }
+  }
+  .tz-shop-order-wrap{
+    width:calc(34% - 40px);
+    margin-left: 40px;
+    background:$tz-basic-sidebar-widget-bg;
+    padding:30px;
+    @include box-shadow($tz-basic-box-shadow);
+    border:1px solid $tz-basic_border-color;
+  }
+  .checkout-form-cols{
+    display: block;
+    @include box-shadow($tz-basic-box-shadow);
+  }
+  .checkout-form-col{
+    .woocommerce-form-coupon{
+      margin-top: 30px;
+      border: none;
+      padding:0;
+      input[type="text"]{
+        background:$tz-basic-input-bg;
+        margin: 0;
+        border:1px solid $tz-basic_border-color;
+        &:focus{
+          background-color: $tz-basic-body-background;
+          box-shadow: none;
+          border-color:$tz-basic-border-color;
+          outline: none;
+        }
+      }
+    }
+    .woocommerce-info{
+      background:none;
+      padding:0;
+      color:$tz-basic-body-color;
+      a{
+        color:$tz-basic-theme-color;
+      }
+    }
+    .woocommerce-form-coupon-toggle{
+      padding:0;
+    }
+    .form-row-last{
+      margin-bottom: 0;
+    }
+  }
+  form.checkout{
+    margin-top: 40px;
+  }
+  .woocommerce-checkout-payment .payment_methods{
+    background:#fff;
+    margin-bottom:15px;
+  }
+
+}
+@media (max-width: 959.99px){
+  .woocommerce-checkout{
+    .tz-shop-order-wrap{
+      width:100%;
+      margin-left:0;
+    }
+  }
+}
+

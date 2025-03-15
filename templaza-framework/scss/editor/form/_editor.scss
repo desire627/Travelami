@@ -1,0 +1,30 @@
+input[type="submit"]{
+	background:$tz-basic-button-bg;
+	color:$tz-basic-button-color;
+	padding:$tz-basic-input-button-padding;
+	font-family: $tz-basic-button-font-family;
+	font-size:$tz-basic-button-font-size;
+	border-color:transparent;
+	border-radius:$tz-basic-button-radius;
+	@include transition($tz-basic-transition);
+	&:hover{
+		background:$tz-basic-button-bg-hover;
+		cursor: pointer;
+		@include transition($tz-basic-transition);
+	}
+}
+select,input{
+	height: $tz-basic-input-line-height;
+	border: $tz-basic-input-border;
+	border-radius: $tz-basic-input-border-radius;
+	font-family: inherit;
+	line-height: 38px;
+	max-width: inherit;
+	padding: $tz-basic-input-padding;
+	margin-right:5px;
+	margin-top: 0;
+	font-weight: $tz-basic-form-input-weight;
+	&:focus-visible{
+		outline:none;
+	}
+}

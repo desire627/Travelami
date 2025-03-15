@@ -1,0 +1,4388 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-29 14:24+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: comments.php:28 comments.php:107
+msgid "Comment"
+msgstr ""
+
+#: comments.php:37
+msgid "Comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:80
+msgid "Enter your name..."
+msgstr ""
+
+#: comments.php:82 booking/functions_product.php:3872
+#: booking/functions_product.php:4053 booking/functions_product.php:4055
+#: booking/order-product-admin.php:487
+msgid "Email"
+msgstr ""
+
+#: comments.php:86
+msgid "Your Comment..."
+msgstr ""
+
+#: comments.php:87 comments.php:108
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:99 booking/templates/booking-form.php:35
+#: booking/templates/checkout.php:64
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:102 booking/templates/booking-form.php:40
+msgid "Your Email"
+msgstr ""
+
+#: footer.php:10
+#, php-format
+msgid "© Travelami - WordPress Theme 2024. Design by %s"
+msgstr ""
+
+#: functions.php:86 templaza-framework/options/config.php:57
+#: templaza-framework/options/config.php:71
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:136
+#: templaza-framework/options/post-type/product/product.php:115
+msgid "Small"
+msgstr ""
+
+#: functions.php:87
+msgctxt "Font size"
+msgid "S"
+msgstr ""
+
+#: functions.php:92
+msgid "Normal"
+msgstr ""
+
+#: functions.php:93
+msgctxt "Font size"
+msgid "M"
+msgstr ""
+
+#: functions.php:98 templaza-framework/options/config.php:59
+#: templaza-framework/options/config.php:72
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:138
+#: templaza-framework/options/post-type/product/product.php:117
+msgid "Large"
+msgstr ""
+
+#: functions.php:99
+msgctxt "Font size"
+msgid "L"
+msgstr ""
+
+#: functions.php:104
+msgid "Extra large"
+msgstr ""
+
+#: functions.php:105
+msgctxt "Font size"
+msgid "XL"
+msgstr ""
+
+#: functions.php:138
+msgid "Our Team"
+msgstr ""
+
+#: functions.php:139
+msgid "Services"
+msgstr ""
+
+#: functions.php:148
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:150
+msgid ""
+"Widgets in this area will be displayed in the TemPlaza Framework layout "
+"builder sidebar only."
+msgstr ""
+
+#: functions.php:155
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:157
+msgid "Widgets in this area will be displayed in the Shop page."
+msgstr ""
+
+#: functions.php:162
+msgid "Top Sidebar"
+msgstr ""
+
+#: functions.php:164
+msgid ""
+"Widgets in this area will be displayed in the first column in the top "
+"sidebar."
+msgstr ""
+
+#: functions.php:169
+msgid "Inventory Sidebar"
+msgstr ""
+
+#: functions.php:171 functions.php:178
+msgid "Widgets in this area will be displayed in Inventory sidebar."
+msgstr ""
+
+#: functions.php:176
+msgid "Inventory Top Sidebar"
+msgstr ""
+
+#: functions.php:183
+msgid "Nearby Logo"
+msgstr ""
+
+#: functions.php:185
+msgid "Widgets in this area will be displayed in logo section."
+msgstr ""
+
+#: functions.php:190
+msgid "Nearby Menu"
+msgstr ""
+
+#: functions.php:192
+msgid "Widgets in this area will be displayed in menu section."
+msgstr ""
+
+#: functions.php:197
+msgid "Service Sidebar"
+msgstr ""
+
+#: functions.php:199
+msgid "Widgets in this area will be displayed in Service detail."
+msgstr ""
+
+#: functions.php:205
+msgid "Header Sidebar Mode"
+msgstr ""
+
+#: functions.php:207
+msgid ""
+"Widgets in this area will be displayed in the first column in the Sidebar - "
+"Header Mode of TemPlaza Framework only."
+msgstr ""
+
+#: functions.php:257
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: functions.php:258
+msgctxt "Post password form"
+msgid "Password"
+msgstr ""
+
+#: functions.php:261
+msgctxt "Post password form"
+msgid "Submit"
+msgstr ""
+
+#: functions.php:261
+msgctxt "Post password form"
+msgid "Enter"
+msgstr ""
+
+#: functions.php:276 helpers/data-install.php:34
+msgid "TemPlaza Framework"
+msgstr ""
+
+#: functions.php:287 helpers/data-install.php:64
+msgid "Slider Revolution"
+msgstr ""
+
+#: functions.php:297 helpers/data-install.php:74
+msgid "Redux Framework"
+msgstr ""
+
+#: functions.php:360
+msgid "Primary menu"
+msgstr ""
+
+#: index.php:23
+msgid "Search Results"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search..."
+msgstr ""
+
+#: advanced-product/templates/archive.php:57
+#: helpers/woocommerce/template-catalog.php:822
+#: helpers/woocommerce/template-catalog.php:843
+msgid "Filter"
+msgstr ""
+
+#: advanced-product/templates/archive.php:66
+msgid " Tours available"
+msgstr ""
+
+#: advanced-product/templates/archive.php:76
+msgid "Sort By"
+msgstr ""
+
+#: advanced-product/templates/archive.php:79
+msgid "Date: Newest First"
+msgstr ""
+
+#: advanced-product/templates/archive.php:80
+msgid "Date: Oldest First"
+msgstr ""
+
+#: advanced-product/templates/archive.php:81
+msgid "Title: A - Z"
+msgstr ""
+
+#: advanced-product/templates/archive.php:82
+msgid "Title: Z - A"
+msgstr ""
+
+#: advanced-product/templates/archive.php:83
+msgid "Price: High To Low"
+msgstr ""
+
+#: advanced-product/templates/archive.php:84
+msgid "Price: Low To High"
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:59
+#: booking/functions_product.php:4017
+msgid "From"
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:62
+#: advanced-product/templates/single/price.php:48
+msgid " "
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:65
+msgid "MSRP: "
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:80
+#: booking/order-product-admin.php:86
+msgid "Price"
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:90
+#: booking/order-product-admin.php:88 booking/order-product-admin.php:458
+#: plugins/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:99
+msgid "Rental price"
+msgstr ""
+
+#: advanced-product/templates/archive/price.php:109
+msgid " / "
+msgstr ""
+
+#: advanced-product/templates/single/price.php:51
+msgid "MSRP:"
+msgstr ""
+
+#: advanced-product/templates/single/price.php:58
+msgid "From:"
+msgstr ""
+
+#: advanced-product/templates/single/price.php:74
+msgid " / Person"
+msgstr ""
+
+#: advanced-product/templates/single/price.php:88
+msgid "RENTAL PRICE:"
+msgstr ""
+
+#: advanced-product/templates/single/price.php:102
+#: advanced-product/templates/single/price.php:114
+msgid "PRICE:"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:25
+#: advanced-product/templates/single/single-style3.php:26
+msgid "Contact Vendor"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:76
+#: templaza-framework/templates/template-parts/content-share.php:8
+msgid "Share on Facebook"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:79
+#: templaza-framework/templates/template-parts/content-share.php:11
+msgid "Share on Twitter"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:83
+#: templaza-framework/templates/template-parts/content-share.php:15
+msgid "Share on Pinterest"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:86
+#: templaza-framework/templates/template-parts/content-share.php:18
+msgid "Share on Linkedin"
+msgstr ""
+
+#: advanced-product/templates/single/single-style1.php:218
+#: advanced-product/templates/single/single-style3.php:336
+msgid "Tours"
+msgstr ""
+
+#: advanced-product/templates/single/single-style3.php:122
+#: advanced-product/templates/single/single-style3.php:258
+msgid "OR"
+msgstr ""
+
+#: advanced-product/templates/single/single-style3.php:124
+#: advanced-product/templates/single/single-style3.php:260
+msgid "Send Enquiry"
+msgstr ""
+
+#: advanced-product/templates/single/single-style3.php:201
+#: helpers/woocommerce/template-catalog.php:792
+msgid "Products"
+msgstr ""
+
+#: advanced-product/templates/single/single-style3.php:320
+msgid "Vendor Profile"
+msgstr ""
+
+#: booking/functions_product.php:688
+msgid "United States"
+msgstr ""
+
+#: booking/functions_product.php:693
+msgid "United Kingdom"
+msgstr ""
+
+#: booking/functions_product.php:698
+msgid "Canada"
+msgstr ""
+
+#: booking/functions_product.php:703
+msgid "Afghanistan"
+msgstr ""
+
+#: booking/functions_product.php:708
+msgid "Albania"
+msgstr ""
+
+#: booking/functions_product.php:713
+msgid "Algeria"
+msgstr ""
+
+#: booking/functions_product.php:718
+msgid "American Samoa"
+msgstr ""
+
+#: booking/functions_product.php:723
+msgid "Andorra"
+msgstr ""
+
+#: booking/functions_product.php:728
+msgid "Angola"
+msgstr ""
+
+#: booking/functions_product.php:733
+msgid "Anguilla"
+msgstr ""
+
+#: booking/functions_product.php:738
+msgid "Antigua"
+msgstr ""
+
+#: booking/functions_product.php:743
+msgid "Argentina"
+msgstr ""
+
+#: booking/functions_product.php:748
+msgid "Armenia"
+msgstr ""
+
+#: booking/functions_product.php:753
+msgid "Aruba"
+msgstr ""
+
+#: booking/functions_product.php:758
+msgid "Australia"
+msgstr ""
+
+#: booking/functions_product.php:763
+msgid "Austria"
+msgstr ""
+
+#: booking/functions_product.php:768
+msgid "Azerbaijan"
+msgstr ""
+
+#: booking/functions_product.php:773
+msgid "Bahrain"
+msgstr ""
+
+#: booking/functions_product.php:778
+msgid "Bangladesh"
+msgstr ""
+
+#: booking/functions_product.php:783
+msgid "Barbados"
+msgstr ""
+
+#: booking/functions_product.php:788
+msgid "Belarus"
+msgstr ""
+
+#: booking/functions_product.php:793
+msgid "Belgium"
+msgstr ""
+
+#: booking/functions_product.php:798
+msgid "Belize"
+msgstr ""
+
+#: booking/functions_product.php:803
+msgid "Benin"
+msgstr ""
+
+#: booking/functions_product.php:808
+msgid "Bermuda"
+msgstr ""
+
+#: booking/functions_product.php:813
+msgid "Bhutan"
+msgstr ""
+
+#: booking/functions_product.php:818
+msgid "Bolivia"
+msgstr ""
+
+#: booking/functions_product.php:823
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: booking/functions_product.php:828
+msgid "Botswana"
+msgstr ""
+
+#: booking/functions_product.php:833
+msgid "Brazil"
+msgstr ""
+
+#: booking/functions_product.php:838
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: booking/functions_product.php:843
+msgid "British Virgin Islands"
+msgstr ""
+
+#: booking/functions_product.php:848
+msgid "Brunei"
+msgstr ""
+
+#: booking/functions_product.php:853
+msgid "Bulgaria"
+msgstr ""
+
+#: booking/functions_product.php:858
+msgid "Burkina Faso"
+msgstr ""
+
+#: booking/functions_product.php:863
+msgid "Burma Myanmar"
+msgstr ""
+
+#: booking/functions_product.php:868
+msgid "Burundi"
+msgstr ""
+
+#: booking/functions_product.php:873
+msgid "Cambodia"
+msgstr ""
+
+#: booking/functions_product.php:878
+msgid "Cameroon"
+msgstr ""
+
+#: booking/functions_product.php:883
+msgid "Cape Verde"
+msgstr ""
+
+#: booking/functions_product.php:888
+msgid "Cayman Islands"
+msgstr ""
+
+#: booking/functions_product.php:893
+msgid "Central African Republic"
+msgstr ""
+
+#: booking/functions_product.php:898
+msgid "Chad"
+msgstr ""
+
+#: booking/functions_product.php:903
+msgid "Chile"
+msgstr ""
+
+#: booking/functions_product.php:908
+msgid "China"
+msgstr ""
+
+#: booking/functions_product.php:913
+msgid "Colombia"
+msgstr ""
+
+#: booking/functions_product.php:918
+msgid "Comoros"
+msgstr ""
+
+#: booking/functions_product.php:923
+msgid "Cook Islands"
+msgstr ""
+
+#: booking/functions_product.php:928
+msgid "Costa Rica"
+msgstr ""
+
+#: booking/functions_product.php:933
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: booking/functions_product.php:938
+msgid "Croatia"
+msgstr ""
+
+#: booking/functions_product.php:943
+msgid "Cuba"
+msgstr ""
+
+#: booking/functions_product.php:948
+msgid "Cyprus"
+msgstr ""
+
+#: booking/functions_product.php:953
+msgid "Czech Republic"
+msgstr ""
+
+#: booking/functions_product.php:958
+msgid "Democratic Republic of Congo"
+msgstr ""
+
+#: booking/functions_product.php:963
+msgid "Denmark"
+msgstr ""
+
+#: booking/functions_product.php:968
+msgid "Djibouti"
+msgstr ""
+
+#: booking/functions_product.php:973
+msgid "Dominica"
+msgstr ""
+
+#: booking/functions_product.php:978
+msgid "Dominican Republic"
+msgstr ""
+
+#: booking/functions_product.php:983
+msgid "Ecuador"
+msgstr ""
+
+#: booking/functions_product.php:988
+msgid "Egypt"
+msgstr ""
+
+#: booking/functions_product.php:993
+msgid "El Salvador"
+msgstr ""
+
+#: booking/functions_product.php:998
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: booking/functions_product.php:1003
+msgid "Eritrea"
+msgstr ""
+
+#: booking/functions_product.php:1008
+msgid "Estonia"
+msgstr ""
+
+#: booking/functions_product.php:1013
+msgid "Ethiopia"
+msgstr ""
+
+#: booking/functions_product.php:1018
+msgid "Falkland Islands"
+msgstr ""
+
+#: booking/functions_product.php:1023
+msgid "Faroe Islands"
+msgstr ""
+
+#: booking/functions_product.php:1028
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: booking/functions_product.php:1033
+msgid "Fiji"
+msgstr ""
+
+#: booking/functions_product.php:1038
+msgid "Finland"
+msgstr ""
+
+#: booking/functions_product.php:1043
+msgid "France"
+msgstr ""
+
+#: booking/functions_product.php:1048
+msgid "French Guiana"
+msgstr ""
+
+#: booking/functions_product.php:1053
+msgid "French Polynesia"
+msgstr ""
+
+#: booking/functions_product.php:1058
+msgid "Gabon"
+msgstr ""
+
+#: booking/functions_product.php:1063
+msgid "Georgia"
+msgstr ""
+
+#: booking/functions_product.php:1068
+msgid "Germany"
+msgstr ""
+
+#: booking/functions_product.php:1073
+msgid "Ghana"
+msgstr ""
+
+#: booking/functions_product.php:1078
+msgid "Gibraltar"
+msgstr ""
+
+#: booking/functions_product.php:1083
+msgid "Greece"
+msgstr ""
+
+#: booking/functions_product.php:1088
+msgid "Greenland"
+msgstr ""
+
+#: booking/functions_product.php:1093
+msgid "Grenada"
+msgstr ""
+
+#: booking/functions_product.php:1098
+msgid "Guadeloupe"
+msgstr ""
+
+#: booking/functions_product.php:1103
+msgid "Guam"
+msgstr ""
+
+#: booking/functions_product.php:1108
+msgid "Guatemala"
+msgstr ""
+
+#: booking/functions_product.php:1113
+msgid "Guinea"
+msgstr ""
+
+#: booking/functions_product.php:1118
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: booking/functions_product.php:1123
+msgid "Guyana"
+msgstr ""
+
+#: booking/functions_product.php:1128
+msgid "Haiti"
+msgstr ""
+
+#: booking/functions_product.php:1133
+msgid "Honduras"
+msgstr ""
+
+#: booking/functions_product.php:1138
+msgid "Hong Kong"
+msgstr ""
+
+#: booking/functions_product.php:1143
+msgid "Hungary"
+msgstr ""
+
+#: booking/functions_product.php:1148
+msgid "Iceland"
+msgstr ""
+
+#: booking/functions_product.php:1153
+msgid "India"
+msgstr ""
+
+#: booking/functions_product.php:1158
+msgid "Indonesia"
+msgstr ""
+
+#: booking/functions_product.php:1163
+msgid "Iran"
+msgstr ""
+
+#: booking/functions_product.php:1168
+msgid "Iraq"
+msgstr ""
+
+#: booking/functions_product.php:1173
+msgid "Ireland"
+msgstr ""
+
+#: booking/functions_product.php:1178
+msgid "Israel"
+msgstr ""
+
+#: booking/functions_product.php:1183
+msgid "Italy"
+msgstr ""
+
+#: booking/functions_product.php:1188
+msgid "Jamaica"
+msgstr ""
+
+#: booking/functions_product.php:1193
+msgid "Japan"
+msgstr ""
+
+#: booking/functions_product.php:1198
+msgid "Jordan"
+msgstr ""
+
+#: booking/functions_product.php:1203
+msgid "Kazakhstan"
+msgstr ""
+
+#: booking/functions_product.php:1208
+msgid "Kenya"
+msgstr ""
+
+#: booking/functions_product.php:1213
+msgid "Kiribati"
+msgstr ""
+
+#: booking/functions_product.php:1218
+msgid "Kosovo"
+msgstr ""
+
+#: booking/functions_product.php:1223
+msgid "Kuwait"
+msgstr ""
+
+#: booking/functions_product.php:1228
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: booking/functions_product.php:1233
+msgid "Laos"
+msgstr ""
+
+#: booking/functions_product.php:1238
+msgid "Latvia"
+msgstr ""
+
+#: booking/functions_product.php:1243
+msgid "Lebanon"
+msgstr ""
+
+#: booking/functions_product.php:1248
+msgid "Lesotho"
+msgstr ""
+
+#: booking/functions_product.php:1253
+msgid "Liberia"
+msgstr ""
+
+#: booking/functions_product.php:1258
+msgid "Libya"
+msgstr ""
+
+#: booking/functions_product.php:1263
+msgid "Liechtenstein"
+msgstr ""
+
+#: booking/functions_product.php:1268
+msgid "Lithuania"
+msgstr ""
+
+#: booking/functions_product.php:1273
+msgid "Luxembourg"
+msgstr ""
+
+#: booking/functions_product.php:1278
+msgid "Macau"
+msgstr ""
+
+#: booking/functions_product.php:1283
+msgid "Macedonia"
+msgstr ""
+
+#: booking/functions_product.php:1288
+msgid "Madagascar"
+msgstr ""
+
+#: booking/functions_product.php:1293
+msgid "Malawi"
+msgstr ""
+
+#: booking/functions_product.php:1298
+msgid "Malaysia"
+msgstr ""
+
+#: booking/functions_product.php:1303
+msgid "Maldives"
+msgstr ""
+
+#: booking/functions_product.php:1308
+msgid "Mali"
+msgstr ""
+
+#: booking/functions_product.php:1313
+msgid "Malta"
+msgstr ""
+
+#: booking/functions_product.php:1318
+msgid "Marshall Islands"
+msgstr ""
+
+#: booking/functions_product.php:1323
+msgid "Martinique"
+msgstr ""
+
+#: booking/functions_product.php:1328
+msgid "Mauritania"
+msgstr ""
+
+#: booking/functions_product.php:1333
+msgid "Mauritius"
+msgstr ""
+
+#: booking/functions_product.php:1338
+msgid "Mayotte"
+msgstr ""
+
+#: booking/functions_product.php:1343
+msgid "Mexico"
+msgstr ""
+
+#: booking/functions_product.php:1348
+msgid "Moldova"
+msgstr ""
+
+#: booking/functions_product.php:1353
+msgid "Monaco"
+msgstr ""
+
+#: booking/functions_product.php:1358
+msgid "Mongolia"
+msgstr ""
+
+#: booking/functions_product.php:1363
+msgid "Montenegro"
+msgstr ""
+
+#: booking/functions_product.php:1368
+msgid "Montserrat"
+msgstr ""
+
+#: booking/functions_product.php:1373
+msgid "Morocco"
+msgstr ""
+
+#: booking/functions_product.php:1378
+msgid "Mozambique"
+msgstr ""
+
+#: booking/functions_product.php:1383
+msgid "Namibia"
+msgstr ""
+
+#: booking/functions_product.php:1388
+msgid "Nauru"
+msgstr ""
+
+#: booking/functions_product.php:1393
+msgid "Nepal"
+msgstr ""
+
+#: booking/functions_product.php:1398
+msgid "Netherlands"
+msgstr ""
+
+#: booking/functions_product.php:1403
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: booking/functions_product.php:1408
+msgid "New Caledonia"
+msgstr ""
+
+#: booking/functions_product.php:1413
+msgid "New Zealand"
+msgstr ""
+
+#: booking/functions_product.php:1418
+msgid "Nicaragua"
+msgstr ""
+
+#: booking/functions_product.php:1423
+msgid "Niger"
+msgstr ""
+
+#: booking/functions_product.php:1428
+msgid "Nigeria"
+msgstr ""
+
+#: booking/functions_product.php:1433
+msgid "Niue"
+msgstr ""
+
+#: booking/functions_product.php:1438
+msgid "Norfolk Island"
+msgstr ""
+
+#: booking/functions_product.php:1443
+msgid "North Korea"
+msgstr ""
+
+#: booking/functions_product.php:1448
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: booking/functions_product.php:1453
+msgid "Norway"
+msgstr ""
+
+#: booking/functions_product.php:1458
+msgid "Oman"
+msgstr ""
+
+#: booking/functions_product.php:1463
+msgid "Pakistan"
+msgstr ""
+
+#: booking/functions_product.php:1468
+msgid "Palau"
+msgstr ""
+
+#: booking/functions_product.php:1473
+msgid "Palestine"
+msgstr ""
+
+#: booking/functions_product.php:1478
+msgid "Panama"
+msgstr ""
+
+#: booking/functions_product.php:1483
+msgid "Papua New Guinea"
+msgstr ""
+
+#: booking/functions_product.php:1488
+msgid "Paraguay"
+msgstr ""
+
+#: booking/functions_product.php:1493
+msgid "Peru"
+msgstr ""
+
+#: booking/functions_product.php:1498
+msgid "Philippines"
+msgstr ""
+
+#: booking/functions_product.php:1503
+msgid "Poland"
+msgstr ""
+
+#: booking/functions_product.php:1508
+msgid "Portugal"
+msgstr ""
+
+#: booking/functions_product.php:1513
+msgid "Puerto Rico"
+msgstr ""
+
+#: booking/functions_product.php:1518
+msgid "Qatar"
+msgstr ""
+
+#: booking/functions_product.php:1523
+msgid "Republic of the Congo"
+msgstr ""
+
+#: booking/functions_product.php:1528
+msgid "Reunion"
+msgstr ""
+
+#: booking/functions_product.php:1533
+msgid "Romania"
+msgstr ""
+
+#: booking/functions_product.php:1538
+msgid "Russia"
+msgstr ""
+
+#: booking/functions_product.php:1543
+msgid "Rwanda"
+msgstr ""
+
+#: booking/functions_product.php:1548
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: booking/functions_product.php:1553
+msgid "Saint Helena"
+msgstr ""
+
+#: booking/functions_product.php:1558
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: booking/functions_product.php:1563
+msgid "Saint Martin"
+msgstr ""
+
+#: booking/functions_product.php:1568
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: booking/functions_product.php:1573
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: booking/functions_product.php:1578
+msgid "Samoa"
+msgstr ""
+
+#: booking/functions_product.php:1583
+msgid "San Marino"
+msgstr ""
+
+#: booking/functions_product.php:1588
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: booking/functions_product.php:1593
+msgid "Saudi Arabia"
+msgstr ""
+
+#: booking/functions_product.php:1598
+msgid "Senegal"
+msgstr ""
+
+#: booking/functions_product.php:1603
+msgid "Serbia"
+msgstr ""
+
+#: booking/functions_product.php:1608
+msgid "Seychelles"
+msgstr ""
+
+#: booking/functions_product.php:1613
+msgid "Sierra Leone"
+msgstr ""
+
+#: booking/functions_product.php:1618
+msgid "Singapore"
+msgstr ""
+
+#: booking/functions_product.php:1623
+msgid "Slovakia"
+msgstr ""
+
+#: booking/functions_product.php:1628
+msgid "Slovenia"
+msgstr ""
+
+#: booking/functions_product.php:1633
+msgid "Solomon Islands"
+msgstr ""
+
+#: booking/functions_product.php:1638
+msgid "Somalia"
+msgstr ""
+
+#: booking/functions_product.php:1643
+msgid "South Africa"
+msgstr ""
+
+#: booking/functions_product.php:1648
+msgid "South Korea"
+msgstr ""
+
+#: booking/functions_product.php:1653
+msgid "Spain"
+msgstr ""
+
+#: booking/functions_product.php:1658
+msgid "Sri Lanka"
+msgstr ""
+
+#: booking/functions_product.php:1663
+msgid "St. Lucia"
+msgstr ""
+
+#: booking/functions_product.php:1668
+msgid "Sudan"
+msgstr ""
+
+#: booking/functions_product.php:1673
+msgid "Suriname"
+msgstr ""
+
+#: booking/functions_product.php:1678
+msgid "Swaziland"
+msgstr ""
+
+#: booking/functions_product.php:1683
+msgid "Sweden"
+msgstr ""
+
+#: booking/functions_product.php:1688
+msgid "Switzerland"
+msgstr ""
+
+#: booking/functions_product.php:1693
+msgid "Syria"
+msgstr ""
+
+#: booking/functions_product.php:1698
+msgid "Taiwan"
+msgstr ""
+
+#: booking/functions_product.php:1703
+msgid "Tajikistan"
+msgstr ""
+
+#: booking/functions_product.php:1708
+msgid "Tanzania"
+msgstr ""
+
+#: booking/functions_product.php:1713
+msgid "Thailand"
+msgstr ""
+
+#: booking/functions_product.php:1718
+msgid "The Bahamas"
+msgstr ""
+
+#: booking/functions_product.php:1723
+msgid "The Gambia"
+msgstr ""
+
+#: booking/functions_product.php:1728
+msgid "Timor-Leste"
+msgstr ""
+
+#: booking/functions_product.php:1733
+msgid "Togo"
+msgstr ""
+
+#: booking/functions_product.php:1738
+msgid "Tokelau"
+msgstr ""
+
+#: booking/functions_product.php:1743
+msgid "Tonga"
+msgstr ""
+
+#: booking/functions_product.php:1748
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: booking/functions_product.php:1753
+msgid "Tunisia"
+msgstr ""
+
+#: booking/functions_product.php:1758
+msgid "Turkey"
+msgstr ""
+
+#: booking/functions_product.php:1763
+msgid "Turkmenistan"
+msgstr ""
+
+#: booking/functions_product.php:1768
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: booking/functions_product.php:1773
+msgid "Tuvalu"
+msgstr ""
+
+#: booking/functions_product.php:1778
+msgid "Uganda"
+msgstr ""
+
+#: booking/functions_product.php:1783
+msgid "Ukraine"
+msgstr ""
+
+#: booking/functions_product.php:1788
+msgid "United Arab Emirates"
+msgstr ""
+
+#: booking/functions_product.php:1793
+msgid "Uruguay"
+msgstr ""
+
+#: booking/functions_product.php:1798
+msgid "US Virgin Islands"
+msgstr ""
+
+#: booking/functions_product.php:1803
+msgid "Uzbekistan"
+msgstr ""
+
+#: booking/functions_product.php:1808
+msgid "Vanuatu"
+msgstr ""
+
+#: booking/functions_product.php:1813
+msgid "Vatican City"
+msgstr ""
+
+#: booking/functions_product.php:1818
+msgid "Venezuela"
+msgstr ""
+
+#: booking/functions_product.php:1823
+msgid "Vietnam"
+msgstr ""
+
+#: booking/functions_product.php:1828
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: booking/functions_product.php:1833
+msgid "Yemen"
+msgstr ""
+
+#: booking/functions_product.php:1838
+msgid "Zambia"
+msgstr ""
+
+#: booking/functions_product.php:1843
+msgid "Zimbabwe"
+msgstr ""
+
+#: booking/functions_product.php:1908 booking/functions_product.php:1971
+#: booking/functions_product.php:2227 booking/functions_product.php:4258
+#: booking/order-product-admin.php:555 booking/order-product-admin.php:587
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: booking/functions_product.php:1913 booking/functions_product.php:1976
+#: booking/functions_product.php:2507
+msgid "Some validation error is occurred while calculate price."
+msgstr ""
+
+#: booking/functions_product.php:1957 booking/functions_product.php:2564
+msgid "success"
+msgstr ""
+
+#: booking/functions_product.php:2003
+msgid "Please login to update your wishlist."
+msgstr ""
+
+#: booking/functions_product.php:2014
+msgid "This post has removed from your wishlist successfully."
+msgstr ""
+
+#: booking/functions_product.php:2017 booking/functions_product.php:2029
+msgid "Sorry, An error occurred while update wishlist."
+msgstr ""
+
+#: booking/functions_product.php:2026
+msgid "This post has added to your wishlist successfully."
+msgstr ""
+
+#: booking/functions_product.php:2033
+msgid "Already exists in your wishlist."
+msgstr ""
+
+#: booking/functions_product.php:2173 booking/functions_product.php:2348
+msgid "Sorry, An error occurred while add your order."
+msgstr ""
+
+#: booking/functions_product.php:2177
+msgid "Sorry, An error occurred because no rows are matched in database."
+msgstr ""
+
+#: booking/functions_product.php:2195
+msgid ""
+"Something went wrong while performing your request. Please contact website "
+"administrator to report this problem."
+msgstr ""
+
+#: booking/functions_product.php:2222
+msgid "Sorry, some error occurred on input data validation."
+msgstr ""
+
+#: booking/functions_product.php:2234
+msgid "Credit card number you entered is invalid."
+msgstr ""
+
+#: booking/functions_product.php:2239
+msgid "Card type is not valid."
+msgstr ""
+
+#: booking/functions_product.php:2244
+msgid "Card expiration date is not valid."
+msgstr ""
+
+#: booking/functions_product.php:2249
+msgid ""
+"Card verification number (CVV) is not valid. You can find this number on "
+"your credit card."
+msgstr ""
+
+#: booking/functions_product.php:2381 booking/functions_product.php:2435
+msgid "Invalide Product ID."
+msgstr ""
+
+#: booking/functions_product.php:2628 booking/functions_product.php:2681
+msgid "Error : "
+msgstr ""
+
+#: booking/functions_product.php:2661
+msgid "Payment Received Successfully! Your Transaction ID : "
+msgstr ""
+
+#: booking/functions_product.php:2674
+msgid "GetTransactionDetails failed:"
+msgstr ""
+
+#: booking/functions_product.php:2719
+msgid "Deposit payment is not paid."
+msgstr ""
+
+#: booking/functions_product.php:2842
+msgid "Booking Confirmation Email Subject"
+msgstr ""
+
+#: booking/functions_product.php:2846
+msgid "Booking Confirmation Email Description"
+msgstr ""
+
+#: booking/functions_product.php:3838
+msgid "Order Details"
+msgstr ""
+
+#: booking/functions_product.php:3841 booking/order-product-admin.php:519
+msgid "Booking No"
+msgstr ""
+
+#: booking/functions_product.php:3842 booking/order-product-admin.php:85
+#: booking/templates/confirm.php:95
+msgid "Tour Name"
+msgstr ""
+
+#: booking/functions_product.php:3843
+msgid "Date Time"
+msgstr ""
+
+#: booking/functions_product.php:3845
+msgid "Combo"
+msgstr ""
+
+#: booking/functions_product.php:3847 booking/templates/booking-form.php:62
+msgid "Adult"
+msgstr ""
+
+#: booking/functions_product.php:3848 booking/functions_product.php:4111
+#: booking/templates/booking-form.php:78 booking/templates/cart.php:114
+#: booking/templates/confirm.php:105
+msgid "Children"
+msgstr ""
+
+#: booking/functions_product.php:3850 booking/order-product-admin.php:437
+msgid "Total Price"
+msgstr ""
+
+#: booking/functions_product.php:3851 booking/order-product-admin.php:442
+#: booking/templates/checkout.php:138
+msgid "Payment Method"
+msgstr ""
+
+#: booking/functions_product.php:3868 booking/templates/checkout.php:59
+#: woocommerce/order/order-details-customer.php:39
+msgid "Billing address"
+msgstr ""
+
+#: booking/functions_product.php:3871
+msgid "Name"
+msgstr ""
+
+#: booking/functions_product.php:3873 booking/functions_product.php:4059
+#: booking/functions_product.php:4061 booking/order-product-admin.php:491
+#: booking/templates/checkout.php:101 helpers/theme-functions.php:73
+#: helpers/theme-functions.php:169
+msgid "Phone"
+msgstr ""
+
+#: booking/functions_product.php:3874 booking/order-product-admin.php:495
+#: booking/templates/checkout.php:81
+msgid "Address"
+msgstr ""
+
+#: booking/functions_product.php:3875 booking/order-product-admin.php:499
+msgid "City"
+msgstr ""
+
+#: booking/functions_product.php:3876 booking/order-product-admin.php:503
+#: booking/templates/checkout.php:89
+msgid "State"
+msgstr ""
+
+#: booking/functions_product.php:3877 booking/order-product-admin.php:507
+msgid "Postal Code"
+msgstr ""
+
+#: booking/functions_product.php:3878 booking/order-product-admin.php:511
+#: booking/templates/checkout.php:72
+msgid "Country"
+msgstr ""
+
+#: booking/functions_product.php:3879 booking/order-product-admin.php:515
+msgid "Order notes"
+msgstr ""
+
+#: booking/functions_product.php:3995 booking/templates/booking-form.php:94
+msgid "Total:"
+msgstr ""
+
+#: booking/functions_product.php:4032
+msgid "/person"
+msgstr ""
+
+#: booking/functions_product.php:4041 booking/order-product-admin.php:479
+msgid "First Name"
+msgstr ""
+
+#: booking/functions_product.php:4043
+msgid "First name"
+msgstr ""
+
+#: booking/functions_product.php:4047 booking/order-product-admin.php:483
+msgid "Last Name"
+msgstr ""
+
+#: booking/functions_product.php:4049
+msgid "Last name"
+msgstr ""
+
+#: booking/functions_product.php:4066
+msgid "Departure Date"
+msgstr ""
+
+#: booking/functions_product.php:4068
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: booking/functions_product.php:4074
+msgid "Departure Time"
+msgstr ""
+
+#: booking/functions_product.php:4077
+msgid "Choose departure time"
+msgstr ""
+
+#: booking/functions_product.php:4090
+msgid "Out of stock"
+msgstr ""
+
+#: booking/functions_product.php:4095 booking/templates/cart.php:113
+#: booking/templates/confirm.php:100
+msgid "Adults"
+msgstr ""
+
+#: booking/functions_product.php:4126
+msgid ""
+"Exceed the maximum number of people for this tour. The number of seats "
+"available is "
+msgstr ""
+
+#: booking/functions_product.php:4129
+msgid "Booking now"
+msgstr ""
+
+#: booking/functions_product.php:4168
+msgid " Reviews"
+msgstr ""
+
+#: booking/functions_product.php:4170
+msgid " Review"
+msgstr ""
+
+#: booking/functions_product.php:4183
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: booking/functions_product.php:4205
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:42
+msgid "-"
+msgstr ""
+
+#: booking/functions_product.php:4232
+msgid "Did not find review"
+msgstr ""
+
+#: booking/functions_product.php:4234
+msgid "Go To Reviews"
+msgstr ""
+
+#: booking/order-product-admin.php:63 booking/order-product-admin.php:301
+#: booking/order-product-admin.php:461
+msgid "Pending"
+msgstr ""
+
+#: booking/order-product-admin.php:65 booking/order-product-admin.php:301
+#: booking/order-product-admin.php:461
+#: templaza-framework/options/post-type/product/product.php:800
+msgid "New"
+msgstr ""
+
+#: booking/order-product-admin.php:67 booking/order-product-admin.php:301
+#: booking/order-product-admin.php:461
+msgid "Confirmed"
+msgstr ""
+
+#: booking/order-product-admin.php:69 booking/order-product-admin.php:301
+#: booking/order-product-admin.php:461
+msgid "Cancelled"
+msgstr ""
+
+#: booking/order-product-admin.php:81
+msgid "ID"
+msgstr ""
+
+#: booking/order-product-admin.php:82
+msgid "Customer Name"
+msgstr ""
+
+#: booking/order-product-admin.php:83 booking/order-product-admin.php:402
+msgid "Time"
+msgstr ""
+
+#: booking/order-product-admin.php:84 booking/order-product-admin.php:406
+#: booking/templates/cart.php:115 booking/templates/confirm.php:24
+#: booking/templates/confirm.php:90
+msgid "Date"
+msgstr ""
+
+#: booking/order-product-admin.php:87
+msgid "Created Date"
+msgstr ""
+
+#: booking/order-product-admin.php:264
+msgid "Product Orders"
+msgstr ""
+
+#: booking/order-product-admin.php:264 booking/order-product-admin.php:361
+msgid "Add New"
+msgstr ""
+
+#: booking/order-product-admin.php:265
+#, php-format
+msgid "%d orders deleted"
+msgstr ""
+
+#: booking/order-product-admin.php:266
+#, php-format
+msgid "%d orders updated"
+msgstr ""
+
+#: booking/order-product-admin.php:296
+msgid "Filter by Date"
+msgstr ""
+
+#: booking/order-product-admin.php:297
+msgid "Filter by Booking No"
+msgstr ""
+
+#: booking/order-product-admin.php:299
+msgid "select a status"
+msgstr ""
+
+#: booking/order-product-admin.php:307
+#: templaza-framework/templates/template-parts/all-taxonomy.php:13
+msgid "Show All"
+msgstr ""
+
+#: booking/order-product-admin.php:337 booking/order-product-admin.php:349
+msgid ""
+"You attempted to edit an item that doesn't exist. Perhaps it was deleted?"
+msgstr ""
+
+#: booking/order-product-admin.php:361
+msgid "Edit Tour Order"
+msgstr ""
+
+#: booking/order-product-admin.php:361
+msgid "Add New Tour Order"
+msgstr ""
+
+#: booking/order-product-admin.php:363
+msgid "Order saved"
+msgstr ""
+
+#: booking/order-product-admin.php:364
+msgid "Please select a tour"
+msgstr ""
+
+#: booking/order-product-admin.php:368
+msgid "Order Detail"
+msgstr ""
+
+#: booking/order-product-admin.php:371 booking/templates/cart.php:111
+msgid "Tour"
+msgstr ""
+
+#: booking/order-product-admin.php:412
+msgid "Name Combo"
+msgstr ""
+
+#: booking/order-product-admin.php:417
+msgid "People Combo"
+msgstr ""
+
+#: booking/order-product-admin.php:422
+msgid "Price Combo"
+msgstr ""
+
+#: booking/order-product-admin.php:428
+msgid "Total Adults"
+msgstr ""
+
+#: booking/order-product-admin.php:432
+msgid "Total Children"
+msgstr ""
+
+#: booking/order-product-admin.php:445
+msgid "Payment by cash"
+msgstr ""
+
+#: booking/order-product-admin.php:445
+msgid "Payment by paypal"
+msgstr ""
+
+#: booking/order-product-admin.php:445
+msgid "Payment by credit card"
+msgstr ""
+
+#: booking/order-product-admin.php:476
+msgid "Customer Infomation"
+msgstr ""
+
+#: booking/order-product-admin.php:523
+msgid "Pin Code"
+msgstr ""
+
+#: booking/order-product-admin.php:532
+msgid "Cancel"
+msgstr ""
+
+#: booking/order-product-admin.php:549
+msgid "Sorry, you tried to remove nothing."
+msgstr ""
+
+#: booking/order-product-admin.php:565
+msgid "You don't have permission to remove other's item."
+msgstr ""
+
+#: booking/order-product-admin.php:592
+msgid "Invalid Product ID."
+msgstr ""
+
+#: booking/templates/booking-form.php:45
+msgid "Phone Number"
+msgstr ""
+
+#: booking/templates/booking-form.php:50
+msgid "Start Date"
+msgstr ""
+
+#: booking/templates/booking-form.php:56
+msgid "Choose time"
+msgstr ""
+
+#: booking/templates/booking-form.php:108
+msgid "Book This Tour"
+msgstr ""
+
+#: booking/templates/cart.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: booking/templates/cart.php:90
+msgid "Please set checkout page in theme options panel."
+msgstr ""
+
+#: booking/templates/cart.php:116 booking/templates/cart.php:170
+msgid "Total"
+msgstr ""
+
+#: booking/templates/cart.php:159
+msgid "Subtotal"
+msgstr ""
+
+#: booking/templates/cart.php:193
+msgid "Delete Cart"
+msgstr ""
+
+#: booking/templates/cart.php:196
+msgid "Update Cart"
+msgstr ""
+
+#: booking/templates/cart.php:197
+msgid "Proceed To Checkout"
+msgstr ""
+
+#: booking/templates/checkout.php:24
+msgid ""
+"Your cart is empty. Data will be loaded by check out page from Cart page."
+msgstr ""
+
+#: booking/templates/checkout.php:53
+msgid "Please set booking confirmation page in theme options panel."
+msgstr ""
+
+#: booking/templates/checkout.php:68
+msgid "Company Name"
+msgstr ""
+
+#: booking/templates/checkout.php:74
+msgid "Select your country"
+msgstr ""
+
+#: booking/templates/checkout.php:85
+msgid "Town / City"
+msgstr ""
+
+#: booking/templates/checkout.php:93
+msgid "Postcode"
+msgstr ""
+
+#: booking/templates/checkout.php:97
+msgid "Email Address"
+msgstr ""
+
+#: booking/templates/checkout.php:105
+msgid "Order Notes"
+msgstr ""
+
+#: booking/templates/checkout.php:114
+msgid "Your Order"
+msgstr ""
+
+#: booking/templates/checkout.php:121
+msgid "Booking Date: "
+msgstr ""
+
+#: booking/templates/checkout.php:128
+msgid "Total "
+msgstr ""
+
+#: booking/templates/checkout.php:145
+msgid "Cash"
+msgstr ""
+
+#: booking/templates/checkout.php:153
+msgid "Paypal"
+msgstr ""
+
+#: booking/templates/checkout.php:156
+msgid "PayPal Acceptance Mark"
+msgstr ""
+
+#: booking/templates/checkout.php:157
+msgid "What is PayPal?"
+msgstr ""
+
+#: booking/templates/checkout.php:158
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account."
+msgstr ""
+
+#: booking/templates/checkout.php:167
+msgid "Credit Card"
+msgstr ""
+
+#: booking/templates/checkout.php:174
+msgid "Card Number"
+msgstr ""
+
+#: booking/templates/checkout.php:178
+msgid "Card Type"
+msgstr ""
+
+#: booking/templates/checkout.php:187
+msgid "Expiration Date"
+msgstr ""
+
+#: booking/templates/checkout.php:220
+msgid "Card Verification Number (CVV)"
+msgstr ""
+
+#: booking/templates/checkout.php:229
+msgid "Place Order"
+msgstr ""
+
+#: booking/templates/confirm.php:19
+#, php-format
+msgid "Deposit for your order %d"
+msgstr ""
+
+#: booking/templates/confirm.php:78
+msgid "Booking summary"
+msgstr ""
+
+#: booking/templates/confirm.php:81
+msgid "You can check via booking information with below dashboard."
+msgstr ""
+
+#: booking/templates/confirm.php:85
+msgid "Full Name"
+msgstr ""
+
+#: booking/templates/confirm.php:111
+msgid "TOTAL COST"
+msgstr ""
+
+#: booking/templates/confirm.php:120
+msgid "Thank you!"
+msgstr ""
+
+#: booking/templates/confirm.php:123
+msgid "Your Booking Order is Confirmed Now."
+msgstr ""
+
+#: helpers/data-install.php:14
+msgid "Travelami Demo"
+msgstr ""
+
+#: helpers/data-install.php:15
+msgid "Travelami - Tour & Travel Booking WordPress Theme"
+msgstr ""
+
+#: helpers/data-install.php:44
+msgid "UiPro"
+msgstr ""
+
+#: helpers/data-install.php:54
+msgid "Advanced Product"
+msgstr ""
+
+#: helpers/data-install.php:112
+msgid "Default Content"
+msgstr ""
+
+#: helpers/data-install.php:113
+msgid "This will import posts, pages, media and menu"
+msgstr ""
+
+#: helpers/data-install.php:118
+msgid "Elementor Settings"
+msgstr ""
+
+#: helpers/data-install.php:119
+msgid "This will import  Elementor settings"
+msgstr ""
+
+#: helpers/data-install.php:125
+msgid "Widgets"
+msgstr ""
+
+#: helpers/data-install.php:126
+msgid ""
+"This will import default widgets presented in demo site of this content "
+"package."
+msgstr ""
+
+#: helpers/data-install.php:132
+msgid "WPForms"
+msgstr ""
+
+#: helpers/data-install.php:133
+msgid "This will import WPForms."
+msgstr ""
+
+#: helpers/data-install.php:139
+#: templaza-framework/options/post-type/product/product.php:214
+msgid "Slider"
+msgstr ""
+
+#: helpers/data-install.php:140
+msgid "This will import slider."
+msgstr ""
+
+#: helpers/helper.php:14
+msgctxt "Jost: on or off"
+msgid "on"
+msgstr ""
+
+#: helpers/helper.php:19
+msgctxt "Marcellus: on or off"
+msgid "on"
+msgstr ""
+
+#: helpers/helper.php:40
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: helpers/theme-functions.php:74
+msgid "Job"
+msgstr ""
+
+#: helpers/theme-functions.php:75
+msgid "Facebook URL"
+msgstr ""
+
+#: helpers/theme-functions.php:76
+msgid "Twitter URL"
+msgstr ""
+
+#: helpers/theme-functions.php:77
+msgid "Instagram URL"
+msgstr ""
+
+#: helpers/theme-functions.php:78
+msgid "Dribbble URL"
+msgstr ""
+
+#: helpers/theme-functions.php:79
+msgid "Linkedin URL"
+msgstr ""
+
+#: helpers/theme-functions.php:80
+msgid "Pinterest URL"
+msgstr ""
+
+#: helpers/theme-functions.php:81
+msgid "Youtube URL"
+msgstr ""
+
+#: helpers/theme-functions.php:82
+msgid "Vimeo URL"
+msgstr ""
+
+#: helpers/theme-functions.php:83
+msgid "Flickr URL"
+msgstr ""
+
+#: helpers/theme-functions.php:84
+msgid "Tumblr URL"
+msgstr ""
+
+#: helpers/theme-functions.php:85
+msgid "WhatsApp URL"
+msgstr ""
+
+#: helpers/theme-functions.php:116
+msgid "Comment:"
+msgstr ""
+
+#: helpers/theme-functions.php:118
+msgid "Comments:"
+msgstr ""
+
+#: helpers/theme-functions.php:170
+msgid "Join with US"
+msgstr ""
+
+#: helpers/theme-functions.php:171
+msgid "Follow US"
+msgstr ""
+
+#: helpers/theme-functions.php:172
+msgid "Our Instagram"
+msgstr ""
+
+#: helpers/theme-functions.php:173
+msgid "Our Dribbble"
+msgstr ""
+
+#: helpers/theme-functions.php:174
+msgid "Our Linkedin"
+msgstr ""
+
+#: helpers/theme-functions.php:175
+msgid "Our Pinterest"
+msgstr ""
+
+#: helpers/theme-functions.php:176
+msgid "Our Youtube"
+msgstr ""
+
+#: helpers/theme-functions.php:177
+msgid "Our Vimeo"
+msgstr ""
+
+#: helpers/theme-functions.php:178
+msgid "Our Flickr"
+msgstr ""
+
+#: helpers/theme-functions.php:179
+msgid "Our Tumblr"
+msgstr ""
+
+#: helpers/theme-functions.php:180
+msgid "Our whatsapp"
+msgstr ""
+
+#: helpers/theme-functions.php:226
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:51
+msgid "Edit"
+msgstr ""
+
+#: helpers/woocommerce/template-cart.php:103
+#: woocommerce/cart/mini-cart.php:123
+msgid "Continue Shopping"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:205
+msgid "Min"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:206
+msgid "Max"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:468
+msgid "Load More"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:631
+msgid "Filter By"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:749
+msgid "Best Sellers"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:750
+msgid "Hot Products"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:751
+msgid "New Products"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:752
+msgid "Sale Products"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:789
+msgid "All"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:792
+msgid "Categories"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:857
+msgid "Default sorting"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:858
+msgid "Sort by popularity"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:859
+msgid "Sort by average rating"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:860
+msgid "Sort by latest"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:861
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:862
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: helpers/woocommerce/template-catalog.php:889
+#: templaza-framework/options/config.php:56
+#: templaza-framework/options/config.php:70
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:135
+#: templaza-framework/options/post-type/product/product.php:114
+#: templaza-framework/options/post-type/product/product.php:213
+msgid "Default"
+msgstr ""
+
+#: helpers/woocommerce/template-general.php:312
+#, php-format
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/woocommerce/template-general.php:315
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: helpers/woocommerce/template-general.php:339
+msgid "In stock"
+msgstr ""
+
+#: helpers/woocommerce/template-login-ajax.php:110
+msgid "Username is required."
+msgstr ""
+
+#: helpers/woocommerce/template-mini-cart.php:152
+msgid "View cart"
+msgstr ""
+
+#: helpers/woocommerce/template-mini-cart.php:163
+msgid "Checkout"
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:97
+#: helpers/woocommerce/template-notices.php:295
+msgid "Successfully added to your cart."
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:294
+msgid "has been added to your cart."
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:296
+msgid "View Cart"
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:309
+msgid "has been added to your wishlist."
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:310
+msgid "have been added to your wishlist."
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:311
+msgid "View Wishlist"
+msgstr ""
+
+#: helpers/woocommerce/template-notices.php:330
+msgid "are"
+msgid_plural "is"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/woocommerce/template-notices.php:330
+msgid "items"
+msgid_plural "item"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helpers/woocommerce/template-product-loop.php:997
+msgid "Quick Shop"
+msgstr ""
+
+#: helpers/woocommerce/template-product-loop.php:1118
+#: helpers/woocommerce/template-sticky-atc.php:142
+msgid "Add to cart"
+msgstr ""
+
+#: helpers/woocommerce/template-quick-view.php:121
+msgid "No product."
+msgstr ""
+
+#: helpers/woocommerce/template-quick-view.php:131
+msgid "Invalid product."
+msgstr ""
+
+#: helpers/woocommerce/template-quick-view.php:195
+msgid "More Product Info"
+msgstr ""
+
+#: helpers/woocommerce/template-recently-viewed.php:121
+msgid ""
+"Recently Viewed Products is a function which helps you keep track of your "
+"recent viewing history."
+msgstr ""
+
+#: helpers/woocommerce/template-recently-viewed.php:123
+msgid "Shop Now"
+msgstr ""
+
+#: helpers/woocommerce/template-sticky-atc.php:115
+#: woocommerce/single-product/product-image.php:57
+msgid "Awaiting product image"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:264
+#: helpers/woocommerce/woocommerce-helper.php:266
+#: templaza-framework/options/post-type/product/product.php:229
+msgid "Quick View"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:399
+msgid "posts"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:399
+msgid "post"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:402
+msgid "products"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:402
+msgid "product"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:406
+msgid "Showing"
+msgstr ""
+
+#: helpers/woocommerce/woocommerce-helper.php:406
+msgid "of"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:15
+#: helpers/woocommerce/template-parts/account.php:63
+#: helpers/woocommerce/template-parts/account.php:65
+msgid "Sign in"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:39
+#: helpers/woocommerce/template-parts/account.php:85
+msgid "Username"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:43
+#: helpers/woocommerce/template-parts/account.php:100
+msgid "Password"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:53
+#: woocommerce/myaccount/form-login.php:45
+msgid "Remember me"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:56
+#: woocommerce/myaccount/form-login.php:48
+msgid "Lost your password?"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:64
+msgid "Siging in..."
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:65
+msgid "Signed In"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:68
+msgid "Create An Account"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:92
+msgid "Email address"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:111
+msgid "Sign up"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/account.php:116
+msgid "Already has an account"
+msgstr ""
+
+#: helpers/woocommerce/template-parts/add-to-cart-variable.php:26
+#: woocommerce/loop/add-to-cart-variable-222222.php:27
+#: woocommerce/loop/add-to-cart-variable.php:26
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: helpers/woocommerce/template-parts/mini-cart.php:11
+msgid "Your Cart"
+msgstr ""
+
+#: inc/block-styles.php:12
+msgid "Dividers"
+msgstr ""
+
+#: inc/block-styles.php:21 inc/block-styles.php:30
+msgid "Borders"
+msgstr ""
+
+#: inc/block-styles.php:39
+msgid "Round"
+msgstr ""
+
+#: inc/block-styles.php:48
+msgid "Style1"
+msgstr ""
+
+#: inc/block-styles.php:57
+msgid "Style2"
+msgstr ""
+
+#: inc/block-styles.php:66
+msgid "Style3"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:386
+#: plugins/class-tgm-plugin-activation.php:827
+#: plugins/class-tgm-plugin-activation.php:2533
+#: plugins/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:387
+#: plugins/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:388
+#: plugins/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:934
+#: plugins/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1121
+#: plugins/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templaza-framework/metaboxes/product/product.php:9
+msgid "Product Options"
+msgstr ""
+
+#: templaza-framework/metaboxes/product/product.php:20
+msgid "Product extra content"
+msgstr ""
+
+#: templaza-framework/options/config.php:36
+#: templaza-framework/options/config.php:73
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:31
+msgid "Custom"
+msgstr ""
+
+#: templaza-framework/options/config.php:53
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:132
+#: templaza-framework/options/post-type/product/product.php:111
+msgid "Column Gap"
+msgstr ""
+
+#: templaza-framework/options/config.php:54
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:133
+#: templaza-framework/options/post-type/product/product.php:112
+msgid "Column Gap grid."
+msgstr ""
+
+#: templaza-framework/options/config.php:58
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:137
+#: templaza-framework/options/post-type/product/product.php:116
+msgid "Medium"
+msgstr ""
+
+#: templaza-framework/options/config.php:60
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:139
+#: templaza-framework/options/post-type/product/product.php:118
+msgid "Collapse"
+msgstr ""
+
+#: templaza-framework/options/config.php:68
+msgid "Card Size"
+msgstr ""
+
+#: templaza-framework/options/config.php:82
+msgid "Card custom"
+msgstr ""
+
+#: templaza-framework/options/config.php:89
+msgid "Cover image"
+msgstr ""
+
+#: templaza-framework/options/config.php:95
+msgid "Thumbnail height"
+msgstr ""
+
+#: templaza-framework/options/config.php:107
+msgid "Theme Color"
+msgstr ""
+
+#: templaza-framework/options/config.php:109
+msgid "Select colors for theme"
+msgstr ""
+
+#: templaza-framework/options/config.php:115
+msgid "Theme color"
+msgstr ""
+
+#: templaza-framework/options/config.php:116
+msgid "Set the color of theme"
+msgstr ""
+
+#: templaza-framework/options/config.php:124
+msgid "Payment Options"
+msgstr ""
+
+#: templaza-framework/options/config.php:126
+msgid "Options for booking form and payment"
+msgstr ""
+
+#: templaza-framework/options/config.php:132
+msgid "Enable Booking"
+msgstr ""
+
+#: templaza-framework/options/config.php:138
+msgid "Choose Page functions"
+msgstr ""
+
+#: templaza-framework/options/config.php:145
+msgid "Tour Cart Page"
+msgstr ""
+
+#: templaza-framework/options/config.php:146
+msgid ""
+"This sets the base page of your tour booking. Please add [tz_booking_cart] "
+"shortcode in the page content."
+msgstr ""
+
+#: templaza-framework/options/config.php:149
+#: templaza-framework/options/config.php:160
+#: templaza-framework/options/config.php:171
+msgid "asc"
+msgstr ""
+
+#: templaza-framework/options/config.php:150
+#: templaza-framework/options/config.php:161
+#: templaza-framework/options/config.php:172
+msgid "post_title"
+msgstr ""
+
+#: templaza-framework/options/config.php:156
+msgid "Tour Checkout Page"
+msgstr ""
+
+#: templaza-framework/options/config.php:157
+msgid ""
+"This sets the tour Checkout Page. Please add [tz_booking_checkout] shortcode "
+"in the page content."
+msgstr ""
+
+#: templaza-framework/options/config.php:167
+msgid "Tour Booking Confirmation Page"
+msgstr ""
+
+#: templaza-framework/options/config.php:168
+msgid ""
+"This sets the tour booking confirmation Page. Please add "
+"[tz_booking_confirm] shortcode in the page content."
+msgstr ""
+
+#: templaza-framework/options/config.php:178
+msgid "Config Data"
+msgstr ""
+
+#: templaza-framework/options/config.php:185
+msgid "Select Field adult Price"
+msgstr ""
+
+#: templaza-framework/options/config.php:186
+msgid "Select field (type number) to calculator price."
+msgstr ""
+
+#: templaza-framework/options/config.php:192
+msgid "Select Field Child Price"
+msgstr ""
+
+#: templaza-framework/options/config.php:193
+msgid "Select field (type number) to calculator child price."
+msgstr ""
+
+#: templaza-framework/options/config.php:199
+msgid "Config Payment"
+msgstr ""
+
+#: templaza-framework/options/config.php:206
+msgid "Payment In Cash"
+msgstr ""
+
+#: templaza-framework/options/config.php:212
+msgid "PayPal Integration "
+msgstr ""
+
+#: templaza-framework/options/config.php:213
+msgid "Enable payment through PayPal in booking step. "
+msgstr ""
+
+#: templaza-framework/options/config.php:219
+msgid "Credit Card Payment"
+msgstr ""
+
+#: templaza-framework/options/config.php:220
+msgid ""
+"Enable Credit Card payment through PayPal in booking step. Please note your "
+"paypal account should be business pro."
+msgstr ""
+
+#: templaza-framework/options/config.php:226
+msgid "Sandbox Mode "
+msgstr ""
+
+#: templaza-framework/options/config.php:227
+msgid "Enable PayPal sandbox for testing"
+msgstr ""
+
+#: templaza-framework/options/config.php:233
+msgid "PayPal API Username"
+msgstr ""
+
+#: templaza-framework/options/config.php:238
+msgid "PayPal API Password"
+msgstr ""
+
+#: templaza-framework/options/config.php:243
+msgid "PayPal API Signature"
+msgstr ""
+
+#: templaza-framework/options/config.php:248
+msgid "Config Email"
+msgstr ""
+
+#: templaza-framework/options/config.php:253
+msgid "Subject"
+msgstr ""
+
+#: templaza-framework/options/config.php:254
+msgid "Subject of email confirm send to customer."
+msgstr ""
+
+#: templaza-framework/options/config.php:260
+msgid "Content"
+msgstr ""
+
+#: templaza-framework/options/config.php:261
+msgid "Content of email confirm send to customer."
+msgstr ""
+
+#: templaza-framework/options/config.php:267
+msgid "Order and Billing address option"
+msgstr ""
+
+#: templaza-framework/options/config.php:276
+msgid " Position of Order and Billing Adress"
+msgstr ""
+
+#: templaza-framework/options/config.php:280
+msgid "After Content"
+msgstr ""
+
+#: templaza-framework/options/config.php:281
+msgid "Before Content"
+msgstr ""
+
+#: templaza-framework/options/config.php:293
+msgid "Service Book Form"
+msgstr ""
+
+#: templaza-framework/options/config.php:299
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:193
+msgid "Custom Form"
+msgstr ""
+
+#: templaza-framework/options/config.php:300
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:194
+msgid "Insert Form Shortcode"
+msgstr ""
+
+#: templaza-framework/options/dashboard.php:8
+msgid "Dashboard"
+msgstr ""
+
+#: templaza-framework/options/dashboard.php:15
+msgid "Number Images "
+msgstr ""
+
+#: templaza-framework/options/dashboard.php:16
+msgid "Number images load in portfolio list"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:6
+msgid "Advanced Product Options"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:34
+msgid "Advanced Product Archive"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:41
+#: templaza-framework/options/post-type/product/product.php:20
+msgid "Shop Layout"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:42
+#: templaza-framework/options/post-type/product/product.php:21
+msgid "Default style list or grid for Shop page."
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:44
+#: templaza-framework/options/post-type/product/product.php:23
+msgid "Grid"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:45
+#: templaza-framework/options/post-type/product/product.php:24
+msgid "Masonry"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:52
+#: templaza-framework/options/post-type/product/product.php:31
+msgid "Large Desktop Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:53
+#: templaza-framework/options/post-type/product/product.php:32
+msgid "Number products per row large desktop (1600px and larger)"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:55
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:71
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:87
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:103
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:119
+#: templaza-framework/options/post-type/product/product.php:34
+#: templaza-framework/options/post-type/product/product.php:50
+#: templaza-framework/options/post-type/product/product.php:66
+#: templaza-framework/options/post-type/product/product.php:82
+#: templaza-framework/options/post-type/product/product.php:98
+msgid "1 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:56
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:72
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:88
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:104
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:120
+msgid "2 Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:57
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:73
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:89
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:105
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:121
+msgid "3 Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:58
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:74
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:90
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:106
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:122
+msgid "4 Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:59
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:75
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:91
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:107
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:123
+msgid "5 Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:60
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:76
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:92
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:108
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:124
+msgid "6 Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:68
+#: templaza-framework/options/post-type/product/product.php:47
+msgid "Desktop Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:69
+#: templaza-framework/options/post-type/product/product.php:48
+msgid "Number products per row (1200px and larger)"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:84
+#: templaza-framework/options/post-type/product/product.php:63
+msgid "Laptop Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:85
+#: templaza-framework/options/post-type/product/product.php:64
+msgid "Number products per row (960px and larger)"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:100
+#: templaza-framework/options/post-type/product/product.php:79
+msgid "Tablet Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:101
+#: templaza-framework/options/post-type/product/product.php:80
+msgid "Number products per row (640px and larger)"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:116
+#: templaza-framework/options/post-type/product/product.php:95
+msgid "Mobile Columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:117
+#: templaza-framework/options/post-type/product/product.php:96
+msgid "Number products per row mobile"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:147
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:148
+#: templaza-framework/options/post-type/product/product.php:126
+#: templaza-framework/options/post-type/product/product.php:127
+msgid "Products per page."
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:157
+msgid "Thumbnail size"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:158
+msgid "choose image size."
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:166
+msgid "Advanced Product Single"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:173
+msgid "Show Office Price"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:179
+msgid "Office Price Label"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:180
+msgid "MAKE AN OFFICE PRICE"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:186
+msgid "Office Price Form"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:204
+msgid "Custom Field Item Margin"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:211
+msgid "Advanced Product Related"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:218
+msgid "Show Product Related"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:224
+#: templaza-framework/options/post-type/product/product.php:565
+msgid "Related Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:225
+msgid "RELATED PRODUCT"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:231
+msgid "Number Product Related"
+msgstr ""
+
+#: templaza-framework/options/post-type/ap_product/ap_product333333.php:241
+msgid "Limit Specifications"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:6
+msgid "Woocommerce Options"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:13
+msgid "Product Catalog"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:35
+#: templaza-framework/options/post-type/product/product.php:51
+#: templaza-framework/options/post-type/product/product.php:67
+#: templaza-framework/options/post-type/product/product.php:83
+#: templaza-framework/options/post-type/product/product.php:99
+msgid "2 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:36
+#: templaza-framework/options/post-type/product/product.php:52
+#: templaza-framework/options/post-type/product/product.php:68
+#: templaza-framework/options/post-type/product/product.php:84
+#: templaza-framework/options/post-type/product/product.php:100
+msgid "3 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:37
+#: templaza-framework/options/post-type/product/product.php:53
+#: templaza-framework/options/post-type/product/product.php:69
+#: templaza-framework/options/post-type/product/product.php:85
+#: templaza-framework/options/post-type/product/product.php:101
+msgid "4 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:38
+#: templaza-framework/options/post-type/product/product.php:54
+#: templaza-framework/options/post-type/product/product.php:70
+#: templaza-framework/options/post-type/product/product.php:86
+#: templaza-framework/options/post-type/product/product.php:102
+msgid "5 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:39
+#: templaza-framework/options/post-type/product/product.php:55
+#: templaza-framework/options/post-type/product/product.php:71
+#: templaza-framework/options/post-type/product/product.php:87
+#: templaza-framework/options/post-type/product/product.php:103
+msgid "6 Column"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:140
+msgid "Item Padding"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:150
+msgid "Item Margin"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:157
+msgid "Shop Pagination"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:158
+msgid "Pagination Type."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:160
+msgid "Number"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:161
+msgid "Button Load more"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:162
+msgid "Infinite Scroll"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:169
+msgid "Show Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:170
+msgid "Show/hide Title."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:176
+msgid "Show Rating"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:177
+msgid "Show/hide Rating."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:187
+msgid "Product Loop"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:194
+msgid "Product Loop Layout"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:196
+msgid "Icons over thumbnail on hover"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:197
+msgid "Icons & Quick view button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:198
+msgid "Icons & Add to cart button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:199
+msgid "Icons on the bottom"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:200
+#: templaza-framework/options/post-type/product/product.php:329
+msgid "Simple"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:201
+msgid "Standard button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:202
+msgid "Info on hover"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:203
+msgid "Icons & Add to cart text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:204
+msgid "Quick Shop button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:211
+msgid "Product Loop Hover"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:215
+msgid "Fadein"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:216
+msgid "Zoom"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:224
+msgid "Featured Icons"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:228
+msgid "Cart"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:230
+msgid "Wishlist"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:243
+msgid "Always Display Wishlist"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:250
+msgid "Attributes"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:254
+msgid "Taxonomy"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:255
+msgid "Rating"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:266
+msgid "Product Loop Taxonomy"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:268
+#: templaza-framework/options/post-type/product/product.php:468
+#: templaza-framework/options/post-type/product/product.php:526
+msgid "Category"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:269
+#: templaza-framework/options/post-type/product/product.php:469
+msgid "Brand"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:280
+msgid "Show Variations"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:287
+msgid "Show Variations With AJAX"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:297
+msgid "Show Description"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:304
+msgid "Description Length"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:317
+msgid "Product Notifications"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:324
+msgid "Added to Cart Notice"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:325
+msgid "Show notice when click add to cart button."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:327
+msgid "Open mini cart panel"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:328
+msgid "Open cart popup"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:330
+#: templaza-framework/options/post-type/product/product.php:340
+#: templaza-framework/options/post-type/product/product.php:470
+msgid "None"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:337
+msgid "Recommended Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:338
+msgid "Display Recommend product in popup."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:341
+msgid "Best selling products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:342
+msgid "Featured products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:343
+msgid "Recent products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:344
+msgid "Sale products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:345
+msgid "Top rated products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:346
+msgid "Related products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:347
+msgid "Upsells products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:355
+msgid "Recommend Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:356
+#: templaza-framework/options/post-type/product/product.php:621
+#: templaza-framework/options/post-type/product/product.php:872
+msgid "You may also like"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:362
+msgid "Number of products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:372
+msgid "Cart Notification Auto Hide"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:373
+#: templaza-framework/options/post-type/product/product.php:390
+msgid "Number seconds you want to hide the notification."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:383
+msgid "Added to Wishlist Notification"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:389
+msgid "Wishlist Notification Auto Hide"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:400
+#: templaza-framework/options/post-type/product/product.php:506
+msgid "Image Light box"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:409
+#: templaza-framework/options/post-type/product/product.php:672
+msgid "Single Product"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:416
+msgid "Single Product Layout"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:418
+#: templaza-framework/options/post-type/product/product.php:750
+msgid "Layout 1"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:419
+#: templaza-framework/options/post-type/product/product.php:751
+msgid "Layout 2"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:420
+msgid "Layout 3"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:421
+msgid "Layout 4"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:422
+msgid "Layout 5"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:429
+msgid "Add to cart with AJAX "
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:435
+msgid "Sticky Add To Cart"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:441
+msgid "Cart sticky position"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:443
+msgid "Top"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:444
+msgid "Bottom"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:453
+msgid "Product Variable Style"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:455
+msgid "Button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:456
+msgid "Add to cart form"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:465
+msgid "Product Taxonomy"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:466
+msgid "Show taxonomy above product title."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:478
+msgid "Product Brand type"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:480
+msgid "Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:481
+msgid "Logo"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:489
+msgid "Wishlist button"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:491
+msgid "Icon"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:492
+msgid "Icon & Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:499
+msgid "Image Zoom"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:500
+msgid "Zoom image when hover"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:512
+msgid "Thumbnail Slider Numbers"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:521
+msgid "Product Meta"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:524
+msgid "Sku"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:525
+msgid "Tags"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:538
+msgid "Content Tabs Position"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:540
+msgid "Under Slider"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:541
+msgid "Under Product meta"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:552
+#: templaza-framework/options/post-type/product/product.php:566
+msgid "Related Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:559
+msgid "Show Related Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:572
+msgid "Related Products by categories"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:579
+msgid "Related Products by parent category"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:586
+msgid "Related Products by tags"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:593
+msgid "Related Products Numbers"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:607
+msgid "Upsells Products "
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:614
+msgid "Show Upsells Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:620
+msgid "Upsells Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:627
+msgid "Upsells Products Numbers"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:641
+msgid "Recent Viewed Products "
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:648
+msgid "Show Recent Viewed Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:654
+msgid "Load With Ajax"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:661
+msgid "Hide Empty Products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:662
+msgid "Check this option to hide the recently viewed products when empty."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:669
+msgid "Display on page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:673
+msgid "Catalog Page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:674
+#: templaza-framework/options/post-type/product/product.php:851
+msgid "Cart Page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:675
+msgid "Checkout Page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:690
+msgid "Recently Viewed Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:691
+msgid "Recently Viewed"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:697
+msgid "Read more text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:703
+msgid "Read more url"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:709
+msgid "Recent viewed columns"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:719
+msgid "Recent viewed numbers"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:733
+#: templaza-framework/options/post-type/product/product.php:759
+msgid "Product Badges"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:740
+msgid "Catalog Badges"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:741
+msgid "Display the badges in the catalog page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:747
+msgid "Badges Layout"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:748
+msgid "Badges Layout."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:760
+msgid "Display the badges in the single page"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:766
+msgid "Enable Sale Badge"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:767
+msgid "Display a badge for sale products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:773
+msgid "Badges Sale type"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:775
+msgid "Percent"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:776
+msgid "Text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:777
+msgid "Both"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:785
+msgid "Badge Sale text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:786
+msgid "Use {%} to display discount percent, {$} to display discount amount."
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:787
+msgid "Sale"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:792
+msgid "Enable New Badge"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:793
+msgid "Display a badge for new products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:799
+msgid "Badge New text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:806
+msgid "Product Newness"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:807
+msgid "Display the \"New\" badge for how many days?"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:817
+msgid "Enable Featured Badge"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:818
+msgid "Display a badge for featured products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:824
+msgid "Badge Featured text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:825
+msgid "Hot"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:831
+msgid "Enable Sold Out Badge"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:832
+msgid "Display a badge for out of stock products"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:838
+msgid "Badge Sold out text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:839
+msgid "Sold Out"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:858
+msgid "Update Cart Automatically"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:859
+msgid "Automatically update cart when change product"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:865
+msgid "Show Cross-Sells Products "
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:871
+msgid "Cross-Sells Products Title"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:878
+msgid "Cross-Sells Products Numbers"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:891
+msgid "Mini cart"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:898
+#: templaza-framework/options/post-type/product/product.php:918
+msgid "Login type"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:900
+#: templaza-framework/options/post-type/product/product.php:920
+msgid "Modal"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:901
+#: templaza-framework/options/post-type/product/product.php:921
+msgid "Link"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:911
+msgid "Account Login"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:928
+msgid "Login text"
+msgstr ""
+
+#: templaza-framework/options/post-type/product/product.php:933
+msgid "Login icon"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:5
+msgid "Documentation"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:6
+msgid ""
+"Documentation, help files, and video tutorials for beginners and "
+"professionals"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:8
+#: templaza-framework/templates/support/default.php:18
+#: templaza-framework/templates/support/default.php:28
+#: templaza-framework/templates/template-parts/content-readmore.php:6
+msgid "Read more"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:15
+msgid "System Requirements"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:16
+msgid ""
+"Requirements for Travelami: WordPress Version, Web Server, Database, "
+"Browser, etc"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:25
+msgid "Plugin Requirements"
+msgstr ""
+
+#: templaza-framework/templates/support/default.php:26
+msgid ""
+"Basic plugin requirements for Travelami: Elementor, Redux, Meta Box, etc"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/all-taxonomy.php:9
+msgid "Topic"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:6
+msgid "Blog"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:7
+msgid "Home"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:252
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:255
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:258
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:265
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:268
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:273
+msgid " Archives"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:284
+msgid "Author: "
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:289
+msgid "Page"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:294
+msgid "Search results for: "
+msgstr ""
+
+#: templaza-framework/templates/template-parts/breadcrumb_html.php:299
+msgid "Error 404"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-archive-no-result.php:5
+msgid ""
+" Nothing Found. You can give it another try through the search form below."
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-meta-footer.php:25
+msgid "By"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-meta-header.php:40
+#: templaza-framework/templates/template-parts/content-single-related.php:59
+msgid "By: "
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-search-no-result.php:5
+msgid ""
+"We could not find any results for your search. You can give it another try "
+"through the search form below."
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-share.php:7
+msgid "Share:"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:17
+msgid "Pingback:"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:17
+msgid "(Edit)"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:52
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:55
+msgid "Reply"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-comment-list.php:52
+msgid "/"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-meta.php:35
+msgid "by"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-meta.php:55
+msgid "Sticky"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-next-preview.php:22
+msgid "Previous Post"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-next-preview.php:43
+msgid "Next Post"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-single-related.php:27
+msgid "Related Posts"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-title.php:9
+msgid "*"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-views.php:8
+msgid "View: 0"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/content-views.php:10
+msgid "Views:"
+msgstr ""
+
+#: templaza-framework/templates/template-parts/service-book.php:22
+#: templaza-framework/templates/theme_pages/single/service.php:44
+msgid "Book This Car"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/404.php:111
+msgid "4"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/404.php:111
+msgid "0"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/404.php:112
+msgid "Opps !!! Sorry, This Page is not Found"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/archive.php:142
+#: templaza-framework/templates/theme_pages/index.php:140
+msgid "Sticky Post"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/comingsoon.php:83
+msgid "Days"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/comingsoon.php:87
+msgid "Hours"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/comingsoon.php:91
+msgid "Minutes"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/comingsoon.php:95
+msgid "Seconds"
+msgstr ""
+
+#: templaza-framework/templates/theme_pages/page.php:36
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:70
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:71
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart.php:73
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:114 woocommerce/cart/mini-cart.php:75
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119 woocommerce/cart/mini-cart.php:80
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Coupon code:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Enter coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:154
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:62
+msgid "QTY:"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:121
+msgid "Your cart is empty"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:37
+#, php-format
+msgid "Hello %1$s <span>(not %1$s? <a href=\"%2$s\">Log out</a>)</span>"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:46
+#, php-format
+msgid ""
+"<p>From your account dashboard you can view your <a href=\"%1$s\">Recent "
+"orders</a>.</p><p>Manage your <a href=\"%2$s\">Billing address</a>.</"
+"p><p>Edit your <a href=\"%3$s\">Password and account details</a>.</p>"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:49
+#, php-format
+msgid ""
+"<p>From your account dashboard you can view your <a href=\"%1$s\">Recent "
+"orders</a>.</p><p>Manage your <a href=\"%2$s\">Shipping and Billing "
+"addresses</a>.</p><p>Edit your <a href=\"%3$s\">Password and account "
+"details</a>.</p>"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:79
+msgid "Email Address *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:85
+msgid "Password *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:64
+#: woocommerce/myaccount/form-login.php:98
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:73
+msgid "Username *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid "Forgot Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Please enter your Email Address. You will receive a link to create a new "
+"password via Email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Your Email *"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:40 woocommerce/order/order-details.php:57
+msgid "Order No:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:42 woocommerce/order/order-details.php:58
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:46 woocommerce/order/order-details.php:61
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:50 woocommerce/order/order-details.php:65
+msgid "Status:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:54 woocommerce/order/order-details.php:69
+msgid "Order Amount:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:57 woocommerce/order/order-details.php:70
+#, php-format
+msgid "%1$s"
+msgid_plural "%1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:81
+msgid "more"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:86
+msgid "Actions"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:107
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:111
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:118
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:119
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Billing & Shipping Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:28
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:42
+#: woocommerce/order/order-details-customer.php:60
+#: woocommerce/single-product/meta.php:39
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:58
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/order/order-details.php:43
+msgid "Order items"
+msgstr ""
+
+#: woocommerce/order/order-details.php:46
+msgid "Order item"
+msgstr ""
+
+#: woocommerce/order/order-details.php:73
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:116
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/order/order-details.php:132
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:47
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:53
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "Review (%s)"
+msgid_plural "Reviews (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:38
+msgid "verified owner"
+msgstr ""

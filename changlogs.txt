@@ -1,0 +1,57 @@
+Version 1.0.8 – 02 06, 2025
+    + Add new home page version 17, 18, 19, 20
+    + Fix options single blog show/hide title, meta block
+    + Remove "None" from tour type in filter tour
+    + Update WooCommerce latest version
+    + Update TemPlaza Framework version 1.2.8
+    + Update Advanced Product version 1.1.7
+    + Update Uipro plugin version 1.1.1
+    + Update Revo Slider version 6.7.28
+Version 1.0.7 – 12 12, 2024
+    + Add new home page version 11, 12, 13, 14, 15, 16
+    + Fix Tour archive masonry layout list - grid
+    + Date format in advanced product custom field
+    + Update WooCommerce latest version
+    + Update TemPlaza Framework version 1.2.6
+    + Update Advanced Product version 1.1.4
+    + Update Uipro plugin version 1.1.0
+    + Update Revo Slider version 6.7.23
+
+Version 1.0.6 – 10 30, 2024
+    + Fix Tour confirm error in admin edit
+    + Fix Translate booking form
+    + Update WooCommerce latest version
+    + Update Templaza Framework version 1.2.1
+    + Update Advanced Product version 1.1.1
+    + Update Uipro plugin version 1.0.8
+    + Update Revo Slider version 6.7.20
+
+Version 1.0.5 – August 27, 2024
+    + Add Transportation
+    + Update WooCommerce latest version
+    + Update Advanced Product version 1.1.0
+
+Version 1.0.4 – August 21, 2024
+    + Add Home version 4
+    + Add Home version 5
+    + Add Home version 6
+    + Add Home version 7
+    + Add Home version 8
+    + Add Home version 9
+    + Add Home version 10
+    + Update Revo Slider version 6.7.18
+
+Version 1.0.3 – June 20, 2024
+    + Add Payment online for Tour
+    + Add color option for single blog meta
+    + Add color option for breadcrumb
+    + Update Revo Slider version 6.7.17
+    + Update WooCommerce latest version
+    + Fix error class ap_helper not found
+    + Fix issue check post_max_size
+
+Version 1.0.2 – June 20, 2024
+    + Fix active theme license
+    + Fix change color option
+    + Update Revo Slider version 6.7.13
+    + Update WooCommerce latest version

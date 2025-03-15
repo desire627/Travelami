@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	1. Framework Style
+	2. Basic Styles
+	3. Menu Style
+	4. Widget Style
+	5. Archive Style
+	6. Single Style
+	7. Portfolio Style
+	8. Block Style
+	9. Navigation Style
+	10. Elementor Style
+	11. Responsive Style
+ */
+
+@import "basic/basic_variables";
+@import "basic/mixins";
+@import "framework/variables";
+@import "framework/variables_override";
+
+/*	1. Framework Style
+/* -------------------------------------------------------------------------- */
+@import "framework/style.scss";
+@import "framework/latest_posts";
+
+/*	2. Basic Styles
+/* -------------------------------------------------------------------------- */
+@import "basic/basic";
+@import "wp/header";
+@import "wp/button";
+@import "wp/contact";
+@import "wp/scroll-loading";
+@import "wp/breadcrumb";
+@import "wp/layout";
+@import "wp/footer";
+@import "wp/sidebar";
+@import "basic/comment";
+@import "basic/404";
+@import "basic/coming_soon";
+@import "basic/form";
+@import "basic/wpform";
+@import "wp/box-title";
+
+/*	3. Menu Style
+/* -------------------------------------------------------------------------- */
+@import "basic/menu";
+@import "wp/canvasmenu";
+@import "wp/menu";
+
+/*	4. Widget Style
+/* -------------------------------------------------------------------------- */
+@import "basic/widget";
+
+
+/*	5. Archive Style
+/* -------------------------------------------------------------------------- */
+@import "basic/archive";
+@import "blog/blog";
+
+/*	6. Single Style
+/* -------------------------------------------------------------------------- */
+@import "basic/single";
+@import "blog/blog_detail";
+
+
+/*	8. Block Style
+/* -------------------------------------------------------------------------- */
+body{
+  @import "editor/general/align";
+}
+@import "editor/block-style";
+
+/*	9. Navigation Style
+/* -------------------------------------------------------------------------- */
+@import "basic/navigation";
+@import "wp/pagination";
+
+/*	10. Elementor Style
+/* -------------------------------------------------------------------------- */
+@import "elementor/elementor";
+
+/*	10. Woocommerce Style
+/* -------------------------------------------------------------------------- */
+//@import "woocommerce-default/woocommerce";
+@import "woocommerce/woocommerce";
+@import "advanced-product/advanced-product";
+
+
+/*	12. Responsive Style
+/* -------------------------------------------------------------------------- */
+@import "basic/responsive";
+@import "wp/responsive";

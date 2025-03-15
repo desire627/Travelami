@@ -1,0 +1,47 @@
+.templaza-modal{
+  .modal-content{
+
+  }
+}
+.templaza-modal.tz-cart-modal .modal-header .modal-title{
+  font-size:18px;
+  font-weight:$tztheme-catalog-title-weight;
+}
+.quick-view-modal{
+  .templaza-wishlist-button{
+    display:none;
+  }
+  &.single-product{
+    div.product{
+      .entry-summary{
+        .price{
+          font-size:24px;
+        }
+      }
+    }
+  }
+}
+.templaza-popup-add-to-cart{
+  .templaza-product-popup-atc__recommendation{
+    ul.product-items li.product-item {
+      .product-title{
+        font-size:14px;
+        text-transform: $tz-basic-heading-transform;
+      }
+      .product-price{
+        font-weight:400;
+      }
+    }
+    .product-heading{
+      font-size:18px;
+      font-weight:$tz-basic-heading-font-weight;
+    }
+  }
+  .widget_shopping_cart_content{
+    ul.cart_list{
+      .woocommerce-mini-cart-item__title{
+        font-family: $tz-basic-heading-font;
+      }
+    }
+  }
+}

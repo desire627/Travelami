@@ -1,0 +1,150 @@
+body div.wpforms-container-full{
+  .wpforms-form {
+    .wpforms-field-label{
+      font-weight:normal;
+      font-size:24px;
+      margin-bottom: 0.8rem;
+      font-family: $tz-basic-heading-font;
+      color:$tz-basic-heading-color;
+    }
+    legend.wpforms-field-label{
+      margin-bottom:25px;
+      padding-top:25px;
+    }
+    .wpforms-field{
+      padding:10px 0 20px 0;
+      .wpforms-field-label-inline{
+        color:$tz-basic-body-color;
+      }
+    }
+    input[type="submit"],
+    button, button[type="submit"]{
+      @include tz-basic-button-style;
+      border:none;
+      height:$tz-basic-input-large-height;
+      font-family:$tz-basic-button-font-family;
+      &:hover{
+        border-width:$tz-basic-button-border-width;
+      }
+      @include tz-ripple-effect();
+      position:relative;
+      overflow: hidden;
+    }
+    input[type=date],
+    input[type=datetime],
+    input[type=datetime-local],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    input[type=search],
+    input[type=text],
+    input[type=url],
+    select,
+    textarea{
+      height: $tz-basic-input-large-height;
+      border: $tz-basic-input-border;
+      border-radius: $tz-basic-input-border-radius;
+      font-family: inherit;
+      margin-top: 0;
+      font-weight: $tz-basic-form-input-weight;
+      padding: $tz-basic-input-padding;
+      background-color:$tz-basic-input-bg;
+      width:100%;
+      color:$tz-basic-body-color;
+      max-width:100%;
+      &:focus-visible,
+      &:focus{
+        outline:none;
+        border: $tz-basic-input-border-focus;
+      }
+    }
+    textarea{
+      height:200px;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    select{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+      background-repeat: no-repeat;
+      background-position: calc(100% - 10px) 50%;
+      background-size: auto;
+    }
+  }
+  &.clean{
+    margin-bottom: 15px;
+    .wpforms-form {
+      input[type=date],
+      input[type=datetime],
+      input[type=datetime-local],
+      input[type=email],
+      input[type=month],
+      input[type=number],
+      input[type=password],
+      input[type=search],
+      input[type=text],
+      input[type=url],
+      select,
+      textarea{
+        background:none;
+        &:focus-visible{
+          outline:none;
+        }
+        border-color:#e3e3e3;
+      }
+      select{
+        background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px) 50%;
+        background-size: auto;
+      }
+      label{
+        font-family: $tz-basic-heading-font;
+        font-weight: 600;
+        color:$tz-basic-heading-color;
+        font-size:18px;
+      }
+      button{
+        width:100%;
+        display:block;
+        &:after{
+          content: "\f061";
+          position: relative; // Override the absolute position.
+          font-weight: 900;
+          line-height: 1;
+          font-family: "Font Awesome 5 Free";
+          margin-left:8px;
+        }
+      }
+    }
+  }
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-one-half, div.wpforms-container-full .wpforms-form .wpforms-three-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-fourths {
+  width: calc(50% - 15px);
+}
+div.wpforms-container-full .wpforms-form .wpforms-five-sixths, div.wpforms-container-full .wpforms-form .wpforms-four-sixths, div.wpforms-container-full .wpforms-form .wpforms-four-fifths, div.wpforms-container-full .wpforms-form .wpforms-one-fifth, div.wpforms-container-full .wpforms-form .wpforms-one-fourth, div.wpforms-container-full .wpforms-form .wpforms-one-half, div.wpforms-container-full .wpforms-form .wpforms-one-sixth, div.wpforms-container-full .wpforms-form .wpforms-one-third, div.wpforms-container-full .wpforms-form .wpforms-three-fourths, div.wpforms-container-full .wpforms-form .wpforms-three-fifths, div.wpforms-container-full .wpforms-form .wpforms-three-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-fourths, div.wpforms-container-full .wpforms-form .wpforms-two-fifths, div.wpforms-container-full .wpforms-form .wpforms-two-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-thirds{
+  margin-left: 30px;
+}
+.templaza-layout-boxed{
+  .FeedGridLayout__media-container {
+    @include border-radius($tz-basic-box-radius);
+  }
+}
+.FeedGridLayout__media-container{
+  .MediaTile__overlay{
+
+  }
+  img{
+    @include transition(5s linear);
+  }
+  &:hover{
+    img{
+      transition: 3s linear;
+      @include transform(scale(1.2));
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+.wp-block-tag-cloud, .tagcloud {
+
+	&.aligncenter {
+		text-align: center;
+	}
+	a{
+		float: left;
+		margin: $tz-basic-tagcloud-margin;
+		padding: $tz-basic-tagcloud-padding;
+		text-decoration: none;
+		background: $tz-basic-tagcloud-bg;
+		color: $tz-basic-tagcloud-color;
+		border: $tz-basic-tagcloud-border;
+		border-radius: $tz-basic-tagcloud-border-radius;
+		font-size: $tz-basic-tagcloud-font-size;
+		text-transform: capitalize;
+		@include tz-ripple-effect();
+		&:hover{
+			background:$tz-basic-button-bg;
+			color:$tz-basic-button-color;
+			border-color:$tz-basic-button-bg;
+		}
+	}
+	&:after{
+		content: '';
+		clear: both;
+		display: block;
+	}
+}
+.wp-block-tag-cloud{
+	padding-top:10px;
+}

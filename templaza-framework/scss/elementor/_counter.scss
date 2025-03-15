@@ -1,0 +1,27 @@
+.elementor-counter-number-prefix{
+  &:empty{
+    display:none;
+  }
+}
+
+.uk-text-left{
+  .elementor-counter{
+    .elementor-counter-title{
+      text-align:left;
+    }
+  }
+}
+.uk-text-center{
+  .elementor-counter{
+    .elementor-counter-number-wrapper{
+      justify-content: center;
+    }
+    .elementor-counter-number{
+
+    }
+    .elementor-counter-number-suffix,
+    .elementor-counter-number-prefix{
+      flex-grow: unset;
+    }
+  }
+}

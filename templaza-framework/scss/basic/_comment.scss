@@ -1,0 +1,231 @@
+.templaza-single-comment{
+  .comment-list .comments{
+    padding-bottom:0;
+    margin-bottom:0;
+    border:none;
+    display:flex;
+    .comment-content{
+      padding-left:0;
+      margin-top:0;
+      .comment-head{
+        display:block;
+        a{
+          color:$tz-basic-heading-color;
+        }
+      }
+    }
+  }
+}
+.comments-area{
+  clear:both;
+  h3.comment-reply-title{
+    margin-bottom: 20px;
+  }
+  .comments-title{
+    span{
+
+    }
+  }
+}
+.comment-list{
+  padding-left:0;
+  .comment-body {
+    background: transparent;
+    padding:0;
+  }
+  li{
+    &.trackback,
+    &.pingback{
+      list-style: none;
+      margin-bottom: 30px;
+    }
+    a{
+      color:$tz-basic-heading-color;
+    }
+    .edit-link{
+      float:right;
+      a{
+        color:$tz-basic-a-color;
+      }
+    }
+  }
+  > .comment{
+    list-style: none;
+    border-bottom:none;
+    margin-bottom:20px;
+    margin-top:0;
+    .comment-author{
+      font-size: 1.1rem;
+      font-family: $tz-basic-heading-font;
+      img{
+        float:left;
+        margin-right: 30px;
+        @include border-radius(50%);
+      }
+      b{
+        color:$tz-basic-heading-color;
+      }
+      a{
+        color:$tz-basic-heading-color;
+        font-weight: $tz-basic-heading-font-weight;
+      }
+      .says{
+        display:none;
+      }
+    }
+    .comment-metadata{
+      font-size: 0.875rem;
+      color:$tz-basic-meta-color;
+      margin-top: 5px;
+      .edit-link{
+        float:right;
+      }
+      a{
+        color:$tz-basic-meta-color;
+        &:hover{
+          color:$tz-basic-meta-color-hover;
+        }
+        &.comment-edit-link{
+          color: $tz-basic-heading-color;
+          font-weight: $tz-basic-heading-font-weight;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .comment-content{
+      margin-top: 10px;
+      padding-left:105px;
+      img{
+        margin: 5px 0;
+      }
+      *{
+        &:last-child{
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .reply{
+      padding-left:105px;
+      a {
+        font-size:14px;
+        text-transform: capitalize;
+        font-weight: $tz-basic-heading-font-weight;
+        color:$tz-basic-theme-color;
+        &:hover {
+          color: $tz-basic-heading-color;
+        }
+      }
+    }
+    .comment-respond{
+      margin-left:105px;
+      margin-top: 20px;
+      padding: 30px 0;
+      border: none;
+      @include box-shadow($tz-basic-theme-shadow);
+      background:$tz-basic-blog-list-bg;
+      .comment-reply-title {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size:1.3rem;
+        small{
+          a{
+            font-size:$tz-basic-meta-font-size;
+            font-weight:normal;
+          }
+        }
+      }
+    }
+    .children{
+      margin-top: 40px;
+      padding-left:60px;
+      li{
+        list-style: none;
+        margin-bottom:40px;
+        margin-top: 0;
+        &:last-child{
+          border: none;
+          padding-bottom:0;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+      }
+    }
+    &:last-child{
+      border: none;
+    }
+  }
+  .comments{
+    .comment-author{
+      img{
+        @include border-radius(50%);
+      }
+    }
+  }
+}
+.templaza-mobile-btn{
+  display:none;
+}
+
+form.comment-form{
+  .comment-form-comment{
+    label{
+      display:block;
+      margin:5px 0;
+    }
+  }
+  input{
+    background:$tz-basic-input-bg;
+  }
+  textarea{
+    display:block;
+    width:100%;
+    border: 1px solid $tz-basic-border-color2;
+    padding:10px 15px;
+    height:180px;
+    max-width: 100%;
+    line-height: 1.5em;
+    color:$tz-basic-body-color;
+    background:$tz-basic-input-bg;
+    &:focus-visible{
+      outline: none;
+    }
+  }
+  .form-submit{
+    position:relative;
+    overflow: hidden;
+    @include tz-ripple-effect();
+    display:inline-flex;
+    background:$tz-basic-button-bg;
+    border-radius:$tz-basic-button-radius;
+    @include transition($tz-basic-transition);
+    input{
+      &:before{
+        display:none;
+      }
+      background:transparent;
+      color:$tz-basic-button-color;
+      padding:$tz-basic-input-button-padding;
+      font-size:$tz-basic-button-font-size;
+      border-color:transparent;
+      text-transform: $tz-basic-button-transform;
+      @include transition($tz-basic-transition);
+      margin:0;
+      &.templaza-btn{
+        z-index: 2;
+      }
+    }
+    &:hover{
+      background:$tz-basic-button-bg-hover;
+      cursor: pointer;
+      @include transition($tz-basic-transition);
+      input{
+        &.templaza-btn{
+          background:transparent;
+        }
+      }
+    }
+  }
+}

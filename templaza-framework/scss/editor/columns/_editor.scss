@@ -1,0 +1,34 @@
+.wp-block-columns {
+	margin-bottom:20px;
+	&:not(.alignwide):not(.alignfull) {
+		clear: both;
+		margin-bottom:20px;
+	}
+
+	.wp-block,
+	.wp-block-column {
+		// Allow Gutenberg to set the width of a block that lives inside the columns block.
+		max-width: inherit;
+	}
+
+	.wp-block[data-align="full"] > & {
+
+		p:not(.has-background),
+		h1:not(.has-background),
+		h2:not(.has-background),
+		h3:not(.has-background),
+		h4:not(.has-background),
+		h5:not(.has-background),
+		h6:not(.has-background) {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}
+.block-core-columns{
+	padding:0;
+	.block-editor-block-list__block{
+		margin:0;
+		padding:0;
+	}
+}
