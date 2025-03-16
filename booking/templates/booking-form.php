@@ -53,6 +53,20 @@ $tzbooking_product_type = 'daily';
 $tzbooking_departure_time = array('11:00', '8:30', '9:00');
 $tzbooking_max_adults = 0;
 
+// Get current user information if logged in
+$current_user = wp_get_current_user();
+$user_name = '';
+$user_email = '';
+$user_phone = '';
+
+if (is_user_logged_in()) {
+    $user_name = $current_user->display_name;
+    $user_email = $current_user->user_email;
+    
+    // Try to get phone from user meta if available
+    $user_phone = get_user_meta($current_user->ID, 'phone', true);
+}
+
 ?>
 <div class="tz-product-booking">
     <div class="tz-product-book-form">
@@ -62,17 +76,17 @@ $tzbooking_max_adults = 0;
             <input name="last_name" value="" placeholder="" type="hidden" >
             <div class="form-group">
                 <div class="book-name">
-                    <input name="first_name" value="" placeholder="<?php esc_html_e('Your Name','travelami' ); ?>" type="text" required>
+                    <input name="first_name" value="<?php echo esc_attr($user_name); ?>" placeholder="<?php esc_html_e('Your Name','travelami' ); ?>" type="text" required>
                 </div>
             </div>
             <div class="form-group">
                 <div class="book-email">
-                    <input name="your_email" value="" placeholder="<?php esc_html_e('Your Email','travelami' ); ?>" type="text" required>
+                    <input name="your_email" value="<?php echo esc_attr($user_email); ?>" placeholder="<?php esc_html_e('Your Email','travelami' ); ?>" type="text" required>
                 </div>
             </div>
             <div class="form-group">
                 <div class="book-phone">
-                    <input name="your_phone" value="" placeholder="<?php esc_html_e('Phone Number','travelami' ) ?>" type="text" >
+                    <input name="your_phone" value="<?php echo esc_attr($user_phone); ?>" placeholder="<?php esc_html_e('Phone Number','travelami' ) ?>" type="text" >
                 </div>
             </div>
             <div class="form-group">

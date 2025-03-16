@@ -59,6 +59,8 @@ if ( ! function_exists( 'tzbooking_create_extra_tables' ) ) {
 						mail_sent tinyint(1) DEFAULT '0',
 						updated datetime DEFAULT NULL,
 						post_type varchar(20) DEFAULT NULL,
+						fnr int(11) DEFAULT '0',
+						total_fnr float DEFAULT '0',
 						PRIMARY KEY  (id)
 					) DEFAULT CHARSET=utf8;";
             dbDelta($tzbooking_sql);
@@ -70,4 +72,94 @@ if ( ! function_exists( 'tzbooking_create_extra_tables' ) ) {
 }
 
 add_action("after_switch_theme", "tzbooking_create_extra_tables");
+
+// Find the version constant or variable
+define('TZBOOKING_DB_VERSION', '1.1'); // Increment from previous version
+
+// Or if it's a variable:
+$tzbooking_db_version = '1.1'; // Increment from previous version
+
+// Find the function that inserts order data
+function tzbooking_insert_order($order_data) {
+    global $wpdb;
+    
+    // Ensure FNR data is included
+    $fnr = isset($order_data['fnr']) ? intval($order_data['fnr']) : 0;
+    $total_fnr = isset($order_data['total_fnr']) ? floatval($order_data['total_fnr']) : 0;
+    
+    // Insert data into database
+    $result = $wpdb->insert(
+        $wpdb->prefix . 'tzbooking_order',
+        array(
+            // Existing fields
+            'adults' => $order_data['adults'],
+            'kids' => $order_data['kids'],
+            'fnr' => $fnr, // Make sure this is included
+            'total_adults' => $order_data['total_adults'],
+            'total_kids' => $order_data['total_kids'],
+            'total_fnr' => $total_fnr, // Make sure this is included
+            // Other fields
+        ),
+        array(
+            // Format specifiers - make sure to add '%d' for fnr and '%f' for total_fnr
+            '%d', '%d', '%d', // adults, kids, fnr
+            '%f', '%f', '%f', // total_adults, total_kids, total_fnr
+            // Other format specifiers
+        )
+    );
+    
+    return $result ? $wpdb->insert_id : false;
+}
+
+// Find the function that retrieves order data
+function tzbooking_get_order($booking_no, $pin_code) {
+    global $wpdb;
+    
+    // Make sure to include fnr and total_fnr in the SELECT statement
+    $sql = $wpdb->prepare(
+        "SELECT id, booking_no, pin_code, product_id, date, time, 
+        adults, kids, fnr, /* Make sure fnr is included */
+        total_price, total_adults, total_kids, total_fnr, /* Make sure total_fnr is included */
+        first_name, last_name, email, phone 
+        FROM {$wpdb->prefix}tzbooking_order 
+        WHERE booking_no = %s AND pin_code = %s",
+        $booking_no, $pin_code
+    );
+    
+    return $wpdb->get_row($sql);
+}
+
+// Find the function that updates order data
+function tzbooking_update_order($order_id, $order_data) {
+    global $wpdb;
+    
+    // Ensure FNR data is included
+    $fnr = isset($order_data['fnr']) ? intval($order_data['fnr']) : 0;
+    $total_fnr = isset($order_data['total_fnr']) ? floatval($order_data['total_fnr']) : 0;
+    
+    // Update data in database
+    $result = $wpdb->update(
+        $wpdb->prefix . 'tzbooking_order',
+        array(
+            // Existing fields
+            'adults' => $order_data['adults'],
+            'kids' => $order_data['kids'],
+            'fnr' => $fnr, // Make sure this is included
+            'total_adults' => $order_data['total_adults'],
+            'total_kids' => $order_data['total_kids'],
+            'total_fnr' => $total_fnr, // Make sure this is included
+            // Other fields
+        ),
+        array('id' => $order_id),
+        array(
+            // Format specifiers
+            '%d', '%d', '%d', // adults, kids, fnr
+            '%f', '%f', '%f', // total_adults, total_kids, total_fnr
+            // Other format specifiers
+        ),
+        array('%d')
+    );
+    
+    return $result;
+}
 ?>
