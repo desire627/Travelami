@@ -89,24 +89,40 @@ if(!empty($login_logo) && isset($login_logo['url']) && !empty($login_logo['url']
 			<?php endif; ?>
 
             <p class="form-row form-row-wide">
-                <input placeholder="<?php  esc_attr_e( 'Email address', 'travelami' );?>" type="email" class="input-text" name="email" id="panel_reg_email"
-                       value="<?php echo ( ! empty( $_POST['email'] ) ) ? esc_attr( wp_unslash( $_POST['email'] ) ) : ''; ?>"/>
+                <input placeholder="<?php esc_attr_e( 'First Name *', 'travelami' ); ?>" type="text" class="input-text" name="first_name" id="panel_reg_first_name"
+                       value="<?php echo ( ! empty( $_POST['first_name'] ) ) ? esc_attr( wp_unslash( $_POST['first_name'] ) ) : ''; ?>" required/>
             </p>
 
-			<?php if ( 'no' === get_option( 'woocommerce_registration_generate_password' ) ) : ?>
+            <p class="form-row form-row-wide">
+                <input placeholder="<?php esc_attr_e( 'Last Name *', 'travelami' ); ?>" type="text" class="input-text" name="last_name" id="panel_reg_last_name"
+                       value="<?php echo ( ! empty( $_POST['last_name'] ) ) ? esc_attr( wp_unslash( $_POST['last_name'] ) ) : ''; ?>" required/>
+            </p>
 
-                <p class="form-row form-row-wide">
-                    <span class="password-input">
-                        <input placeholder="<?php  esc_attr_e( 'Password', 'travelami' );?>" type="password" class="input-text" name="password" id="panel_reg_password"/>
-                    </span>
-                </p>
+            <p class="form-row form-row-wide">
+                <input placeholder="<?php esc_attr_e( 'Email address *', 'travelami' ); ?>" type="email" class="input-text" name="email" id="panel_reg_email"
+                       value="<?php echo ( ! empty( $_POST['email'] ) ) ? esc_attr( wp_unslash( $_POST['email'] ) ) : ''; ?>" required/>
+            </p>
 
-			<?php endif; ?>
+            <p class="form-row form-row-wide">
+                <span class="password-input">
+                    <input placeholder="<?php esc_attr_e( 'Password *', 'travelami' ); ?>" type="password" class="input-text" name="password" id="panel_reg_password" required minlength="8"/>
+                    <small class="password-requirements"><?php esc_html_e('Password must be at least 8 characters long', 'travelami'); ?></small>
+                </span>
+            </p>
+
+            <p class="form-row form-row-wide">
+                <span class="password-input">
+                    <input placeholder="<?php esc_attr_e( 'Confirm Password *', 'travelami' ); ?>" type="password" class="input-text" name="confirm_password" id="panel_reg_confirm_password" required minlength="8"/>
+                </span>
+            </p>
 
 			<?php do_action( 'woocommerce_register_form' ); ?>
 
             <p class="form-row form-row-wide">
 				<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>
+                <input type="hidden" name="action" value="register" />
+                <input type="hidden" name="woocommerce-register-nonce" value="<?php echo wp_create_nonce('woocommerce-register'); ?>" />
+                <input type="hidden" name="email_verification" value="1" />
                 <button type="submit" class="templaza-button" name="register"
                         value="<?php esc_attr_e( 'Sign up', 'travelami' ); ?>"><?php esc_html_e( 'Sign up', 'travelami' ); ?></button>
             </p>
@@ -122,3 +138,18 @@ if(!empty($login_logo) && isset($login_logo['url']) && !empty($login_logo['url']
 
 	<?php endif; ?>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.woocommerce-form-register');
+    const password = document.getElementById('panel_reg_password');
+    const confirmPassword = document.getElementById('panel_reg_confirm_password');
+
+    form.addEventListener('submit', function(event) {
+        if (password.value !== confirmPassword.value) {
+            event.preventDefault();
+            alert('Passwords do not match. Please try again.');
+        }
+    });
+});
+</script>
